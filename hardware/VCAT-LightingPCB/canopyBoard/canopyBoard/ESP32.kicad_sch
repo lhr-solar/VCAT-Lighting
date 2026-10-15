@@ -5077,7 +5077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0041f581-d9ed-4cd9-930b-3b99fae5bfb4")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 200.66 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,27 +5154,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5e8bd08-9e1d-49e6-b977-ed19db4a3da7")
+			(uuid "c4ca7565-a6b4-4a14-8f57-93a2687e3e0b")
 		)
 		(pin "2"
-			(uuid "3330e772-c98f-4670-bce9-2ca25bbf2e89")
+			(uuid "5de55a18-27f5-4468-9306-34b686961d31")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R7")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R17")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5191,7 +5179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04687e9b-733c-4784-bf46-f1efd8225741")
-		(property "Reference" "C20"
+		(property "Reference" "C1"
 			(at 74.168 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,27 +5257,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9b99552a-53ed-47ac-aaf1-bb5249f5b1df")
+			(uuid "bea77841-fd6f-492d-a556-6fea0b7ee0de")
 		)
 		(pin "1"
-			(uuid "45a078d2-c037-4374-aefb-3b75c9a9b0bd")
+			(uuid "c545b7d0-89ed-4f68-a276-523dd268ecca")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "C20")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f771794-7be9-453d-8631-63fa0bd09857")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 158.3533 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,180 +5361,168 @@
 			)
 		)
 		(pin "10"
-			(uuid "315a62db-1c87-49d0-9f07-4043dcb6e27e")
+			(uuid "4216050b-6d5b-44df-a494-0f5c8d49a87e")
 		)
 		(pin "4"
-			(uuid "98d75463-389c-4f70-bb88-c54b7b3cd248")
+			(uuid "28e21136-e873-4c08-94ab-590433412c29")
 		)
 		(pin "33"
-			(uuid "7bcbe3cb-b9b9-40bc-bdf6-dadc320f5a2e")
+			(uuid "6041e22a-2413-4ec5-bc17-a4ec3f5da9f2")
 		)
 		(pin "35"
-			(uuid "e6293299-8f67-4a63-8e10-08b3d90a1ca5")
+			(uuid "f9c998c5-6c5e-47b0-8269-f553b7de6a80")
 		)
 		(pin "1"
-			(uuid "0dd2c0a8-9cdd-48e9-8286-ec12a1b8e20a")
+			(uuid "e73e2313-f7b8-41f0-af0d-cd0110a917c9")
 		)
 		(pin "11"
-			(uuid "0baab5c5-de87-4bbf-aa70-55f8cf656a4a")
+			(uuid "af96cea4-a2df-4360-a52f-170ae191f3de")
 		)
 		(pin "16"
-			(uuid "8f9b45ad-65a9-439a-b7fa-363d24fc122e")
+			(uuid "7603d8dd-3471-4abb-9f57-5788c4960510")
 		)
 		(pin "7"
-			(uuid "6b546681-b64d-48eb-a3e1-3988ab3f2bc2")
+			(uuid "baafd9e9-e1b5-43e8-a26a-362541a8b9af")
 		)
 		(pin "13"
-			(uuid "b267a335-27d5-4e6c-9c1c-45cbba2fc0a5")
+			(uuid "49b3aab4-7ac9-422e-8c69-6dbb7f9ec674")
 		)
 		(pin "32"
-			(uuid "2871edb4-4865-4ff9-8ebd-26d0c9d14f04")
+			(uuid "6cec3ee6-9573-4701-8827-3992c2584e0b")
 		)
 		(pin "3"
-			(uuid "3f8ed39b-c37c-4092-b626-c850ef271464")
+			(uuid "0bd5c148-cf28-4641-88ed-050ce13681bf")
 		)
 		(pin "12"
-			(uuid "9758d8a3-bbf2-4c1b-addd-ec1aa394923c")
+			(uuid "460d57d4-4a7e-4c43-9123-04645e1c69a0")
 		)
 		(pin "9"
-			(uuid "c4191a42-0ec5-462b-81e9-a74083c47bb5")
+			(uuid "e9cdb320-4303-4214-813f-ae9dd116153b")
 		)
 		(pin "8"
-			(uuid "81132755-5017-4c75-b6db-72de09747daa")
+			(uuid "35c72f7a-d7c2-45ff-a154-6698ec2a392c")
 		)
 		(pin "6"
-			(uuid "7e5e5754-b769-46ab-9135-79bafeb4571e")
+			(uuid "3b00d073-82c3-41d0-be87-77887ce40f68")
 		)
 		(pin "15"
-			(uuid "c7999a2d-5563-4f3f-a2e4-527e08f0d617")
+			(uuid "6a8b16b8-4669-48bf-8807-39235bb18ce3")
 		)
 		(pin "5"
-			(uuid "6303db95-cc02-400f-8490-2e4bf0cb352d")
+			(uuid "35ee71a4-ad3e-4535-b077-c918337ad883")
 		)
 		(pin "21"
-			(uuid "14a9594b-10f8-45b5-b830-9d6238420057")
+			(uuid "4778a0bc-20c9-4c88-9f49-c610393e7b51")
 		)
 		(pin "34"
-			(uuid "9858a506-93df-4c06-9ced-778771f4fad3")
+			(uuid "8a75dbf0-c4f0-4a89-a0a6-7e8f801f0d91")
 		)
 		(pin "43"
-			(uuid "579f2c69-5d30-43b8-b381-4b5da4a80faf")
+			(uuid "cea246ce-1982-4e50-ac5a-345af7f9f723")
 		)
 		(pin "2"
-			(uuid "cd7925f2-7a4a-4663-85e9-8b526c8b1566")
+			(uuid "2193e9ce-70d0-4923-99ff-26c2f029f55a")
 		)
 		(pin "37"
-			(uuid "6a719bfb-f34c-424c-9887-947d4c4d3277")
+			(uuid "c445fb97-6ed4-444e-8a8b-0b0020b895e6")
 		)
 		(pin "39"
-			(uuid "c629d32e-9b0c-4299-8afa-11576278fe52")
+			(uuid "4653cee6-2fc3-4120-82a9-aa6cf90e1229")
 		)
 		(pin "40"
-			(uuid "b5bfd16f-9cbe-4567-aacf-8d304083b3db")
+			(uuid "8d7c263c-8b37-454d-a24b-fd2b42cac25e")
 		)
 		(pin "44"
-			(uuid "0ebaa9c2-2247-40ac-83c0-c2bde8f2263a")
+			(uuid "6ba5b647-0e75-4561-be3d-efa985dd9798")
 		)
 		(pin "45"
-			(uuid "507ce74f-3229-4864-9f6a-004401004773")
+			(uuid "a9df4681-cc83-4398-a8d0-120601d75b8b")
 		)
 		(pin "41"
-			(uuid "e3c1616e-11c9-4989-8057-be3d820e2734")
+			(uuid "a914fce0-2be7-400f-aa4f-5471d8760d42")
 		)
 		(pin "42"
-			(uuid "ba0ac91a-13c1-4751-816f-02ceca008679")
+			(uuid "23834a2b-294d-4a0e-a6ef-9a3846582648")
 		)
 		(pin "47"
-			(uuid "d7b91b15-1320-4374-8a5b-aa00e780a8a4")
+			(uuid "bd746ee9-26a4-47ad-9fea-218a056aba4e")
 		)
 		(pin "48"
-			(uuid "f7496ba4-1208-46bb-ae26-43a17ca862a9")
+			(uuid "68174965-3439-4b18-827d-0ba63ec23979")
 		)
 		(pin "49"
-			(uuid "f5a7d13a-2a89-4a19-8009-3ec3d4734fb6")
+			(uuid "3a198ed4-ee56-43cc-a4f2-1261edfab152")
 		)
 		(pin "50"
-			(uuid "1db61a83-5870-4e10-8102-694c950fee61")
+			(uuid "6a5134d3-5aea-4623-b2bd-38ae3f8f489d")
 		)
 		(pin "36"
-			(uuid "d533ed11-47d3-4778-9bc4-c9267c5d6d4d")
+			(uuid "a851b2d5-f423-447a-853a-ede09d5ed186")
 		)
 		(pin "38"
-			(uuid "7f1e0a66-7871-43c1-94a7-62368a531155")
+			(uuid "e1820d67-47b2-406d-ac85-9930dbed8b9b")
 		)
 		(pin "46"
-			(uuid "5264f0b6-b376-4960-944e-2b6fe27ac431")
+			(uuid "4c60038f-d36a-4c28-8c09-244d1fba105b")
 		)
 		(pin "14"
-			(uuid "56f5e7fe-8de8-4ba1-8bc3-4cb7379364df")
+			(uuid "69c2491a-2d61-44ae-8d92-ed2c6b918e13")
 		)
 		(pin "31"
-			(uuid "4e4dabdd-2848-4989-9abc-38b94b558d0b")
+			(uuid "9a3f87bf-6221-4700-90c3-51b6f93c3305")
 		)
 		(pin "18"
-			(uuid "aee87173-90a1-4cc4-b294-40c961a03706")
+			(uuid "d78e2fc8-fb71-4a31-9d44-af42c7c16a40")
 		)
 		(pin "19"
-			(uuid "497aef03-062f-4c02-a4e7-38f2ac9765f6")
+			(uuid "30092088-cf79-403c-93e8-18679c909bda")
 		)
 		(pin "26"
-			(uuid "c716b132-4830-4353-a204-045d2f43ed2f")
+			(uuid "2beb9645-c508-42ff-8400-565411601733")
 		)
 		(pin "20"
-			(uuid "07a746f0-f4b1-4324-96a2-1cd8b1c5dbdc")
+			(uuid "68f3b611-030c-487e-b9a5-a347ab2acc56")
 		)
 		(pin "22"
-			(uuid "f6febf56-3747-4981-98a7-b0f09747f8ef")
+			(uuid "4938ee14-c243-44a1-bef7-2420e715b822")
 		)
 		(pin "28"
-			(uuid "9e452138-551d-4c38-89a2-325aa1c36187")
+			(uuid "9577e363-b425-4164-bb09-7f6120543a40")
 		)
 		(pin "27"
-			(uuid "4626220e-7ef4-44fd-b8fe-8383bfc7eb60")
+			(uuid "dbbbccda-4826-46b7-b2d4-cab91de7fd8f")
 		)
 		(pin "51"
-			(uuid "6c2f8120-ea85-482b-a787-015b981512fc")
+			(uuid "a0f940fb-9934-4ff9-af5d-67509cd7ba52")
 		)
 		(pin "23"
-			(uuid "e543d08b-cbbf-4314-bafc-1c14c02415d2")
+			(uuid "ac5d481d-4844-4e43-931f-b765b0a1b2e9")
 		)
 		(pin "17"
-			(uuid "bc584c32-ac57-4c0c-add7-084b2bf10e3f")
+			(uuid "936a9edc-4292-4a8f-a9a5-4ba2f11e690d")
 		)
 		(pin "24"
-			(uuid "09e6928f-90b7-405c-a2dc-91b9025fbf1a")
+			(uuid "52041279-6f4c-4a83-a68a-d5160cc379c6")
 		)
 		(pin "25"
-			(uuid "38d1ed6e-9972-4c85-bfa1-96277b927a72")
+			(uuid "affeb67f-246b-430d-8b22-49e9229b5e7c")
 		)
 		(pin "29"
-			(uuid "335ef41e-8615-4767-90c1-8be1615f1586")
+			(uuid "12e343dc-f45a-4636-ae51-86e967d57429")
 		)
 		(pin "53"
-			(uuid "27c3f91f-d60d-4445-a7ae-9b57d4239454")
+			(uuid "9639b517-e411-48c7-8c21-f07d4e4c7591")
 		)
 		(pin "52"
-			(uuid "f699ac1e-5541-48ea-9c94-a334f2598f8e")
+			(uuid "06bd4f16-97a9-4e29-b6c2-333321dc704d")
 		)
 		(pin "30"
-			(uuid "fe07d43d-8a73-413d-9af6-d808d62aaaa5")
+			(uuid "97212dbf-2c58-406e-b44b-7a203fca3ffe")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "U2")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12774df1-2ae9-4af3-8c69-8237aaab8334")
-		(property "Reference" "C22"
+		(property "Reference" "C3"
 			(at 145.034 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5653,27 +5617,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb980ec9-35cd-4cfb-a240-4a1095815dcb")
+			(uuid "d325d26d-7391-4171-beef-90ce58b73322")
 		)
 		(pin "1"
-			(uuid "24823532-f0af-4ebc-a3b6-146bdb5d36f5")
+			(uuid "e3e145d3-21d1-4e93-8752-bb63fcf099d7")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "C22")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5691,7 +5643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "135c272f-e2be-45da-a4d5-42d055c0a6eb")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 74.93 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,33 +5731,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "1fdf86aa-816d-45c3-af65-3672a05b1da8")
+			(uuid "7b689c17-c046-4a59-98c0-9b54781f04cf")
 		)
 		(pin "4"
-			(uuid "b40a090e-e866-45d3-8ea9-315b52b2a895")
+			(uuid "decc28d5-e48c-4a1f-aea7-1e06112883c6")
 		)
 		(pin "1"
-			(uuid "abeef836-9b70-459d-873f-d4f6e1b2c059")
+			(uuid "fd2846f5-dcaa-48cb-8106-967a3ae5adef")
 		)
 		(pin "2"
-			(uuid "3adac39a-1ae0-44ce-b8e0-5fd8928f1b82")
+			(uuid "9ae7b023-d839-425f-9c68-f53522893ea7")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "D5")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "D6")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0c0e9f-7b4b-4376-89a6-4e4d33ae0179")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 127 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5878,24 +5818,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "25241ad3-eda8-4b4d-a3f7-0802f65ce112")
+			(uuid "bdc0e097-63dc-428f-bf62-f8c06b8a5dd8")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR04")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21122e3c-7889-446a-abc7-86068769aaaf")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 43.18 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5967,24 +5895,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46e80b81-e39f-4e59-bf8c-0b012c902dd1")
+			(uuid "1c09d77a-5f53-4b5d-ac04-e2ae11e65695")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR03")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6001,7 +5917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50417809-3992-44f1-96ce-bec2898da493")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 200.66 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,27 +5994,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "370792db-9546-4c1a-bee1-52373aab655d")
+			(uuid "e7a84918-696f-4436-a45e-78f809d1e7f2")
 		)
 		(pin "2"
-			(uuid "1e43eab0-4bf5-4e70-bb35-3c50696563f3")
+			(uuid "bd5d0588-60f8-4bde-9cfb-0210f04029c5")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R9")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R18")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5197cf58-0429-4f98-a762-379675db21e4")
-		(property "Reference" "C21"
+		(property "Reference" "C2"
 			(at 135.636 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,27 +6097,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dfa9ed92-b1bc-4f4d-820c-a95c36a912ad")
+			(uuid "0396d317-41aa-47ab-ab38-93a256a55e03")
 		)
 		(pin "1"
-			(uuid "66ed8289-ad4a-4ba0-be89-92726e16343f")
+			(uuid "faca6dca-f2bd-45d7-893a-9c066b42938e")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "C21")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "619e17dc-5151-48c2-a7b6-6cddb36e1752")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 211.074 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,27 +6209,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "56f575d8-a3e7-4054-a4c6-2323b5b22bce")
+			(uuid "7834a610-36bd-4f7e-a399-0bc4a2da6201")
 		)
 		(pin "1"
-			(uuid "fde19829-b339-49c3-9c76-a9ddb79dc6e0")
+			(uuid "ff4c374f-6306-4ee6-8f83-b5d71e2bbb4a")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "D4")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "D9")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77a69ed8-e83a-4348-bb2d-005fec6c80e3")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 167.64 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,27 +6310,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf23d0a5-5614-4880-95b2-895f6227154f")
+			(uuid "a27e4d52-83cd-457a-b47a-79bbcff0fe7d")
 		)
 		(pin "2"
-			(uuid "5e14b590-c287-473a-a4a9-57d445a6615e")
+			(uuid "20dd3c43-8d47-4e9f-9de2-75f4d513ce39")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "SW4")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eef51c0-b3d2-46e3-8751-e45f1eabc7b6")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 197.104 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,27 +6414,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec8ba0eb-57d5-484b-8940-0b2ce6c84928")
+			(uuid "43a7b084-450f-42ce-8678-68de44aa6b04")
 		)
 		(pin "2"
-			(uuid "3efc3ced-312f-4459-aa0e-d4ee15dc66fb")
+			(uuid "f8daba55-cc90-4215-846d-600436ef5221")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R5")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R15")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6584,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962c34ab-2417-45df-acc8-1ad04d1e0df0")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 107.95 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6661,27 +6517,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "feb09a05-215a-4848-b80d-caee56a644de")
+			(uuid "5f8cf542-bfee-4156-90c5-cf022dd6b8a2")
 		)
 		(pin "2"
-			(uuid "c17a156c-4520-46f2-b3d3-941f37ef6838")
+			(uuid "d826d202-228a-4d11-8faf-45a8b7b03045")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R13")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6698,7 +6542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96aad44c-9af0-479e-8895-cbf20d3c84d8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6753,24 +6597,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "37608334-2001-44a3-a1a1-ff1ceebf7bdc")
+			(uuid "75467d53-e9e6-497e-aedb-61706ac4bcb3")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR07")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6787,7 +6619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c4537b-1684-4f34-ba52-976e1871aced")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 50.038 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,27 +6696,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "38af7448-9964-4283-a762-12b4122b9dfb")
+			(uuid "8c33053d-93f6-4231-8335-f0b7c135c5c8")
 		)
 		(pin "2"
-			(uuid "a9a999e1-a42e-44b5-8146-87d87164e274")
+			(uuid "dd451711-88e1-4385-ba07-f4598b4045c0")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R12")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6901,7 +6721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6b78804-2cc3-4c3e-9490-b2985db4900d")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 151.384 25.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,27 +6800,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7741ba2-4f6e-45bd-b4f5-c75cdde502f6")
+			(uuid "171891b8-be09-4d4b-a1fd-6dcfb233dcf9")
 		)
 		(pin "2"
-			(uuid "3ef3f9ef-1241-40d0-90fc-3deb18ed245d")
+			(uuid "3a0025e4-5eaa-4a42-9412-434c7cddcdc8")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R14")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7018,7 +6826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29a9918-0810-4ec0-be85-846e36560a53")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 156.21 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7073,24 +6881,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f242d867-0c22-4fc9-b6d1-474c1cb301dc")
+			(uuid "66c34708-a393-4e0c-b331-bdc3d9934e9d")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR05")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7107,7 +6903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b44a5da0-3049-4132-aa7c-da042f2bc9de")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 61.722 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,27 +6979,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0afb8936-47cc-47df-ae38-bb319b9135ee")
+			(uuid "57f8d8f1-da8b-418b-bfec-f92002bbd38a")
 		)
 		(pin "1"
-			(uuid "895a1180-e12b-4969-9d26-7695f9958dc5")
+			(uuid "036bd8b8-a016-43e0-952b-cc5faf013635")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "D5")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7220,7 +7004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b550b4c7-248b-4b6c-a575-19b870c59b16")
-		(property "Reference" "C23"
+		(property "Reference" "C4"
 			(at 153.924 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,27 +7082,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "562b3791-121f-4f0f-ba6a-90497a148be4")
+			(uuid "f841b084-0c42-494f-8622-520e85a041a2")
 		)
 		(pin "1"
-			(uuid "637643df-6008-4af8-abe6-39dd2e42fa28")
+			(uuid "a230b848-3a59-42fb-acfc-264bf4e13c1a")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "C23")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7335,7 +7107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b583424c-1535-4a6f-a457-51b6d389a9ee")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 50.292 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,27 +7184,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8217cf19-d757-425a-a271-a3d55df90176")
+			(uuid "5bf967f8-5135-4f71-a61b-ccbaa1f76f3b")
 		)
 		(pin "2"
-			(uuid "38566adf-a351-4d7d-8ad3-76dda450a94e")
+			(uuid "7cb5f2c1-7e0c-4180-99f9-c392537a0394")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R11")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7450,7 +7210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb3955b-fbab-4300-bcac-38e97800484a")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 31.75 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,81 +7286,69 @@
 			)
 		)
 		(pin "S4"
-			(uuid "c61de02e-e808-4904-b718-e4cf66b2cbac")
+			(uuid "9a6b489e-ca2f-4579-ac65-43e9ff4c90ba")
 		)
 		(pin "S3"
-			(uuid "0bc34f43-67d5-4475-948b-ef75dcaed7e8")
+			(uuid "d7154a20-566b-4056-958f-1ab77db70b1d")
 		)
 		(pin "B8"
-			(uuid "9ca442f6-d6b9-4e4d-86af-0a938fec4a6d")
+			(uuid "e1f429cf-0ce5-46d2-94fa-6ab10e4d521a")
 		)
 		(pin "A1"
-			(uuid "a260a612-9a3b-40e8-a95a-5e040ab8910b")
+			(uuid "5ee72804-4982-4009-beea-e52126862524")
 		)
 		(pin "B4"
-			(uuid "c19f9dfd-46ce-4925-b364-1c99b2191e42")
+			(uuid "ac3303f9-14e3-4897-9b20-fe3f8959a306")
 		)
 		(pin "A5"
-			(uuid "254fb2e2-b1e6-443a-8ac9-6c9f15a4eaed")
+			(uuid "9150bbe6-f269-442e-95c6-1388c8419462")
 		)
 		(pin "B1"
-			(uuid "247c7fbb-b1bd-4dc5-a65e-99f10049344a")
+			(uuid "07739b9f-7d44-475f-bc89-1a845b341868")
 		)
 		(pin "A12"
-			(uuid "6ecec80a-4d0b-49ed-b876-19a8a3fdd138")
+			(uuid "512c3937-db66-4362-b2b7-56a21222b572")
 		)
 		(pin "A9"
-			(uuid "e404c7c7-8ed0-4945-996f-b6bcaa156c21")
+			(uuid "e3175c33-31ff-45de-b091-126e5846b3a4")
 		)
 		(pin "S1"
-			(uuid "75610a96-5c9e-41c5-a6a9-c134887a58bd")
+			(uuid "0c0df94d-0c25-4c3d-b9fe-a3939b19604c")
 		)
 		(pin "S2"
-			(uuid "7fccb17a-69a0-4705-911b-7f75acaa1936")
+			(uuid "b3edffcf-79c9-4076-b702-763de6267c06")
 		)
 		(pin "A7"
-			(uuid "6d73fbe1-0d29-42a8-9426-760e884670c0")
+			(uuid "03745e51-86ce-4e66-a184-df44b5dd9400")
 		)
 		(pin "B6"
-			(uuid "7cda8ec9-fc14-4bb7-88ae-53e65f5dd8c0")
+			(uuid "d69af12c-cd1a-45c3-a9c1-c78887e837c8")
 		)
 		(pin "B5"
-			(uuid "1abe83b2-908b-4833-a811-d0feb78d49ad")
+			(uuid "64ffe650-b200-4472-be68-b14d2cdf58b0")
 		)
 		(pin "B12"
-			(uuid "a732b6ef-7e05-4eac-8f67-7a2d9a3aa672")
+			(uuid "ed7c36f9-b0bd-4fb1-9e74-c6924db02067")
 		)
 		(pin "A4"
-			(uuid "c588aee5-5de9-444c-8b7b-6209f15f48ed")
+			(uuid "0dd27139-f198-49b6-bdf6-4b34bc6ce00e")
 		)
 		(pin "B9"
-			(uuid "c2746ce6-9462-4a4b-a468-448e12442272")
+			(uuid "ebdf28f2-c16d-4f27-a02e-4399c2f531e1")
 		)
 		(pin "B7"
-			(uuid "712dae54-55ba-42b4-9fbd-d879992ef3bc")
+			(uuid "ebe956d9-e0f1-4a6e-aa82-6b6238510042")
 		)
 		(pin "A6"
-			(uuid "cdf34b18-5358-4b16-aebc-c76abf1e36aa")
+			(uuid "36967fb7-b366-402e-a701-f85a237d63f4")
 		)
 		(pin "A8"
-			(uuid "d3bf970d-0ce3-40cf-8eca-9b1da284409c")
+			(uuid "c0406519-238d-4c6c-85c6-c1578f4fc5ca")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "J3")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7617,7 +7365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ddf2a6-01d6-4f63-b5ed-c096051ff03e")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 210.82 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,27 +7452,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "690042ee-1e0f-4ec7-aec7-6e3b19610ec1")
+			(uuid "b7ffb49f-2000-43cf-b2e7-dcd7ed30704f")
 		)
 		(pin "1"
-			(uuid "11f128b0-46b6-4a02-86a7-8216ba0e01c8")
+			(uuid "8e41f731-bd74-43b1-bb43-f6a44f48eb90")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "D3")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "D8")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7741,7 +7477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d65da091-0a9f-4378-8d04-483044eacc54")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 117.348 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,30 +7542,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "1dc54640-c5dd-4464-9606-d2211683367d")
+			(uuid "1be93caa-3d29-46e3-8eee-bf3c06cd64ce")
 		)
 		(pin "1"
-			(uuid "f19ea06f-9bf1-4d36-beed-150d18a00104")
+			(uuid "3fd2e170-ad28-42e1-bd37-184442030ad2")
 		)
 		(pin "2"
-			(uuid "ccc89baa-abb2-4d22-8094-c3f572ede8f6")
+			(uuid "907e53b3-dbbb-4977-af9c-26e7fb1d2d3a")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "SW3")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e847e3ba-5e6b-47b8-9619-ec6dd81cbd85")
-		(property "Reference" "R16"
+		(property "Reference" "R6"
 			(at 200.66 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,27 +7648,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3328f3d-d4b7-4520-8fb2-3bd5fe4205a1")
+			(uuid "15a1c741-1598-4aa9-b634-d90fc9bef802")
 		)
 		(pin "2"
-			(uuid "6a186102-0f09-48e8-b314-369160f5e332")
+			(uuid "f97cdbe3-417e-42f5-9fc0-1805e1fa4b7d")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "R16")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4d62e99-cf15-4ecd-889b-c1e234b8bbd9")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 210.82 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,27 +7760,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "acff4f0c-53b9-4027-a75e-b4d88c2b72e2")
+			(uuid "c883ad60-3e8c-421a-93c9-1f8a3e321048")
 		)
 		(pin "1"
-			(uuid "9620d380-191b-4495-b8a3-26f0413eeda6")
+			(uuid "0cf8d28d-a320-4fe9-ab61-171e8c136d89")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "D7")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8085,7 +7785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f927a20c-3345-45de-8575-404d7c8741d3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8140,24 +7840,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7512b293-55dc-414c-9bb7-eb0c28f1f6ea")
+			(uuid "a7274cb9-8093-4b09-b783-1cff4b4cae37")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR08")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8175,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe13fe5b-401d-437b-9aae-c2484d1b92e1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 157.48 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8230,24 +7918,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88ff2c72-7b44-4d33-8e94-4c38c5ec0f00")
+			(uuid "673320b3-ba46-47b8-84e4-8881cabf3b9b")
 		)
 		(instances
-			(project "ESP32"
-				(path "/09d7ad1b-770b-46a0-8ad9-11c7e1123c3a"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-			(project "ESP32_RevX"
-				(path "/954af6b2-4e30-4014-879f-ff9ceffb2f47/89b2af13-3289-404a-a8ec-32ff4e0bb8ae"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/c37d6099-1700-4ffc-a9ae-fd10c9470058"
-					(reference "#PWR06")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/5e4b237b-3740-46f1-a3ce-b8399f698e7e"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
