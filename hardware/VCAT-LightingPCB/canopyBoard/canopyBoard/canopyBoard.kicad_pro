@@ -446,35 +446,23 @@
       "LDO2"
     ],
     [
-      "c2bf9191-2f74-4106-b003-2a929d98f0ef",
-      "PP"
+      "01381edb-5528-4352-831f-f206e57a8ec1",
+      "PowerProtection"
     ],
     [
       "5e4da475-ae4d-4e8f-b598-08b93d40d66f",
       "Power_Mux1"
     ],
     [
-      "bc064083-e481-4e1d-b60b-4fd4b25dc556",
-      "48PinMCU2"
-    ],
-    [
-      "4eee817f-5a43-4f96-a379-41a35b0ad489",
-      "USB-C_Connector1"
-    ],
-    [
       "45d7110a-45d7-4ac6-a29f-e84ce60a44ce",
       "Fet Logic"
-    ],
-    [
-      "5aca4e5b-f4fd-43ef-affd-0718bb84f0e0",
-      "48PinMCU4"
     ],
     [
       "60b23d42-9c18-46f7-8959-1ad7163b36d5",
       "CAN_Transceiver1"
     ],
     [
-      "3326d90a-9251-41a3-a334-453775420203",
+      "7276db52-cbc9-4013-b74a-5ce5faa649d9",
       "MCU"
     ],
     [
@@ -482,24 +470,16 @@
       "Power"
     ],
     [
-      "29f11dcc-8304-4bed-8b0b-81dc64d16f6b",
+      "01bcea1a-b3b1-4cbf-bd2e-1a70f5f74e05",
+      "Current Check"
+    ],
+    [
+      "996dbbd4-1b7a-42f2-bfbe-e8032f43a29f",
+      "48PinMCU4"
+    ],
+    [
+      "721a12d1-b8c2-4a8f-aabd-bf7f9ac99835",
       "USB-C_Connector3"
-    ],
-    [
-      "f498ef40-07f5-4746-b3cb-b34da7e4db7a",
-      "12VBuck1"
-    ],
-    [
-      "0b8b2be4-596a-4c78-abff-29c09bf0061a",
-      "LDO2"
-    ],
-    [
-      "382e052b-9ae5-4a78-9430-c15f3556e36a",
-      "PP"
-    ],
-    [
-      "1de02975-c358-499f-a715-9731376ddf30",
-      "Power_Mux1"
     ]
   ],
   "text_variables": {},
