@@ -28,7 +28,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2349500|381000|665b2e53-64d3-4782-bb2d-84336c9dff54|6503fec2-cf03-4977-a10f-97eda9a236c3|/df5034a6-89e6-4596-8ae4-d16cb76dc299|/df5034a6-89e6-4596-8ae4-d16cb76dc299|/df5034a6-89e6-4596-8ae4-d16cb76dc299",
+        ""
+      ],
+      [
+        "pin_to_pin|698500|304800|973237f8-bc6a-4ed7-9683-7a93c8bc746c|5b123674-c7de-4952-b17a-d9127209071e|||",
+        ""
+      ],
+      [
+        "pin_to_pin|698500|304800|f5c4920d-da31-4f6f-961b-5e9b9bbb9a4d|3a102cb5-39fe-440b-a9bd-84a1b9e85418|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/469d03b3-ccbb-4d91-9a72-80c921d53684|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/469d03b3-ccbb-4d91-9a72-80c921d53684|/df5034a6-89e6-4596-8ae4-d16cb76dc299",
+        ""
+      ],
+      [
+        "pin_to_pin|762000|546100|9b3ea212-4677-44af-84a8-e7dcad33795b|4bf3ce0d-a581-42da-89db-ba342216d89b|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f",
+        ""
+      ],
+      [
+        "pin_to_pin|762000|571500|4bf3ce0d-a581-42da-89db-ba342216d89b|5790c00b-d0b6-4401-ad73-d4da7fc8bae2|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f|/df5034a6-89e6-4596-8ae4-d16cb76dc299",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1447800|635000|c71743de-3dbe-4818-8094-b27a3ecde544|00000000-0000-0000-0000-000000000000|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -388,7 +413,28 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "CURR": [
+        "BRK_CURR",
+        "LEFT_CURR",
+        "RIGHT_CURR",
+        "STROBE_CURR"
+      ],
+      "FET": [
+        "BRK_FET1",
+        "BRK_FET2",
+        "BRK_FET3",
+        "LEFT_FET",
+        "RIGHT_FET",
+        "STROBE_FET"
+      ],
+      "SIG": [
+        "BRK_SIG",
+        "LEFT_SIG",
+        "RIGHT_SIG",
+        "STROBE_SIG"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -417,6 +463,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +483,7 @@
         "uuid": "df5034a6-89e6-4596-8ae4-d16cb76dc299"
       }
     ],
-    "used_designators": "C1-19,C22-139,D1-4,D11-44,FB1-14,J1-20,#FLG1-5,#FLG17-18,R1-10,R14,R17-91,SW1-2,SW5-16,U1,U4-17,Y1-7,#PWR1-5,#PWR10-41,Q1,F3,F5-7,F10-13,TP_3.3V2-5,IC2,JP2-4,TP9-29,IRLML0030TRPBF1-6",
+    "used_designators": "C1-19,C22-139,D1-4,D11-44,FB1-14,J1-20,#FLG1-5,#FLG7-12,#FLG17-20,R1-10,R12-91,SW1-2,SW5-16,U1,U4-17,Y1-7,#PWR1-5,#PWR10-41,Q1,F3,F5-7,F10-13,TP_3.3V2-5,IC2,JP2-4,TP1-4,TP9-29,IRLML0030TRPBF1-7,L1",
     "variants": []
   },
   "sheets": [
@@ -438,48 +492,48 @@
       "Root"
     ],
     [
-      "2c9273aa-2aff-43d5-b5d1-a49fa574b41e",
-      "12VBuck1"
+      "14ddfef4-0223-4596-ae14-4b942a15c664",
+      "12VBuck"
     ],
     [
       "b1f7c2d8-2dfc-4135-a712-20c854453dcd",
       "LDO2"
     ],
     [
-      "01381edb-5528-4352-831f-f206e57a8ec1",
-      "PowerProtection"
+      "1b1d506c-3379-4f9d-8f40-a334d3fab5dd",
+      "Current Check"
     ],
     [
       "5e4da475-ae4d-4e8f-b598-08b93d40d66f",
       "Power_Mux1"
     ],
     [
+      "e9f257b3-fc09-4a9a-8437-9ecb82cfb02b",
+      "PP"
+    ],
+    [
+      "9e6894d2-35ee-4054-bbed-0d8e56a2fbc9",
+      "MCU"
+    ],
+    [
       "45d7110a-45d7-4ac6-a29f-e84ce60a44ce",
       "Fet Logic"
     ],
     [
-      "60b23d42-9c18-46f7-8959-1ad7163b36d5",
+      "469d03b3-ccbb-4d91-9a72-80c921d53684",
+      "USB-C_Connector"
+    ],
+    [
+      "ccb6287e-6bce-49c3-bd3b-b4bd5142473b",
       "CAN_Transceiver1"
-    ],
-    [
-      "7276db52-cbc9-4013-b74a-5ce5faa649d9",
-      "MCU"
-    ],
-    [
-      "9ffeb37d-6ae4-4995-919e-8c4714edda92",
-      "Power"
-    ],
-    [
-      "01bcea1a-b3b1-4cbf-bd2e-1a70f5f74e05",
-      "Current Check"
     ],
     [
       "996dbbd4-1b7a-42f2-bfbe-e8032f43a29f",
       "48PinMCU4"
     ],
     [
-      "721a12d1-b8c2-4a8f-aabd-bf7f9ac99835",
-      "USB-C_Connector3"
+      "9ffeb37d-6ae4-4995-919e-8c4714edda92",
+      "Power"
     ]
   ],
   "text_variables": {},

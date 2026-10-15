@@ -321,387 +321,659 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 116.84 21.59) (xy 116.84 22.86)
-		)
+	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c75a34f8-8573-486a-9302-3d96243d27c7")
+	)
+	(junction
+		(at 77.47 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfcdb71b-9060-4a64-81e1-72ab1331ae19")
+	)
+	(bus_entry
+		(at 158.75 72.39)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "023fe3a3-d725-4c61-a8cb-151ca9d842a8")
+		(uuid "01a532da-dbb0-49c7-94ad-79d4748e1c08")
+	)
+	(bus_entry
+		(at 95.25 127)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12f6b1-0382-43d1-96b5-00e3fd30f1c9")
+	)
+	(bus_entry
+		(at 38.1 95.25)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f76e5ed-4b08-4e83-9fd5-712a3531fb2e")
+	)
+	(bus_entry
+		(at 38.1 120.65)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e2d87f-9702-49b2-ae72-6c702920f05a")
+	)
+	(bus_entry
+		(at 125.73 127)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95552479-07c9-4cd1-9470-ed8e7e24768b")
+	)
+	(bus_entry
+		(at 96.52 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e188dd-b7f0-4e04-a69e-53d1370d9324")
+	)
+	(bus_entry
+		(at 127 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12b4733-a755-41ee-b11e-8013ca2a0e1b")
+	)
+	(bus_entry
+		(at 74.93 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e8bd8a-d95f-4f80-840b-3c7d7f86c19a")
+	)
+	(bus_entry
+		(at 38.1 107.95)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca56ae7f-6560-45b8-a99b-332418b99d53")
+	)
+	(bus_entry
+		(at 157.48 127)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d001d926-e550-432c-806f-5645bc81450b")
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 46.99 31.75)
+			(xy 135.89 92.71) (xy 134.62 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24480089-d1a5-4d65-95b3-e4122d1285d9")
+		(uuid "039da950-b877-4246-904e-1c816506edf4")
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 82.55 49.53)
+			(xy 167.64 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d09db86-579c-4094-8dba-e86af3990ff0")
+		(uuid "074ffc37-0ee7-4815-b733-12bfa0dba03b")
+	)
+	(bus
+		(pts
+			(xy 40.64 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a23e623-12e1-4140-89c5-dd9829f9d2c8")
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 77.47 57.15)
+			(xy 40.64 105.41) (xy 58.42 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42e5d0bf-29ab-4884-baf7-980f8634bb62")
+		(uuid "0be2fd0d-adaa-4f11-8c5a-f3602fe1234d")
 	)
 	(wire
 		(pts
-			(xy 41.91 35.56) (xy 41.91 36.83)
+			(xy 154.94 92.71) (xy 154.94 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49049b06-2c84-4395-9933-84b750486d64")
+		(uuid "13a43a50-6556-4498-9a74-75beab64a5bd")
 	)
 	(wire
 		(pts
-			(xy 123.19 30.48) (xy 121.92 30.48)
+			(xy 63.5 109.22) (xy 76.2 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "603d8c53-285c-4327-8d3e-8a8418b26a46")
+		(uuid "1c4c3cea-94f3-4125-a559-c3e3104780e1")
 	)
 	(wire
 		(pts
-			(xy 88.9 57.15) (xy 87.63 57.15)
+			(xy 77.47 74.93) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "877f38a8-fc8a-4e42-9a32-a5c5fe704167")
+		(uuid "25d5e7b8-fbb7-463b-aa31-835969e65964")
 	)
 	(wire
 		(pts
-			(xy 88.9 44.45) (xy 87.63 44.45)
+			(xy 69.85 105.41) (xy 68.58 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c3913fe-3e2a-4a32-a8e0-e2df43b6ca17")
+		(uuid "27203a39-2479-47ed-9382-46f4d7bf1b59")
+	)
+	(bus
+		(pts
+			(xy 38.1 91.44) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280e43ba-fab9-4870-bcb8-e8eabc37caeb")
 	)
 	(wire
 		(pts
-			(xy 110.49 30.48) (xy 111.76 30.48)
+			(xy 40.64 118.11) (xy 58.42 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93ae2ee9-5a19-40d1-968b-a4e93358d2cb")
+		(uuid "362798dc-8553-4dbe-b143-0c30963f438a")
 	)
 	(wire
 		(pts
-			(xy 35.56 31.75) (xy 36.83 31.75)
+			(xy 63.5 109.22) (xy 63.5 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "989d7bb4-aeaa-4b8f-be64-7200d0eb3d28")
+		(uuid "39935538-8f20-4b78-9430-3d7bbd5db3c7")
 	)
 	(wire
 		(pts
-			(xy 88.9 31.75) (xy 87.63 31.75)
+			(xy 76.2 109.22) (xy 77.47 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae424ac7-7d25-4d05-97d9-f18fc15873e6")
+		(uuid "444850d5-ce56-455e-ba38-d8a39dfedff9")
+	)
+	(bus
+		(pts
+			(xy 40.64 127) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45efd80e-849b-4b9f-adb5-469a81904290")
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 82.55 36.83)
+			(xy 63.5 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc2cd07f-03ff-4e4f-b07e-abca8bd317ad")
+		(uuid "4f58dc5e-030c-4914-b409-49b5c3ba1903")
 	)
 	(wire
 		(pts
-			(xy 48.26 44.45) (xy 46.99 44.45)
+			(xy 92.71 92.71) (xy 93.98 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c35156ba-65e1-49d4-b25c-413ed33172e3")
+		(uuid "54035627-ab43-4ffd-b887-af7ed63e430e")
 	)
 	(wire
 		(pts
-			(xy 76.2 44.45) (xy 77.47 44.45)
+			(xy 63.5 96.52) (xy 63.5 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4f020af-fd41-44ac-b71b-4a93b7d51e8e")
+		(uuid "56ea222b-2906-4c6c-b5dc-c8a836e10b97")
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 77.47 31.75)
+			(xy 63.5 96.52) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d720c1a7-ed32-4e42-9be0-90209ae66783")
+		(uuid "58e53af7-bd68-4d65-a787-682bd886eb3f")
 	)
 	(wire
 		(pts
-			(xy 82.55 22.86) (xy 82.55 24.13)
+			(xy 40.64 92.71) (xy 58.42 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e611fd97-d9d8-49db-9901-57c7174354fd")
+		(uuid "5e2b7765-cbeb-4d84-bd73-78b7ec367cef")
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 36.83 44.45)
+			(xy 63.5 83.82) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9330f6b-5032-4849-bf1e-3416e1dd7f21")
+		(uuid "5f9e7d8b-7a46-48ed-8782-849fcf4ddca2")
 	)
 	(wire
 		(pts
-			(xy 41.91 22.86) (xy 41.91 24.13)
+			(xy 161.29 74.93) (xy 161.29 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb180a75-5ef3-4bd1-b255-ca18e8b5bc1c")
+		(uuid "6345bde6-9536-4b03-a419-56b6e9472f2a")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a467aa9-f088-4993-93c7-6f0ebba8f82f")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4e7073-c5c2-4595-b196-ac167eba0042")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b62d27-161f-4f79-993b-d8185a84729d")
+	)
+	(bus
+		(pts
+			(xy 41.91 72.39) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e3c8b5-49d6-44a4-8bfc-722b821bed7c")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778edd44-d3fd-4087-a911-03a5ba48f64b")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fb7db7-06b8-47b3-ac07-4626ae4c2b40")
+	)
+	(bus
+		(pts
+			(xy 38.1 95.25) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b98b28-f2a4-48fa-af2a-5bc5ef805a02")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab2104d-da5b-4ece-bf2e-e372d46a521b")
+	)
+	(bus
+		(pts
+			(xy 125.73 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6ff014-a3ca-4117-975e-bc05021c4d72")
+	)
+	(wire
+		(pts
+			(xy 69.85 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95584eaf-9ca2-4058-9be5-92ed29410ee6")
+	)
+	(wire
+		(pts
+			(xy 77.47 95.25) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe570a0-944b-4b06-bf5b-f2f747fee402")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa04735-fcad-477d-a67e-be0fb90bd9e9")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 77.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88ad5ca-fe79-444a-9b1f-69c8013e75a4")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbbf1f9-bf84-442b-8293-751323f0b904")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7e82af-348d-45d7-8913-b05147dc3ede")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a46749-956c-4ed3-bce8-0dd0434bd35c")
+	)
+	(label "STROBE_FET"
+		(at 154.94 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "073b1ceb-da24-47c1-94d1-747b4bd5b1ed")
+	)
+	(label "LEFT_FET"
+		(at 92.71 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "207272dc-d84a-42a9-8d9f-17cfd9881f51")
+	)
+	(label "RIGHT_FET"
+		(at 123.19 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "239a3593-2f53-4b50-8f12-9f23691e67aa")
+	)
+	(label "BRK_FET3"
+		(at 57.15 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87df64f7-1f0a-461b-885b-2c9691b75bf5")
+	)
+	(label "BRK_SIG"
+		(at 77.47 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d13ab06-5805-42a3-9efc-4f0ae473a33a")
+	)
+	(label "BRK_FET1"
+		(at 58.42 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0c3a77e-cf84-4ca5-8eeb-a63234f88af4")
+	)
+	(label "BRK_FET2"
+		(at 58.42 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba2bf919-3ee2-4501-8a29-ccde6e1f37d5")
+	)
+	(label "STROBE_SIG"
+		(at 161.29 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5bec2d-25e8-49ad-a9e4-870f5e870ea9")
+	)
+	(label "LEFT_SIG"
+		(at 99.06 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfc98513-2cd7-4bf0-86c2-80d43f9a7f74")
+	)
+	(label "RIGHT_SIG"
+		(at 129.54 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee831d16-b1b5-404e-9f0e-8032ac49d08d")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 48.26 44.45 0)
+		(shape bidirectional)
+		(at 69.85 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0bbd28bc-153a-4b80-a231-01b47aa799b6")
-	)
-	(hierarchical_label "LEFT_SIG"
-		(shape input)
-		(at 41.91 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e40d161-a481-432f-8e3f-fc441f45d6bb")
+		(uuid "23b786aa-0cd2-4527-863c-fc84ee9eeaba")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 88.9 31.75 0)
+		(shape bidirectional)
+		(at 135.89 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0fc0c694-b915-4236-99bb-25f805a9a5b0")
+		(uuid "60168095-9416-4765-9a37-ae1d727c4a69")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 123.19 30.48 0)
+		(shape bidirectional)
+		(at 69.85 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1c7d0174-12be-46d9-a104-bbf03d1fb24e")
-	)
-	(hierarchical_label "STROBE_SIG"
-		(shape input)
-		(at 116.84 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ebf9739-4391-4b9c-9c95-02c1b6704ab9")
-	)
-	(hierarchical_label "RIGHT_FET"
-		(shape input)
-		(at 35.56 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21272d5d-9f11-4fe9-a0b3-cd39a39422d8")
-	)
-	(hierarchical_label "BRK_FET1"
-		(shape input)
-		(at 76.2 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24b7dced-44d2-41cf-bbad-eca3ebbe1135")
+		(uuid "a153ff5c-d566-4dca-b56a-93d9d7d35219")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 88.9 44.45 0)
+		(shape bidirectional)
+		(at 105.41 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "49be21da-0449-407d-968e-1487308d3f78")
-	)
-	(hierarchical_label "STROBE_FET"
-		(shape input)
-		(at 110.49 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54516ba7-acc7-474d-af2b-f6e662b329c4")
-	)
-	(hierarchical_label "BRK_SIG"
-		(shape input)
-		(at 82.55 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c0f1f92-154b-44c8-9884-e7927b016131")
-	)
-	(hierarchical_label "BRK_SIG"
-		(shape input)
-		(at 82.55 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92255d7d-d1a8-4a72-bcc4-39e1b0bb1a07")
-	)
-	(hierarchical_label "BRK_FET3"
-		(shape input)
-		(at 76.2 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a89dca21-5870-44dd-8214-668e07b29fb3")
-	)
-	(hierarchical_label "RIGHT_SIG"
-		(shape input)
-		(at 41.91 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af22aa10-9b85-4bbf-9fad-f750fa13a93d")
-	)
-	(hierarchical_label "BRK_FET2"
-		(shape input)
-		(at 76.2 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2de6b41-0213-4b90-8e01-5852505ebd4d")
+		(uuid "b1b48c12-288e-4d9c-ade4-790253a6a88d")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 88.9 57.15 0)
+		(shape bidirectional)
+		(at 167.64 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c92cdfdb-2e83-4278-960d-a0fda2eca017")
-	)
-	(hierarchical_label "LEFT_FET"
-		(shape input)
-		(at 35.56 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cae8a499-dc0d-4eaa-8c3b-bd5fa641e8a7")
+		(uuid "ba8cc3f6-5e15-42b1-a67b-f117c6ce8e2d")
 	)
 	(hierarchical_label "GND"
-		(shape input)
-		(at 48.26 31.75 0)
+		(shape bidirectional)
+		(at 69.85 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e5cf9bbc-6022-46a7-8bd2-fa6589936166")
+		(uuid "c4823e75-c047-4d82-bd00-dd245fb556bc")
 	)
-	(hierarchical_label "BRK_SIG"
+	(hierarchical_label "{FET}"
 		(shape input)
-		(at 82.55 22.86 0)
+		(at 168.91 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fb0be149-9d33-4841-953c-8755ed24ff03")
+		(uuid "e80f9479-b4e9-46d5-b605-eb79b58bbe25")
+	)
+	(hierarchical_label "{SIG}"
+		(shape input)
+		(at 168.91 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f42fc5aa-d0ee-4153-9aa0-f3ae2ea383dc")
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML0030")
-		(at 41.91 29.21 90)
+		(at 99.06 90.17 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -710,9 +982,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46b4b282-50aa-4c65-a18f-8674e4c51ceb")
+		(uuid "3daebd98-aaed-45f0-a371-89d36e0733d8")
 		(property "Reference" "IRLML0030TRPBF5"
-			(at 39.624 26.924 90)
+			(at 96.774 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -724,7 +996,7 @@
 			)
 		)
 		(property "Value" "IRLML0030"
-			(at 43.1799 35.56 0)
+			(at 100.3299 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -736,7 +1008,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P237X112-3N"
-			(at 43.815 34.29 0)
+			(at 100.965 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -749,7 +1021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 45.72 34.29 0)
+			(at 102.87 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -761,7 +1033,7 @@
 			)
 		)
 		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 41.91 29.21 0)
+			(at 99.06 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -772,13 +1044,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "34ec5187-b93d-4421-a8be-c6aed18b5cdf")
+			(uuid "1f98d545-347b-48ae-9813-55e3e99a4f0f")
 		)
 		(pin "1"
-			(uuid "6a92f99b-4478-4304-8920-d78198cee5c1")
+			(uuid "17d7b585-3457-4452-a5cc-b55bfa6c7551")
 		)
 		(pin "3"
-			(uuid "a57585a8-dc2d-4431-9a6c-8541521c31b5")
+			(uuid "17e6a088-64b9-41db-8d9c-6492df58b115")
 		)
 		(instances
 			(project "canopyBoard"
@@ -791,7 +1063,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML0030")
-		(at 82.55 29.21 90)
+		(at 161.29 90.17 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -800,98 +1072,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e2e0f7d-2d6e-471a-b3de-008a5cff1859")
-		(property "Reference" "IRLML0030TRPBF2"
-			(at 76.2 27.178 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML0030"
-			(at 83.8199 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X112-3N"
-			(at 84.455 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 86.36 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 82.55 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c17d1382-ae8e-4393-be82-f9804a4a7a60")
-		)
-		(pin "1"
-			(uuid "40c869fd-009b-4ad8-9bbf-8433c6c2d1e5")
-		)
-		(pin "3"
-			(uuid "81dc3a33-6908-48a6-9385-c519013c0e12")
-		)
-		(instances
-			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
-					(reference "IRLML0030TRPBF2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML0030")
-		(at 116.84 27.94 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a645f4f-1ffd-41d6-8660-113b9a38ca19")
+		(uuid "4874bc3a-f69e-4472-aefc-c30253ab0185")
 		(property "Reference" "IRLML0030TRPBF7"
-			(at 114.554 25.654 90)
+			(at 159.004 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -903,7 +1086,7 @@
 			)
 		)
 		(property "Value" "IRLML0030"
-			(at 118.1099 34.29 0)
+			(at 162.5599 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -915,7 +1098,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P237X112-3N"
-			(at 118.745 33.02 0)
+			(at 163.195 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -928,7 +1111,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 120.65 33.02 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -940,7 +1123,7 @@
 			)
 		)
 		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 116.84 27.94 0)
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -951,13 +1134,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "58023179-2223-462f-837b-c72383b6f4df")
+			(uuid "2ffd0f21-7944-45b8-ab5c-0c7475b093a1")
 		)
 		(pin "1"
-			(uuid "e284e66d-4cea-491e-8a0e-47d290a46a77")
+			(uuid "93fac48f-b0ae-4343-8a5d-0cc09b82b88a")
 		)
 		(pin "3"
-			(uuid "26bf5ae3-407c-4d22-b802-ca341bc73f4a")
+			(uuid "4b3da8b4-4383-4e0e-b7c3-c7a57bf9d055")
 		)
 		(instances
 			(project "canopyBoard"
@@ -970,7 +1153,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML0030")
-		(at 82.55 41.91 90)
+		(at 63.5 115.57 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -979,9 +1162,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8792a9f0-5dd1-41bb-948f-5a982dbe967f")
-		(property "Reference" "IRLML0030TRPBF3"
-			(at 80.264 39.624 90)
+		(uuid "6d7752bb-f73d-4416-b6ef-854f0b03c8a6")
+		(property "Reference" "IRLML0030TRPBF4"
+			(at 61.214 113.284 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +1176,7 @@
 			)
 		)
 		(property "Value" "IRLML0030"
-			(at 83.8199 48.26 0)
+			(at 64.7699 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,7 +1188,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P237X112-3N"
-			(at 84.455 46.99 0)
+			(at 65.405 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,7 +1201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 86.36 46.99 0)
+			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1030,7 +1213,7 @@
 			)
 		)
 		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 82.55 41.91 0)
+			(at 63.5 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,13 +1224,192 @@
 			)
 		)
 		(pin "2"
-			(uuid "73ccf985-3f6e-4101-a37d-043a49b63353")
+			(uuid "cdbba492-d70c-41bd-95c9-6fc43811479b")
 		)
 		(pin "1"
-			(uuid "57d40966-1ba2-4884-a477-d2b0e65a3e1f")
+			(uuid "e1b4db3b-9338-4264-8f2c-c2a066bd5804")
 		)
 		(pin "3"
-			(uuid "af57dc2b-cab6-4c27-beb4-f21972d9d495")
+			(uuid "42e364e6-2201-4e0f-ad3a-7226107ca46f")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "IRLML0030TRPBF4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 63.5 90.17 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a517222e-26ec-47f5-915d-d59eea969bc0")
+		(property "Reference" "IRLML0030TRPBF2"
+			(at 74.168 81.534 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 64.7699 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 65.405 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 67.31 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 63.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41536987-64b7-4d82-a498-07d5e721568e")
+		)
+		(pin "1"
+			(uuid "81377533-da75-40b8-a190-231756f94389")
+		)
+		(pin "3"
+			(uuid "bfdbccc2-d037-4b20-b52d-fcb06dd7b014")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "IRLML0030TRPBF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 63.5 102.87 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac7abbec-d266-4bd7-bd26-e414e2a83bbb")
+		(property "Reference" "IRLML0030TRPBF3"
+			(at 61.214 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 64.7699 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 65.405 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 67.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 63.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b67f0452-dde5-43ca-b7bb-90845e7a4e48")
+		)
+		(pin "1"
+			(uuid "8560b059-7484-4f03-b816-f9f16b7d1bb3")
+		)
+		(pin "3"
+			(uuid "5ef2bcec-c0c0-43f5-b347-ae7bb133c5ac")
 		)
 		(instances
 			(project "canopyBoard"
@@ -1060,7 +1422,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML0030")
-		(at 41.91 41.91 90)
+		(at 129.54 90.17 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1069,9 +1431,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c9dfbe16-e405-4cc1-b46a-61a9722fc7bd")
+		(uuid "fa856ed5-da65-4bdc-9cd0-2b0c9ed193ec")
 		(property "Reference" "IRLML0030TRPBF6"
-			(at 39.624 39.624 90)
+			(at 127.254 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1083,7 +1445,7 @@
 			)
 		)
 		(property "Value" "IRLML0030"
-			(at 43.1799 48.26 0)
+			(at 130.8099 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1095,7 +1457,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P237X112-3N"
-			(at 43.815 46.99 0)
+			(at 131.445 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 45.72 46.99 0)
+			(at 133.35 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,7 +1482,7 @@
 			)
 		)
 		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 41.91 41.91 0)
+			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,108 +1493,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "7263a14d-de95-4683-90cf-d1166ae993d6")
+			(uuid "e4bf8905-04f8-452f-b4d6-4176e9986bbb")
 		)
 		(pin "1"
-			(uuid "cd7f0b89-04e7-44c8-bc4d-c2c15e54a998")
+			(uuid "8b1f3c5b-e794-49bf-a2eb-e6af5cac67c6")
 		)
 		(pin "3"
-			(uuid "c5e7da73-536c-4ba6-ad0a-8818fe8f144f")
+			(uuid "e8473731-a92c-4ebf-a4c9-09f682c7ef23")
 		)
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
 					(reference "IRLML0030TRPBF6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML0030")
-		(at 82.55 54.61 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9a5435e-01f6-4fad-aef8-fcc7e06d623d")
-		(property "Reference" "IRLML0030TRPBF4"
-			(at 80.264 52.324 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML0030"
-			(at 83.8199 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X112-3N"
-			(at 84.455 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 86.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 82.55 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9db2c683-a174-4ada-b8d3-ebc00874f116")
-		)
-		(pin "1"
-			(uuid "4c80c3f0-f6eb-41ee-901a-d57edf744051")
-		)
-		(pin "3"
-			(uuid "723d60be-00f9-46b7-b03a-18b2326a26b2")
-		)
-		(instances
-			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
-					(reference "IRLML0030TRPBF4")
 					(unit 1)
 				)
 			)
