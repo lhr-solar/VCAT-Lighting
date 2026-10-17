@@ -415,24 +415,26 @@
     },
     "bus_aliases": {
       "CURR": [
-        "BRK_CURR",
         "LEFT_CURR",
         "RIGHT_CURR",
-        "STROBE_CURR"
+        "CPY_CURR"
       ],
       "FET": [
-        "BRK_FET1",
-        "BRK_FET2",
-        "BRK_FET3",
-        "LEFT_FET",
-        "RIGHT_FET",
-        "STROBE_FET"
+        "L_PWRFET",
+        "R_PWRFET",
+        "CPY_PWRFET"
+      ],
+      "PWM": [
+        "L_PWM",
+        "R_PWM",
+        "CPY_PWM",
+        "STRB_PWM"
       ],
       "SIG": [
         "BRK_SIG",
         "LEFT_SIG",
         "RIGHT_SIG",
-        "STROBE_SIG"
+        "CPY_SIG"
       ]
     },
     "connection_grid_size": 50.0,
@@ -483,7 +485,7 @@
         "uuid": "df5034a6-89e6-4596-8ae4-d16cb76dc299"
       }
     ],
-    "used_designators": "C1-19,C22-139,D1-4,D11-44,FB1-14,J1-20,#FLG1-5,#FLG7-12,#FLG17-20,R1-10,R12-91,SW1-2,SW5-16,U1,U4-17,Y1-7,#PWR1-5,#PWR10-41,Q1,F3,F5-7,F10-13,TP_3.3V2-5,IC2,JP2-4,TP1-4,TP9-29,IRLML0030TRPBF1-7,L1",
+    "used_designators": "C1-19,C22-139,D1-4,D11-44,FB1-14,J1-20,#FLG1-5,#FLG7-12,#FLG17-20,R1-10,R12-91,SW1-2,SW5-16,U1,U4-17,Y1-7,#PWR1-5,#PWR10-41,Q1,F3,F5-7,F10-13,TP_3.3V2-5,IC2,JP2-4,TP1-4,TP9-29,IRLML0030TRPBF1-8,L1",
     "variants": []
   },
   "sheets": [
