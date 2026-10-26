@@ -38,7 +38,7 @@
         ""
       ],
       [
-        "pin_to_pin|698500|304800|f5c4920d-da31-4f6f-961b-5e9b9bbb9a4d|3a102cb5-39fe-440b-a9bd-84a1b9e85418|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/469d03b3-ccbb-4d91-9a72-80c921d53684|/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/469d03b3-ccbb-4d91-9a72-80c921d53684|/df5034a6-89e6-4596-8ae4-d16cb76dc299",
+        "pin_to_pin|698500|304800|f5c4920d-da31-4f6f-961b-5e9b9bbb9a4d|3a102cb5-39fe-440b-a9bd-84a1b9e85418|||",
         ""
       ]
     ],
@@ -495,6 +495,10 @@
       "LDO"
     ],
     [
+      "0918be4c-e2d5-4270-aeba-c3f5005ec6ec",
+      "USB-C_Connector"
+    ],
+    [
       "c850714a-cf7d-49e1-97ca-7640feca3731",
       "PP"
     ],
@@ -511,12 +515,8 @@
       "Fet Logic"
     ],
     [
-      "469d03b3-ccbb-4d91-9a72-80c921d53684",
-      "USB-C_Connector"
-    ],
-    [
       "ccb6287e-6bce-49c3-bd3b-b4bd5142473b",
-      "CAN_Transceiver1"
+      "CAN_Transceiver"
     ],
     [
       "996dbbd4-1b7a-42f2-bfbe-e8032f43a29f",

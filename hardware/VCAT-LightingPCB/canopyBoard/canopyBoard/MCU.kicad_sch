@@ -628,6 +628,10 @@
 		(uuid "f97f4232-678a-4cef-a31f-7e2b5592e35e")
 	)
 	(no_connect
+		(at 81.28 50.8)
+		(uuid "273fc2f7-65f5-4992-99ce-7127e36ce7f0")
+	)
+	(no_connect
 		(at 119.38 66.04)
 		(uuid "2f1248be-7fae-4ef3-8441-20460bae51f8")
 	)
@@ -652,6 +656,10 @@
 		(uuid "8396543c-c901-4c6e-8eea-9f9a30117d25")
 	)
 	(no_connect
+		(at 81.28 48.26)
+		(uuid "a4a585c5-777d-499e-ba1b-baab3b266fe3")
+	)
+	(no_connect
 		(at 119.38 69.85)
 		(uuid "a6e92963-fc78-40eb-ad2d-9cbf27901498")
 	)
@@ -660,20 +668,12 @@
 		(uuid "afd72a86-c165-487b-a213-6f1ba9dbf86b")
 	)
 	(no_connect
-		(at 81.28 50.8)
-		(uuid "b707e277-cd14-4478-b467-421316d1808d")
-	)
-	(no_connect
 		(at 160.02 71.12)
 		(uuid "bd4e809a-fa69-4d6a-987d-75be37ae18f6")
 	)
 	(no_connect
 		(at 119.38 43.18)
 		(uuid "c02ea4bb-3c6e-46e2-af93-5012f0b0e0ce")
-	)
-	(no_connect
-		(at 81.28 48.26)
-		(uuid "c3c93f34-ed6b-40ac-bbca-6b83accfddb7")
 	)
 	(no_connect
 		(at 119.38 72.39)
@@ -868,7 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 81.28 59.69)
+			(xy 80.01 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1573,6 +1573,16 @@
 		)
 		(uuid "0a67af05-ac3b-4a41-9257-3a50da55131e")
 	)
+	(label "USB_D-"
+		(at 119.38 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "137941d9-6b1d-47d9-b2d3-4d273d9faa1d")
+	)
 	(label "L_PWRFET"
 		(at 119.38 33.02 180)
 		(effects
@@ -1613,6 +1623,16 @@
 		)
 		(uuid "7832264a-f261-4400-9de1-bee1d7b07a77")
 	)
+	(label "USB_D+"
+		(at 119.38 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ede17a6-e2de-44cd-9d8a-f59a8081c446")
+	)
 	(label "R_PWRFET"
 		(at 119.38 35.56 180)
 		(effects
@@ -1646,7 +1666,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 80.01 59.69 180)
+		(at 80.01 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2338,7 @@
 	)
 	(sheet
 		(at 81.28 43.18)
-		(size 21.59 17.78)
+		(size 21.59 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2331,7 +2351,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "469d03b3-ccbb-4d91-9a72-80c921d53684")
+		(uuid "0918be4c-e2d5-4270-aeba-c3f5005ec6ec")
 		(property "Sheetname" "USB-C_Connector"
 			(at 81.28 42.4684 0)
 			(show_name no)
@@ -2344,7 +2364,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-C_Connector.kicad_sch"
-			(at 81.28 61.5446 0)
+			(at 81.28 56.4646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,7 +2376,7 @@
 			)
 		)
 		(property "Author" "Shuopu Wang"
-			(at -36.83 -21.59 0)
+			(at -1.27 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2387,7 @@
 			)
 		)
 		(property "Date Modified" "9/5/2026"
-			(at -36.83 -21.59 0)
+			(at -1.27 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +2399,7 @@
 		)
 		(pin "CC1" bidirectional
 			(at 81.28 48.26 180)
-			(uuid "d9dc1274-dea1-4247-b49a-2dee58994c86")
+			(uuid "5f69e0da-14f0-45f0-a3d5-d9ae753c8591")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2409,7 @@
 		)
 		(pin "CC2" bidirectional
 			(at 81.28 50.8 180)
-			(uuid "577900eb-6232-4344-8134-b1ab99acedca")
+			(uuid "50ea340c-22ad-49c3-a403-c41ca064e936")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,8 +2418,8 @@
 			)
 		)
 		(pin "GND" input
-			(at 81.28 59.69 180)
-			(uuid "30efcec6-8e10-43c5-89a3-c6aa6625c005")
+			(at 81.28 53.34 180)
+			(uuid "764421e2-8780-46f7-ac6d-e9822aa5481f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2429,7 @@
 		)
 		(pin "USB_5V" output
 			(at 81.28 45.72 180)
-			(uuid "a62097b4-1878-4c27-ae2a-2c4c2650b49b")
+			(uuid "206fcdbe-5281-4667-8ecf-e9765226e348")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,9 +2437,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DM" bidirectional
-			(at 102.87 48.26 0)
-			(uuid "44481f5d-488c-42c3-80f7-db64341c9ea5")
+		(pin "USB_D+" bidirectional
+			(at 102.87 50.8 0)
+			(uuid "bfcdcc97-9501-4a03-a58c-37992b086cac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,9 +2447,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP" bidirectional
-			(at 102.87 50.8 0)
-			(uuid "4bdfa3cb-bce3-4a3f-83c6-b563a0aedf87")
+		(pin "USB_D-" bidirectional
+			(at 102.87 48.26 0)
+			(uuid "c8574376-1322-448e-b6ea-dbe2fabd5d69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2460,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9"
-					(page "9")
+					(page "4")
 				)
 			)
 		)

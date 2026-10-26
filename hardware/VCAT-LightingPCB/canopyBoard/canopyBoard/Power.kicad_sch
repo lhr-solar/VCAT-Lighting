@@ -591,7 +591,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 59.182 41.402 0)
+		(at 59.69 41.91 0)
 		(effects
 			(font
 				(size 5.08 5.08)

@@ -1911,7 +1911,7 @@
 	)
 	(text "Debug Conn\n"
 		(exclude_from_sim no)
-		(at 27.178 50.8 0)
+		(at 26.67 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1921,7 +1921,7 @@
 	)
 	(text "CAN BUS\n"
 		(exclude_from_sim no)
-		(at 26.416 14.986 0)
+		(at 26.67 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 	)
 	(text "LIGHTING STRIPS"
 		(exclude_from_sim no)
-		(at 30.734 81.534 0)
+		(at 30.48 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1952,13 +1952,19 @@
 		(uuid "658b21f7-a093-42ca-ad10-cf661a342a4e")
 	)
 	(junction
+		(at 102.87 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de7dd2e-1e08-4d49-ab3e-780b57161d75")
+	)
+	(junction
 		(at 149.86 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75b03693-34bc-4f09-816f-22c2624ddf43")
 	)
 	(junction
-		(at 171.45 68.58)
+		(at 171.45 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78cde657-73db-4429-b928-2d89c6ae94d8")
@@ -2182,6 +2188,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 34.29) (xy 100.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c72337-9036-4b59-bd43-f6b55e1fba82")
+	)
+	(wire
+		(pts
 			(xy 148.59 29.21) (xy 148.59 34.29)
 		)
 		(stroke
@@ -2232,6 +2248,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 67.31) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a268d99-b498-44db-a099-20d2b5bec35f")
+	)
+	(wire
+		(pts
 			(xy 44.45 113.03) (xy 45.72 113.03)
 		)
 		(stroke
@@ -2272,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 34.29) (xy 100.33 34.29)
+			(xy 110.49 34.29) (xy 102.87 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2352,16 +2378,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 67.31) (xy 171.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d7f0e7e-8878-4012-ae9a-c7e1e70a0bae")
-	)
-	(wire
-		(pts
 			(xy 44.45 111.76) (xy 44.45 113.03)
 		)
 		(stroke
@@ -2392,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 170.18 67.31)
+			(xy 167.64 67.31) (xy 171.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3283,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 171.45 68.58 0)
+		(at 171.45 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3278,7 +3294,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b43b3f2-ddf7-44aa-9bfc-c9bfdb76dc10")
 		(property "Reference" "#FLG02"
-			(at 171.45 66.675 0)
+			(at 171.45 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3305,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 63.5 0)
+			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 68.58 0)
+			(at 171.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 68.58 0)
+			(at 171.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3338,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 68.58 0)
+			(at 171.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,6 +4285,85 @@
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5d2faf-5679-467d-8709-d2b753b21499")
+		(property "Reference" "#FLG012"
+			(at 102.87 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "651cf6bf-e5d9-4846-8356-f67adb26f816")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299"
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -6164,7 +6259,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ccb6287e-6bce-49c3-bd3b-b4bd5142473b")
-		(property "Sheetname" "CAN_Transceiver1"
+		(property "Sheetname" "CAN_Transceiver"
 			(at 147.32 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
