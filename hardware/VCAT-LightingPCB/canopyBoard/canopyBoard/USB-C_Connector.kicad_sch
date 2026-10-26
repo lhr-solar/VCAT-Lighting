@@ -2165,10 +2165,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c10e2949-3797-4fc3-ac8a-82d747bf1af0")
+			(uuid "4c05961b-50c3-4700-b3cf-36601c6862dd")
 		)
 		(pin "2"
-			(uuid "3045d98b-a4d3-412f-ad0e-a0888a04a615")
+			(uuid "300e64b2-ab0b-47de-b1fe-6dd093dc003e")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2266,10 +2266,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c2ca2ba-9362-421a-9a2d-37c9b317cb4e")
+			(uuid "bd143920-d268-4075-93d6-2e2585e77715")
 		)
 		(pin "2"
-			(uuid "8781257c-6bda-40dd-a9d9-0de088aa5a1b")
+			(uuid "263f2d8e-676d-43f6-9146-28c0fbb6a3b1")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2368,64 +2368,64 @@
 			)
 		)
 		(pin "B9"
-			(uuid "14e099f5-edbd-4cb5-8d42-68d9abebcb05")
+			(uuid "eb1307a5-2094-4be5-9bf0-d44984c7f19f")
 		)
 		(pin "B4"
-			(uuid "6b411c92-ba23-4bdb-97cf-c751c3f5c2d4")
+			(uuid "86e335e9-3483-4071-8879-cbff861c2146")
 		)
 		(pin "B7"
-			(uuid "97997afe-1906-4b12-ac6e-a158ce5c3174")
+			(uuid "c6d7ae0e-be32-4989-b767-498e41e3f9ee")
 		)
 		(pin "A6"
-			(uuid "7f2ff464-6af0-4685-ae4a-9f7741122aa6")
+			(uuid "619fd529-2b96-4a25-ad86-355f41368497")
 		)
 		(pin "B1"
-			(uuid "fa5c5dac-1f9c-4858-ac8f-fd30082fe164")
+			(uuid "7f1794fb-07f0-47c6-9e8c-4027311a7986")
 		)
 		(pin "B6"
-			(uuid "027eda90-bcf7-4cf6-b4e7-4787bfe02206")
+			(uuid "e5d5e942-0071-4ffe-8f95-91693459fbdb")
 		)
 		(pin "A7"
-			(uuid "a3efdb52-63b2-48f2-a987-b01b402a3a9d")
+			(uuid "298b7691-c4a9-46b6-b594-2ba58dbd14b4")
 		)
 		(pin "A9"
-			(uuid "090f025a-70ac-4bb5-8069-5ae4ab246d98")
+			(uuid "a4870d76-0a60-42f3-b97a-20c6ee481e05")
 		)
 		(pin "B5"
-			(uuid "1ee48b44-cd59-4258-9998-5a6ec05cdef3")
+			(uuid "9c2d5c48-29c8-412f-89c3-ce9d84f27869")
 		)
 		(pin "B8"
-			(uuid "55f0030d-8219-489d-9002-a404dfe5ddf5")
+			(uuid "c067cc29-29b0-4075-ab66-3cd750ad4347")
 		)
 		(pin "A12"
-			(uuid "9a6e0d4a-5b2f-40d9-90fe-f0935c50f18d")
+			(uuid "c5fc4fa0-47a8-4859-bbff-2f84dce1fb8f")
 		)
 		(pin "A8"
-			(uuid "c12f9c7d-fa36-4690-98f0-7895d0a0934b")
+			(uuid "0b0b605b-4744-4ad0-93e8-1c370b329d0c")
 		)
 		(pin "A1"
-			(uuid "c128a3d4-8b65-480d-a611-2d9ffe1a27f2")
+			(uuid "359ff874-d2aa-48ab-a42e-22f2759faabd")
 		)
 		(pin "A4"
-			(uuid "b7858e66-cb8e-4139-873d-9033cce38c43")
+			(uuid "813e7521-315f-4184-9c4b-9c5a135ab1fc")
 		)
 		(pin "A5"
-			(uuid "36927b7a-fdc5-4b62-b88f-ebdb066d5f59")
+			(uuid "363f631e-1c97-4383-82ca-3202eee90ab3")
 		)
 		(pin "S4"
-			(uuid "61ae92f0-d64a-4523-9385-fcb7fa86c5c2")
+			(uuid "9f7cd036-e56a-4b4c-a902-d600085ab6f9")
 		)
 		(pin "S1"
-			(uuid "bbb4934f-145c-4bc4-8c26-1b2809ba526b")
+			(uuid "9bd7c46e-819d-44db-a0bb-dfca8819c386")
 		)
 		(pin "B12"
-			(uuid "3a94edd1-58fb-41d6-9d99-07e7aebc19c9")
+			(uuid "be831f9e-d03d-4582-9a61-8aed751dcfbe")
 		)
 		(pin "S3"
-			(uuid "5b52ada6-20ab-4fb0-9a46-a142248a1590")
+			(uuid "e73baf00-c609-47d5-af67-e38158a58d4d")
 		)
 		(pin "S2"
-			(uuid "6c46826c-5554-4374-b094-c1493a7e29af")
+			(uuid "2e8d5f13-cfba-468e-a24e-50bec4f0b97c")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2504,7 +2504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5c4920d-da31-4f6f-961b-5e9b9bbb9a4d")
+			(uuid "2256f5f3-fc38-453a-81ea-773bfcd7d509")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2602,10 +2602,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eba9b11d-6dec-4d0c-b1b1-2f335b4c336d")
+			(uuid "f8138362-65b9-4e02-8ad8-659b42deb268")
 		)
 		(pin "1"
-			(uuid "75516766-a7df-418d-ba8f-e18c24f4bc99")
+			(uuid "44e61f6c-8176-4207-90ae-50254502bcc5")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2705,10 +2705,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2525cd85-9adb-417e-a412-00403d5650c4")
+			(uuid "9fa3365f-c2f1-45aa-826c-8865e9bea867")
 		)
 		(pin "2"
-			(uuid "049dc4fd-34a4-4d06-9064-3ab1f9ee022a")
+			(uuid "09b7b3bd-93cd-4044-87e1-f5aa7d3d6bae")
 		)
 		(instances
 			(project "canopyBoard"
@@ -2809,13 +2809,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "2d40aa6c-f75c-4065-b711-add2c9a4c186")
+			(uuid "85e1975e-6f8e-4f15-acd8-469ea36c8edd")
 		)
 		(pin "1"
-			(uuid "1d530108-d010-4506-b466-7be19342e5b1")
+			(uuid "620642b3-d6e9-4632-9794-ad2e55664dd7")
 		)
 		(pin "2"
-			(uuid "8f5f9f04-37f9-4b0e-b65a-9448fe44089d")
+			(uuid "edcfb7c6-6b12-45dd-ab49-a16a1c0c6ca7")
 		)
 		(instances
 			(project "canopyBoard"

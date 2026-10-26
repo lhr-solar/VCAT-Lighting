@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "21ec14e8-4630-4fb8-9d49-275c1565c14b")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A2"
 			(pin_names
@@ -341,43 +341,43 @@
 		)
 	)
 	(junction
-		(at 135.89 58.42)
+		(at 85.09 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96c8b086-916a-458b-9d39-80f2cf861878")
 	)
 	(junction
-		(at 146.05 63.5)
+		(at 95.25 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4d3665b-f6be-46f9-b99a-d82267a81783")
 	)
 	(junction
-		(at 146.05 86.36)
+		(at 95.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afa395b7-acb6-4600-a116-89ee1acc5930")
 	)
 	(junction
-		(at 135.89 81.28)
+		(at 85.09 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfd277a3-faaa-4849-839a-89c6203c22af")
 	)
 	(junction
-		(at 135.89 109.22)
+		(at 85.09 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec09a0c2-0a28-43c4-ad76-251c98f9b7ec")
 	)
 	(junction
-		(at 146.05 114.3)
+		(at 95.25 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef549adf-afda-42ee-a537-2c3edab3e0de")
 	)
 	(bus_entry
-		(at 187.96 109.22)
+		(at 128.27 82.55)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -386,7 +386,7 @@
 		(uuid "35cf3288-a1d2-41a1-bd99-596c6f414bec")
 	)
 	(bus_entry
-		(at 187.96 58.42)
+		(at 128.27 31.75)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -395,7 +395,7 @@
 		(uuid "84b74be4-9057-419e-9432-1d74b775bf28")
 	)
 	(bus_entry
-		(at 187.96 81.28)
+		(at 128.27 54.61)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -403,9 +403,19 @@
 		)
 		(uuid "fa1126e7-a875-4bff-8ea5-54e77eaacf6d")
 	)
+	(bus
+		(pts
+			(xy 129.54 30.48) (xy 128.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019ebbba-4c33-4307-8593-385067400bd2")
+	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 137.16 86.36)
+			(xy 85.09 59.69) (xy 86.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +425,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 146.05 92.71)
+			(xy 95.25 59.69) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 109.22) (xy 135.89 114.3)
+			(xy 85.09 82.55) (xy 85.09 87.63)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 114.3) (xy 146.05 120.65)
+			(xy 95.25 87.63) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +455,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 146.05 114.3)
+			(xy 93.98 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +465,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 135.89 81.28)
+			(xy 83.82 54.61) (xy 85.09 54.61)
 		)
 		(stroke
 			(width 0)
@@ -465,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 146.05 86.36)
+			(xy 93.98 59.69) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -475,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 73.66) (xy 151.13 76.2)
+			(xy 100.33 46.99) (xy 100.33 49.53)
 		)
 		(stroke
 			(width 0)
@@ -483,19 +493,9 @@
 		)
 		(uuid "5ee62d15-d910-4514-a589-a95039aa447a")
 	)
-	(bus
-		(pts
-			(xy 187.96 50.8) (xy 187.96 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72859a90-1096-4e80-9944-83c9485e2587")
-	)
 	(wire
 		(pts
-			(xy 161.29 60.96) (xy 185.42 60.96)
+			(xy 110.49 34.29) (xy 125.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -505,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 146.05 63.5)
+			(xy 93.98 36.83) (xy 95.25 36.83)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +515,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 92.71) (xy 151.13 91.44)
+			(xy 100.33 66.04) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -525,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 137.16 114.3)
+			(xy 85.09 87.63) (xy 86.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -535,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 63.5) (xy 137.16 63.5)
+			(xy 85.09 36.83) (xy 86.36 36.83)
 		)
 		(stroke
 			(width 0)
@@ -545,7 +545,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 151.13 53.34)
+			(xy 100.33 24.13) (xy 100.33 26.67)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +555,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 135.89 109.22)
+			(xy 83.82 82.55) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 146.05 81.28)
+			(xy 85.09 54.61) (xy 95.25 54.61)
 		)
 		(stroke
 			(width 0)
@@ -575,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 151.13 68.58)
+			(xy 100.33 43.18) (xy 100.33 41.91)
 		)
 		(stroke
 			(width 0)
@@ -585,7 +585,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 185.42 111.76)
+			(xy 110.49 85.09) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -593,9 +593,19 @@
 		)
 		(uuid "c7e6592f-4fba-4d07-bd4e-1e9b20bffab0")
 	)
+	(bus
+		(pts
+			(xy 128.27 31.75) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92226ed-c197-4216-b7d2-742ec0a64140")
+	)
 	(wire
 		(pts
-			(xy 134.62 58.42) (xy 135.89 58.42)
+			(xy 83.82 31.75) (xy 85.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 102.87) (xy 151.13 102.87)
+			(xy 102.87 76.2) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -615,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 63.5)
+			(xy 85.09 31.75) (xy 85.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -625,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 151.13 104.14)
+			(xy 100.33 76.2) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 120.65) (xy 151.13 119.38)
+			(xy 100.33 93.98) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -643,9 +653,19 @@
 		)
 		(uuid "ea08b7f1-546b-49b8-89c8-e2a56fecbdcc")
 	)
+	(bus
+		(pts
+			(xy 128.27 54.61) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8d3f04-ab58-4153-a1f5-2380fd649595")
+	)
 	(wire
 		(pts
-			(xy 161.29 83.82) (xy 185.42 83.82)
+			(xy 110.49 57.15) (xy 125.73 57.15)
 		)
 		(stroke
 			(width 0)
@@ -655,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 63.5) (xy 146.05 69.85)
+			(xy 95.25 36.83) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 135.89 86.36)
+			(xy 85.09 54.61) (xy 85.09 59.69)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 146.05 58.42)
+			(xy 85.09 31.75) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 109.22) (xy 146.05 109.22)
+			(xy 85.09 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -694,7 +714,7 @@
 		(uuid "fdf2f6bc-2af0-4ae4-9627-6aa8dfa700c4")
 	)
 	(label "LEFT_CURR"
-		(at 161.29 60.96 0)
+		(at 110.49 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -704,7 +724,7 @@
 		(uuid "87c3c10b-7220-4316-a63e-d874903923b3")
 	)
 	(label "RIGHT_CURR"
-		(at 163.83 83.82 0)
+		(at 113.03 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -714,7 +734,7 @@
 		(uuid "d7af8473-a320-4929-87f4-578a12cc7bb0")
 	)
 	(label "CPY_CURR"
-		(at 161.29 111.76 0)
+		(at 110.49 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -725,7 +745,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 134.62 81.28 180)
+		(at 83.82 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -736,7 +756,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 151.13 69.85 0)
+		(at 100.33 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -747,7 +767,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 151.13 92.71 0)
+		(at 100.33 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -758,7 +778,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 153.67 102.87 0)
+		(at 102.87 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -769,7 +789,7 @@
 	)
 	(hierarchical_label "{CURR}"
 		(shape output)
-		(at 187.96 50.8 0)
+		(at 129.54 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,7 +800,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 134.62 58.42 180)
+		(at 83.82 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +811,7 @@
 	)
 	(hierarchical_label "CPY_12V"
 		(shape output)
-		(at 146.05 120.65 180)
+		(at 95.25 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,7 +822,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 134.62 109.22 180)
+		(at 83.82 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,7 +833,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 151.13 50.8 0)
+		(at 100.33 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,7 +844,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 151.13 73.66 0)
+		(at 100.33 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -835,7 +855,7 @@
 	)
 	(hierarchical_label "RIGHT_12V"
 		(shape output)
-		(at 146.05 92.71 180)
+		(at 95.25 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,7 +866,7 @@
 	)
 	(hierarchical_label "LEFT_12V"
 		(shape output)
-		(at 146.05 69.85 180)
+		(at 95.25 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +877,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 151.13 120.65 0)
+		(at 100.33 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -868,7 +888,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180A2")
-		(at 153.67 111.76 0)
+		(at 102.87 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -879,7 +899,7 @@
 		(fields_autoplaced yes)
 		(uuid "096f0d3f-7c43-444b-9a2a-6621b064c2dd")
 		(property "Reference" "U10"
-			(at 165.1 105.3398 0)
+			(at 114.3 78.6698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -889,7 +909,7 @@
 			)
 		)
 		(property "Value" "INA180A2"
-			(at 165.1 107.8798 0)
+			(at 114.3 81.2098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -899,7 +919,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 154.94 110.49 0)
+			(at 104.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -910,7 +930,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 157.48 107.95 0)
+			(at 106.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -921,7 +941,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
-			(at 153.67 111.76 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -957,7 +977,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 114.3 90)
+		(at 90.17 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -967,7 +987,7 @@
 		(dnp no)
 		(uuid "4345245b-78df-490e-90a3-f8534fc53bfd")
 		(property "Reference" "R16"
-			(at 140.97 116.586 90)
+			(at 90.17 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -976,8 +996,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 140.97 118.364 90)
+		(property "Value" "100m"
+			(at 90.17 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -987,7 +1007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 116.078 90)
+			(at 90.17 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -998,7 +1018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 114.3 0)
+			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1009,7 +1029,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 114.3 0)
+			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,7 +1056,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180A2")
-		(at 153.67 83.82 0)
+		(at 102.87 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1047,7 +1067,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a4f286a-70a8-400f-82a1-0bde79f7628b")
 		(property "Reference" "U9"
-			(at 165.1 77.3998 0)
+			(at 114.3 50.7298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1057,7 +1077,7 @@
 			)
 		)
 		(property "Value" "INA180A2"
-			(at 165.1 79.9398 0)
+			(at 114.3 53.2698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1067,7 +1087,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 154.94 82.55 0)
+			(at 104.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1078,7 +1098,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 157.48 80.01 0)
+			(at 106.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1089,7 +1109,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
-			(at 153.67 83.82 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +1145,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180A2")
-		(at 153.67 60.96 0)
+		(at 102.87 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1136,7 +1156,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4786b64-6d33-42b8-b508-ddadecfaf524")
 		(property "Reference" "U8"
-			(at 165.1 54.5398 0)
+			(at 114.3 27.8698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1146,7 +1166,7 @@
 			)
 		)
 		(property "Value" "INA180A2"
-			(at 165.1 57.0798 0)
+			(at 114.3 30.4098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1156,7 +1176,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 154.94 59.69 0)
+			(at 104.14 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1167,7 +1187,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 157.48 57.15 0)
+			(at 106.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1178,7 +1198,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
-			(at 153.67 60.96 0)
+			(at 102.87 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 63.5 90)
+		(at 90.17 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1224,7 +1244,7 @@
 		(dnp no)
 		(uuid "d9be5af1-b209-4e8f-b21f-c50798eef38e")
 		(property "Reference" "R13"
-			(at 140.97 65.786 90)
+			(at 90.17 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1233,8 +1253,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 140.97 67.564 90)
+		(property "Value" "100m"
+			(at 90.17 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1244,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 65.278 90)
+			(at 90.17 38.608 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 63.5 0)
+			(at 90.17 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1266,7 +1286,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 63.5 0)
+			(at 90.17 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1293,7 +1313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 86.36 90)
+		(at 90.17 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1303,7 +1323,7 @@
 		(dnp no)
 		(uuid "e3edb6e5-5f77-42bc-872a-2b1fd395e02b")
 		(property "Reference" "R15"
-			(at 140.97 88.646 90)
+			(at 90.17 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1312,8 +1332,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 140.97 90.424 90)
+		(property "Value" "100m"
+			(at 90.17 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1323,7 +1343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 88.138 90)
+			(at 90.17 61.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1334,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 86.36 0)
+			(at 90.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1345,7 +1365,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 86.36 0)
+			(at 90.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

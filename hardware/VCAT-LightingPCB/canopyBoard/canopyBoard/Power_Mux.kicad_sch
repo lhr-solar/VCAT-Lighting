@@ -1873,14 +1873,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "97eba75f-3a04-4c64-a4a7-df52c9049194")
+			(uuid "bdd822c3-72a2-4059-af3f-c228d31cc49c")
 		)
 		(pin "2"
-			(uuid "4c6fb8d8-8816-4f62-acc3-02d4b1ed1ea2")
+			(uuid "e093b621-cd2d-4dc1-953d-5d33344b4b80")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "C109")
 					(unit 1)
 				)
@@ -1963,14 +1963,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a60f42c1-79cc-4f8b-b9c0-cf6c5ec30f91")
+			(uuid "9df400cb-f9b5-414b-8571-cbf365975a95")
 		)
 		(pin "2"
-			(uuid "d04c096c-c3f1-4e40-9cfe-2a472a1ea385")
+			(uuid "c47bc023-1d0f-48fd-9795-9713f1e04d94")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "R66")
 					(unit 1)
 				)
@@ -2066,14 +2066,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c94d668e-afb9-44bd-a171-a3a51dcf9eb9")
+			(uuid "5d6fe5b4-f900-41d9-9981-c2c35e8e28b7")
 		)
 		(pin "2"
-			(uuid "53e03acc-30dc-44a7-ba93-85971a77e084")
+			(uuid "dce585bb-e7d9-494a-9e22-5bbb171f754c")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "C106")
 					(unit 1)
 				)
@@ -2205,32 +2205,32 @@
 			)
 		)
 		(pin "6"
-			(uuid "2bfd3821-03ed-438b-be13-be61256d6907")
+			(uuid "ded293e5-017d-417c-828d-be615a7642eb")
 		)
 		(pin "3"
-			(uuid "1976ac43-25af-484e-ab0e-8bc587be87f1")
+			(uuid "d69ac301-fe3e-459b-9ce5-47b80f669874")
 		)
 		(pin "8"
-			(uuid "f8e92875-c188-4854-a31f-d49a64c46a6d")
+			(uuid "d260941f-b3d9-4013-b041-d2440d95055a")
 		)
 		(pin "7"
-			(uuid "4bf3ce0d-a581-42da-89db-ba342216d89b")
+			(uuid "f683edd4-6981-4392-bc14-b6255579e14b")
 		)
 		(pin "5"
-			(uuid "eeab8391-c26f-4687-a84e-e8289b0e3dfb")
+			(uuid "512c316b-b5cf-44e6-9aad-051103105e32")
 		)
 		(pin "2"
-			(uuid "9b3ea212-4677-44af-84a8-e7dcad33795b")
+			(uuid "86f97519-f786-45e9-a9be-98f69297ea65")
 		)
 		(pin "4"
-			(uuid "6c42e907-5990-4434-a0ff-b8a5dbfd89b6")
+			(uuid "80a65091-c562-478a-a64b-e1cf0a015faf")
 		)
 		(pin "1"
-			(uuid "3eb0578e-4e3a-468f-ac16-9054e6e970a0")
+			(uuid "f5d0ab39-c6e0-4db3-bef2-953f04b94d45")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "U15")
 					(unit 1)
 				)
@@ -2326,14 +2326,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f79c5e68-2e2f-41fc-b19c-5ae25286727c")
+			(uuid "e66f9b55-6dcc-438c-8146-3e5d673fe7b2")
 		)
 		(pin "2"
-			(uuid "1edfb3fc-67e1-40b7-9cb7-6f6166cabeec")
+			(uuid "c848a364-e1ea-4646-a971-e8bd24661770")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "C108")
 					(unit 1)
 				)
@@ -2429,14 +2429,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "04a0f1bb-66eb-4e25-8bdb-a515e50e30c0")
+			(uuid "ed530ce0-e8d0-4fc5-b110-9b3df11f9f47")
 		)
 		(pin "2"
-			(uuid "834c81b6-36ed-49cf-9b30-b41d675321c7")
+			(uuid "f6d388b5-3559-43c9-b3ab-c08dcc1e9342")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/5e4da475-ae4d-4e8f-b598-08b93d40d66f"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/e92935be-b366-4dc0-885b-df6fa26fdaf4"
 					(reference "C107")
 					(unit 1)
 				)
