@@ -611,7 +611,7 @@
 	)
 	(text "5V Nominal"
 		(exclude_from_sim no)
-		(at 127 66.675 0)
+		(at 127 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,7 +621,7 @@
 	)
 	(text "Input Nominal: 5V\nDiode Forward Voltage: 500-600 mV\nLDO Dropout Voltage Max: 400 mV\n-> ~0.7V headroom on input"
 		(exclude_from_sim no)
-		(at 172.72 116.205 0)
+		(at 172.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,7 +632,7 @@
 	)
 	(text "VR=regulated output voltage=3.3V"
 		(exclude_from_sim no)
-		(at 261.62 102.235 0)
+		(at 261.62 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,7 +642,7 @@
 	)
 	(text "3.3V Nominal"
 		(exclude_from_sim no)
-		(at 173.355 60.96 0)
+		(at 173.99 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2012,18 +2012,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f7786aa-ac89-46fa-920a-96c590ee9461")
+			(uuid "8671c81b-2c36-49de-bbf9-438439a91982")
 		)
 		(pin "2"
-			(uuid "695a450c-789e-48c8-b646-4f8af991f7da")
+			(uuid "79e94907-fe3f-4805-b8cc-8eb4f810c063")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "C84")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/2eac183d-9e1a-462f-81d2-9c5f484a1d68"
 					(reference "C105")
 					(unit 1)
 				)
@@ -2135,15 +2131,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e58d0c04-071c-4acf-8754-90618206e79f")
+			(uuid "ff64b809-dc3b-4c67-8426-93ddd7ef8c2d")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "TP_3.3V4")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/2eac183d-9e1a-462f-81d2-9c5f484a1d68"
 					(reference "TP_3.3V5")
 					(unit 1)
 				)
@@ -2260,21 +2252,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc462026-5644-4e7b-bfe9-2c4c2565060e")
+			(uuid "18875140-8a0c-4009-9214-c0988158d07d")
 		)
 		(pin "1"
-			(uuid "f1ffe69c-4569-40e6-bfa8-2363fe62c6da")
+			(uuid "84a6c76d-0bcc-4c36-9bb6-79e33c51ef95")
 		)
 		(pin "3"
-			(uuid "27d4068c-6429-4828-b687-f7033cfe7089")
+			(uuid "333846b7-3d11-4d7a-a315-857c16d9bd9a")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/2eac183d-9e1a-462f-81d2-9c5f484a1d68"
 					(reference "U14")
 					(unit 1)
 				)
@@ -2391,18 +2379,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "75d792c7-acfd-465d-ae24-adb18afdf9ab")
+			(uuid "30b5943e-c1c2-45d8-b90c-462827e0f48d")
 		)
 		(pin "2"
-			(uuid "32b11a4a-a1c5-4ae5-929d-fc261384254e")
+			(uuid "8ad6e0cf-e935-431b-8be2-91fdb07c2079")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/2eac183d-9e1a-462f-81d2-9c5f484a1d68"
 					(reference "D32")
 					(unit 1)
 				)
@@ -2499,18 +2483,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b58ca8a4-4312-4f77-ae7a-d0110c6aaed5")
+			(uuid "12d8cd41-3139-4c52-9a62-0ab01af5357a")
 		)
 		(pin "2"
-			(uuid "1561203b-b189-4c86-afd7-ff3430ac43e3")
+			(uuid "a5605974-427c-48e0-841d-c9bebaddaeb3")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "C83")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/2eac183d-9e1a-462f-81d2-9c5f484a1d68"
 					(reference "C104")
 					(unit 1)
 				)

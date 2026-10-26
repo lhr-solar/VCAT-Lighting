@@ -28,7 +28,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2349500|381000|665b2e53-64d3-4782-bb2d-84336c9dff54|6503fec2-cf03-4977-a10f-97eda9a236c3|/df5034a6-89e6-4596-8ae4-d16cb76dc299|/df5034a6-89e6-4596-8ae4-d16cb76dc299|/df5034a6-89e6-4596-8ae4-d16cb76dc299",
+        ""
+      ],
+      [
+        "pin_to_pin|698500|304800|973237f8-bc6a-4ed7-9683-7a93c8bc746c|5b123674-c7de-4952-b17a-d9127209071e|||",
+        ""
+      ],
+      [
+        "pin_to_pin|698500|304800|f5c4920d-da31-4f6f-961b-5e9b9bbb9a4d|3a102cb5-39fe-440b-a9bd-84a1b9e85418|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -388,7 +401,35 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "BRK": [
+        "L_BRK",
+        "R_BRK",
+        "CPY_BRK"
+      ],
+      "CURR": [
+        "LEFT_CURR",
+        "RIGHT_CURR",
+        "CPY_CURR"
+      ],
+      "FET": [
+        "L_PWRFET",
+        "R_PWRFET",
+        "CPY_PWRFET"
+      ],
+      "PWM": [
+        "L_PWM",
+        "R_PWM",
+        "CPY_PWM",
+        "STRB_PWM"
+      ],
+      "SIG": [
+        "BRK_SIG",
+        "LEFT_SIG",
+        "RIGHT_SIG",
+        "CPY_SIG"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -417,6 +458,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +478,7 @@
         "uuid": "df5034a6-89e6-4596-8ae4-d16cb76dc299"
       }
     ],
-    "used_designators": "C1-19,C22-139,D1-4,D11-44,FB1-14,J1-20,#FLG1-5,#FLG17-18,R1-10,R14,R17-91,SW1-2,SW5-16,U1,U4-17,Y1-7,#PWR1-5,#PWR10-41,Q1,F3,F5-7,F10-13,TP_3.3V2-5,IC2,JP2-4,TP9-29,IRLML0030TRPBF1-6",
+    "used_designators": "C1-139,D1-6,D11-47,FB1-14,J1-20,#FLG1-20,R1-91,SW1-2,SW5-16,U1-2,U4-18,Y1-7,#PWR1-41,Q1-4,F3,F5-8,F10-13,TP_3.3V2-6,IC1-3,JP1-5,TP1-29,IRLML0030TRPBF1-8,L1-2",
     "variants": []
   },
   "sheets": [
@@ -438,68 +487,44 @@
       "Root"
     ],
     [
-      "2c9273aa-2aff-43d5-b5d1-a49fa574b41e",
-      "12VBuck1"
+      "f8c6c879-2f30-443d-8e84-7084c5fac3e7",
+      "12VBuck"
     ],
     [
-      "b1f7c2d8-2dfc-4135-a712-20c854453dcd",
-      "LDO2"
+      "2eac183d-9e1a-462f-81d2-9c5f484a1d68",
+      "LDO"
     ],
     [
-      "c2bf9191-2f74-4106-b003-2a929d98f0ef",
+      "0918be4c-e2d5-4270-aeba-c3f5005ec6ec",
+      "USB-C_Connector"
+    ],
+    [
+      "c850714a-cf7d-49e1-97ca-7640feca3731",
       "PP"
     ],
     [
-      "5e4da475-ae4d-4e8f-b598-08b93d40d66f",
-      "Power_Mux1"
+      "e92935be-b366-4dc0-885b-df6fa26fdaf4",
+      "Power_Mux"
     ],
     [
-      "bc064083-e481-4e1d-b60b-4fd4b25dc556",
-      "48PinMCU2"
-    ],
-    [
-      "4eee817f-5a43-4f96-a379-41a35b0ad489",
-      "USB-C_Connector1"
+      "9e6894d2-35ee-4054-bbed-0d8e56a2fbc9",
+      "MCU"
     ],
     [
       "45d7110a-45d7-4ac6-a29f-e84ce60a44ce",
       "Fet Logic"
     ],
     [
-      "5aca4e5b-f4fd-43ef-affd-0718bb84f0e0",
+      "ccb6287e-6bce-49c3-bd3b-b4bd5142473b",
+      "CAN_Transceiver"
+    ],
+    [
+      "996dbbd4-1b7a-42f2-bfbe-e8032f43a29f",
       "48PinMCU4"
     ],
     [
-      "60b23d42-9c18-46f7-8959-1ad7163b36d5",
-      "CAN_Transceiver1"
-    ],
-    [
-      "3326d90a-9251-41a3-a334-453775420203",
-      "MCU"
-    ],
-    [
-      "9ffeb37d-6ae4-4995-919e-8c4714edda92",
+      "fcf9955b-a7fb-4350-979f-6264d320e5dd",
       "Power"
-    ],
-    [
-      "29f11dcc-8304-4bed-8b0b-81dc64d16f6b",
-      "USB-C_Connector3"
-    ],
-    [
-      "f498ef40-07f5-4746-b3cb-b34da7e4db7a",
-      "12VBuck1"
-    ],
-    [
-      "0b8b2be4-596a-4c78-abff-29c09bf0061a",
-      "LDO2"
-    ],
-    [
-      "382e052b-9ae5-4a78-9430-c15f3556e36a",
-      "PP"
-    ],
-    [
-      "1de02975-c358-499f-a715-9731376ddf30",
-      "Power_Mux1"
     ]
   ],
   "text_variables": {},

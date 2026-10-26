@@ -49256,7 +49256,7 @@
 	)
 	(text "Place these decoupling caps as close as possible to their \nrespective leads."
 		(exclude_from_sim no)
-		(at 226.06 75.692 0)
+		(at 226.06 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49266,7 +49266,7 @@
 	)
 	(text "GREEN"
 		(exclude_from_sim no)
-		(at 140.97 41.148 0)
+		(at 140.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49277,7 +49277,7 @@
 	)
 	(text "Beware, using PC13 - 15 as GPIOs ..."
 		(exclude_from_sim no)
-		(at 36.576 109.474 0)
+		(at 36.83 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49287,7 +49287,7 @@
 	)
 	(text "BLUE"
 		(exclude_from_sim no)
-		(at 140.208 36.068 0)
+		(at 139.7 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49298,7 +49298,7 @@
 	)
 	(text "Serial Wire Communication"
 		(exclude_from_sim no)
-		(at 235.712 125.73 0)
+		(at 236.22 125.73 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -49308,7 +49308,7 @@
 	)
 	(text "VBAT Decoupling Cap"
 		(exclude_from_sim no)
-		(at 245.364 23.368 0)
+		(at 245.11 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49318,7 +49318,7 @@
 	)
 	(text "VDDA Decoupling Caps"
 		(exclude_from_sim no)
-		(at 180.34 50.292 0)
+		(at 180.34 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49328,7 +49328,7 @@
 	)
 	(text "VDD Decoupling Caps"
 		(exclude_from_sim no)
-		(at 181.102 25.146 0)
+		(at 181.61 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49338,7 +49338,7 @@
 	)
 	(text "Main Flash\n(user code)"
 		(exclude_from_sim no)
-		(at 217.424 105.41 0)
+		(at 217.17 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49348,7 +49348,7 @@
 	)
 	(text "RED"
 		(exclude_from_sim no)
-		(at 139.7 38.608 0)
+		(at 139.7 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49359,7 +49359,7 @@
 	)
 	(text "48 Pin MCU"
 		(exclude_from_sim no)
-		(at 132.588 22.352 0)
+		(at 132.08 22.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -49371,7 +49371,7 @@
 	)
 	(text "RGB LED"
 		(exclude_from_sim no)
-		(at 171.45 128.778 0)
+		(at 171.45 128.27 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -49381,7 +49381,7 @@
 	)
 	(text "Reset BTN + Boot SW"
 		(exclude_from_sim no)
-		(at 181.864 83.058 0)
+		(at 181.61 82.55 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -49391,7 +49391,7 @@
 	)
 	(text "Pin Headers"
 		(exclude_from_sim no)
-		(at 250.444 147.828 0)
+		(at 250.19 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49401,7 +49401,7 @@
 	)
 	(text "CLK\n"
 		(exclude_from_sim no)
-		(at 252.984 156.718 0)
+		(at 252.73 156.21 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -49411,7 +49411,7 @@
 	)
 	(text "Power Source Filtering/Isolation"
 		(exclude_from_sim no)
-		(at 190.246 17.78 0)
+		(at 190.5 17.78 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -49421,7 +49421,7 @@
 	)
 	(text "VDDA Seperation"
 		(exclude_from_sim no)
-		(at 231.902 62.484 0)
+		(at 232.41 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49432,7 +49432,7 @@
 	)
 	(text "Use PA0, PA1, PA2 to PWM RGB LED\n(TIM2_CH1, TIM2_CH2, TIM2_CH3)"
 		(exclude_from_sim no)
-		(at 145.542 29.718 0)
+		(at 146.05 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49442,7 +49442,7 @@
 	)
 	(text "IO"
 		(exclude_from_sim no)
-		(at 252.984 159.258 0)
+		(at 252.73 158.75 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -49452,7 +49452,7 @@
 	)
 	(text "*Place oscillator circuitry close to MCU"
 		(exclude_from_sim no)
-		(at 34.036 62.23 0)
+		(at 34.29 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49463,7 +49463,7 @@
 	)
 	(text "Conn\n"
 		(exclude_from_sim no)
-		(at 249.936 130.556 0)
+		(at 250.19 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49473,7 +49473,7 @@
 	)
 	(text "BOOT0 low -> Load into app\nBOOT0 high -> Load into bootloader"
 		(exclude_from_sim no)
-		(at 21.59 32.004 0)
+		(at 21.59 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49485,7 +49485,7 @@
 	)
 	(text "Sys Memory\n(bootloader)"
 		(exclude_from_sim no)
-		(at 217.424 90.424 0)
+		(at 217.17 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49494,7 +49494,7 @@
 		(uuid "f9a84717-9d93-46ff-868e-15e042fcb542")
 	)
 	(junction
-		(at 182.372 41.148)
+		(at 182.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "001bb9c3-e6be-4e6b-97d0-d46294b5bce6")
@@ -49506,7 +49506,7 @@
 		(uuid "15420d5a-4a06-4e7f-82e6-ad386918b6d9")
 	)
 	(junction
-		(at 201.422 52.578)
+		(at 201.93 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a839ca-fa38-41f1-b4bd-07efc5b6fd0f")
@@ -49518,13 +49518,13 @@
 		(uuid "297dddc6-6e46-4251-b406-326450eb533a")
 	)
 	(junction
-		(at 194.31 27.432)
+		(at 194.31 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "301cc8ad-d18c-421f-a470-b157cf9da90f")
 	)
 	(junction
-		(at 207.264 27.432)
+		(at 207.01 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "359069c7-1562-4287-8395-fef92b54dd4a")
@@ -49542,7 +49542,7 @@
 		(uuid "39f7714d-c082-49d6-a9af-c1e5fe361df2")
 	)
 	(junction
-		(at 220.218 41.148)
+		(at 219.71 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53f93b05-5eb1-4005-84a4-3dc4ca0ef67f")
@@ -49554,49 +49554,49 @@
 		(uuid "554dd808-112b-47e1-9447-991d325d8d89")
 	)
 	(junction
-		(at 178.308 114.808)
+		(at 177.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5699f110-f978-4388-95e1-258bc281f1a3")
 	)
 	(junction
-		(at 200.914 41.148)
+		(at 200.66 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ca4b9e0-6849-4697-8b51-d9fada3b16b1")
 	)
 	(junction
-		(at 194.31 41.148)
+		(at 194.31 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e4428ad-3ccc-4260-a9df-982c70346c4f")
 	)
 	(junction
-		(at 182.372 27.432)
+		(at 182.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7317a9ca-b112-4f1f-b3ad-a4373c2b84c0")
 	)
 	(junction
-		(at 232.156 27.432)
+		(at 232.41 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ac351f-8473-4677-8c95-c4ce05c2fbb5")
 	)
 	(junction
-		(at 201.422 65.532)
+		(at 201.93 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774a4323-667b-4ac0-9488-5e64a6b8e961")
 	)
 	(junction
-		(at 254.762 54.102)
+		(at 255.27 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784642e5-56b0-44d0-a2dc-1ba16e5bf6e2")
 	)
 	(junction
-		(at 201.168 27.432)
+		(at 200.66 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7de9362f-04a9-446b-9476-612b1ffd6653")
@@ -49638,25 +49638,25 @@
 		(uuid "99dd7bec-e985-40a8-bf46-a2e528669e1b")
 	)
 	(junction
-		(at 178.308 102.108)
+		(at 177.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d01f8d7-6a63-4f69-a38b-cde5c56a935a")
 	)
 	(junction
-		(at 232.156 41.148)
+		(at 232.41 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe667e5-83a7-41dd-975b-a26e3faa34b4")
 	)
 	(junction
-		(at 220.218 27.432)
+		(at 219.71 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8687b9e-4be8-4c77-8062-2ac549345180")
 	)
 	(junction
-		(at 186.182 65.532)
+		(at 186.69 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad7df1f0-66f3-405e-b8e6-f098ee4e8d6e")
@@ -49668,13 +49668,13 @@
 		(uuid "b8e7143a-7d98-4a39-9c7a-5b0edbd8ed53")
 	)
 	(junction
-		(at 186.182 52.578)
+		(at 186.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd062e20-5ce4-4fbd-80ab-d097c5a943f4")
 	)
 	(junction
-		(at 194.818 65.532)
+		(at 194.31 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff38e56-af4e-43c6-9a42-eed3b67c2172")
@@ -49686,19 +49686,19 @@
 		(uuid "c21a4dc7-2bc8-4580-8e1b-e8d15352574e")
 	)
 	(junction
-		(at 195.326 52.578)
+		(at 195.58 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d11663e6-d4bd-4867-ad43-66e53a565bd7")
 	)
 	(junction
-		(at 207.264 41.148)
+		(at 207.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d277c51e-02eb-4426-9c2d-8fc9a2960fb1")
 	)
 	(junction
-		(at 182.626 103.124)
+		(at 182.88 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3f773f0-e778-4c40-98cb-685c9b63df12")
@@ -49717,7 +49717,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.348 37.338) (xy 244.348 39.624)
+			(xy 243.84 36.83) (xy 243.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -49727,7 +49727,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 39.624) (xy 172.72 41.148)
+			(xy 171.45 39.37) (xy 172.72 40.64)
 		)
 		(stroke
 			(width 0)
@@ -49737,7 +49737,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.566 95.25) (xy 223.52 95.25)
+			(xy 210.82 95.25) (xy 223.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -49747,7 +49747,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 38.608 44.45)
+			(xy 43.18 44.45) (xy 38.1 44.45)
 		)
 		(stroke
 			(width 0)
@@ -49757,7 +49757,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.646 52.578) (xy 216.662 53.594)
+			(xy 215.9 52.07) (xy 217.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -49777,7 +49777,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.156 38.1) (xy 232.156 41.148)
+			(xy 232.41 38.1) (xy 232.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -49797,7 +49797,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.372 27.432) (xy 182.372 30.48)
+			(xy 182.88 27.94) (xy 182.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -49807,7 +49807,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.264 27.432) (xy 220.218 27.432)
+			(xy 207.01 27.94) (xy 219.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -49837,7 +49837,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.422 52.578) (xy 215.646 52.578)
+			(xy 201.93 52.07) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -49847,7 +49847,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 62.484) (xy 186.182 65.532)
+			(xy 186.69 62.23) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -49857,7 +49857,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.586 54.102) (xy 245.872 54.102)
+			(xy 243.84 54.61) (xy 246.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -49867,7 +49867,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.156 27.432) (xy 232.156 30.48)
+			(xy 232.41 27.94) (xy 232.41 30.48)
 		)
 		(stroke
 			(width 0)
@@ -49887,7 +49887,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.626 103.124) (xy 184.15 103.124)
+			(xy 182.88 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -49917,26 +49917,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.546 118.618) (xy 178.308 117.856)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f68fac5-8346-4232-843d-c35f177c9819")
-	)
-	(wire
-		(pts
-			(xy 244.348 28.702) (xy 244.348 29.718)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25da19a2-f0ba-4704-9486-7b2ad2809dd6")
-	)
-	(wire
-		(pts
 			(xy 181.61 133.35) (xy 181.61 135.89)
 		)
 		(stroke
@@ -49957,7 +49937,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 114.808) (xy 181.864 114.808)
+			(xy 177.8 114.3) (xy 182.88 114.3)
 		)
 		(stroke
 			(width 0)
@@ -49967,7 +49947,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 93.472) (xy 178.308 90.678)
+			(xy 177.8 93.98) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -50007,17 +49987,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.626 113.792) (xy 182.626 114.046)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b92c01e-c5dd-4bf0-97da-cb182490c9b5")
-	)
-	(wire
-		(pts
-			(xy 207.264 38.1) (xy 207.264 41.148)
+			(xy 207.01 38.1) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50047,7 +50017,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 65.532) (xy 194.818 65.532)
+			(xy 186.69 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -50067,7 +50037,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 27.432) (xy 244.348 28.702)
+			(xy 242.57 27.94) (xy 243.84 29.21)
 		)
 		(stroke
 			(width 0)
@@ -50087,7 +50057,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.422 65.532) (xy 215.138 65.532)
+			(xy 201.93 66.04) (xy 214.63 66.04)
 		)
 		(stroke
 			(width 0)
@@ -50127,16 +50097,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 67.818) (xy 194.818 67.056)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2d0bb9-43ff-456a-a874-3f037d9ad141")
-	)
-	(wire
-		(pts
 			(xy 245.11 151.13) (xy 243.84 151.13)
 		)
 		(stroke
@@ -50157,7 +50117,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 28.956) (xy 171.196 30.48)
+			(xy 171.45 29.21) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -50167,7 +50127,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 27.432) (xy 232.156 27.432)
+			(xy 219.71 27.94) (xy 232.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50177,7 +50137,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.212 65.532) (xy 170.942 64.262)
+			(xy 172.72 66.04) (xy 171.45 64.77)
 		)
 		(stroke
 			(width 0)
@@ -50207,7 +50167,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 41.148) (xy 232.156 41.148)
+			(xy 219.71 40.64) (xy 232.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50217,7 +50177,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 52.578) (xy 186.182 54.864)
+			(xy 186.69 52.07) (xy 186.69 54.61)
 		)
 		(stroke
 			(width 0)
@@ -50257,7 +50217,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 38.1) (xy 171.196 39.624)
+			(xy 171.45 38.1) (xy 171.45 39.37)
 		)
 		(stroke
 			(width 0)
@@ -50287,7 +50247,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 44.45) (xy 30.988 44.45)
+			(xy 26.67 44.45) (xy 30.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -50297,7 +50257,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 62.484) (xy 255.778 63.5)
+			(xy 255.27 62.23) (xy 255.27 63.5)
 		)
 		(stroke
 			(width 0)
@@ -50307,7 +50267,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 54.102) (xy 259.08 54.102)
+			(xy 255.27 54.61) (xy 259.08 54.61)
 		)
 		(stroke
 			(width 0)
@@ -50317,7 +50277,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 28.956) (xy 172.72 27.432)
+			(xy 171.45 29.21) (xy 172.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50357,7 +50317,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.326 49.022) (xy 195.326 52.578)
+			(xy 195.58 49.53) (xy 195.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -50367,7 +50327,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.372 41.148) (xy 194.31 41.148)
+			(xy 182.88 40.64) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50377,7 +50337,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 62.484) (xy 170.942 64.262)
+			(xy 171.45 62.23) (xy 171.45 64.77)
 		)
 		(stroke
 			(width 0)
@@ -50387,7 +50347,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.212 52.578) (xy 186.182 52.578)
+			(xy 172.72 52.07) (xy 186.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -50407,7 +50367,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.372 27.432) (xy 194.31 27.432)
+			(xy 182.88 27.94) (xy 194.31 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50417,7 +50377,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.566 100.33) (xy 223.52 100.33)
+			(xy 210.82 100.33) (xy 223.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -50457,7 +50417,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.264 27.432) (xy 207.264 30.48)
+			(xy 207.01 27.94) (xy 207.01 30.48)
 		)
 		(stroke
 			(width 0)
@@ -50467,7 +50427,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 54.102) (xy 253.492 54.102)
+			(xy 255.27 54.61) (xy 254 54.61)
 		)
 		(stroke
 			(width 0)
@@ -50487,7 +50447,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.138 65.532) (xy 216.662 64.008)
+			(xy 214.63 66.04) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0)
@@ -50507,7 +50467,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 102.108) (xy 178.308 104.648)
+			(xy 177.8 101.6) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -50517,7 +50477,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.818 65.532) (xy 201.422 65.532)
+			(xy 194.31 66.04) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -50527,7 +50487,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.914 41.148) (xy 207.264 41.148)
+			(xy 200.66 40.64) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50547,7 +50507,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.914 43.688) (xy 201.168 43.942)
+			(xy 200.66 40.64) (xy 200.66 44.45)
 		)
 		(stroke
 			(width 0)
@@ -50557,7 +50517,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.326 49.022) (xy 196.342 48.006)
+			(xy 195.58 49.53) (xy 196.85 48.26)
 		)
 		(stroke
 			(width 0)
@@ -50577,7 +50537,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.662 62.484) (xy 216.662 64.008)
+			(xy 217.17 62.23) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0)
@@ -50597,7 +50557,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 41.148) (xy 182.372 41.148)
+			(xy 172.72 40.64) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50617,7 +50577,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 27.432) (xy 220.218 30.48)
+			(xy 219.71 27.94) (xy 219.71 30.48)
 		)
 		(stroke
 			(width 0)
@@ -50637,17 +50597,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.914 41.148) (xy 200.914 43.688)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e18e08e-44da-40f1-b556-01f390c63e0e")
-	)
-	(wire
-		(pts
-			(xy 182.626 103.124) (xy 181.61 102.108)
+			(xy 182.88 102.87) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -50657,7 +50607,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 102.108) (xy 181.61 102.108)
+			(xy 177.8 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -50677,7 +50627,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.422 52.578) (xy 201.422 54.864)
+			(xy 201.93 52.07) (xy 201.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -50697,7 +50647,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.168 27.432) (xy 201.168 23.876)
+			(xy 200.66 27.94) (xy 200.66 24.13)
 		)
 		(stroke
 			(width 0)
@@ -50727,7 +50677,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 106.68) (xy 236.22 108.712)
+			(xy 236.22 106.68) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -50747,7 +50697,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.212 65.532) (xy 186.182 65.532)
+			(xy 172.72 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -50767,7 +50717,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 27.432) (xy 182.372 27.432)
+			(xy 172.72 27.94) (xy 182.88 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50797,7 +50747,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.818 65.532) (xy 194.818 67.056)
+			(xy 194.31 66.04) (xy 194.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -50807,7 +50757,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 38.608 52.07)
+			(xy 43.18 52.07) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -50817,7 +50767,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 53.848) (xy 172.212 52.578)
+			(xy 171.45 53.34) (xy 172.72 52.07)
 		)
 		(stroke
 			(width 0)
@@ -50827,7 +50777,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.156 41.148) (xy 242.824 41.148)
+			(xy 232.41 40.64) (xy 242.57 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50847,7 +50797,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.168 27.432) (xy 207.264 27.432)
+			(xy 200.66 27.94) (xy 207.01 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50857,17 +50807,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 61.722) (xy 254.762 62.484)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1bba946-9293-417d-b351-9f5ef2a7693e")
-	)
-	(wire
-		(pts
-			(xy 26.67 52.07) (xy 30.988 52.07)
+			(xy 26.67 52.07) (xy 30.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -50877,7 +50817,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 27.432) (xy 201.168 27.432)
+			(xy 194.31 27.94) (xy 200.66 27.94)
 		)
 		(stroke
 			(width 0)
@@ -50897,7 +50837,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 54.864) (xy 170.942 53.848)
+			(xy 171.45 54.61) (xy 171.45 53.34)
 		)
 		(stroke
 			(width 0)
@@ -50907,7 +50847,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 112.268) (xy 178.308 114.808)
+			(xy 177.8 111.76) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -50917,7 +50857,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 90.678) (xy 179.07 89.916)
+			(xy 177.8 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -50927,7 +50867,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.168 23.876) (xy 201.676 23.368)
+			(xy 200.66 24.13) (xy 201.93 22.86)
 		)
 		(stroke
 			(width 0)
@@ -50937,7 +50877,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.148) (xy 200.914 41.148)
+			(xy 194.31 40.64) (xy 200.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50957,7 +50897,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.422 62.484) (xy 201.422 65.532)
+			(xy 201.93 62.23) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -50967,7 +50907,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.372 38.1) (xy 182.372 41.148)
+			(xy 182.88 38.1) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -50997,7 +50937,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 38.1) (xy 194.31 41.148)
+			(xy 194.31 38.1) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -51007,7 +50947,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.662 53.594) (xy 216.662 54.864)
+			(xy 217.17 53.34) (xy 217.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -51027,7 +50967,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.156 27.432) (xy 243.078 27.432)
+			(xy 232.41 27.94) (xy 242.57 27.94)
 		)
 		(stroke
 			(width 0)
@@ -51057,17 +50997,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 101.092) (xy 178.308 102.108)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41cf4b5-0a5c-4b62-a9dd-45827f9764db")
-	)
-	(wire
-		(pts
-			(xy 186.182 52.578) (xy 195.326 52.578)
+			(xy 186.69 52.07) (xy 195.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -51087,7 +51017,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.824 41.148) (xy 244.348 39.624)
+			(xy 242.57 40.64) (xy 243.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -51097,7 +51027,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 38.1) (xy 220.218 41.148)
+			(xy 219.71 38.1) (xy 219.71 40.64)
 		)
 		(stroke
 			(width 0)
@@ -51127,7 +51057,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.264 41.148) (xy 220.218 41.148)
+			(xy 207.01 40.64) (xy 219.71 40.64)
 		)
 		(stroke
 			(width 0)
@@ -51147,7 +51077,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.626 103.632) (xy 182.626 103.124)
+			(xy 182.88 104.14) (xy 182.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -51177,7 +51107,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.326 52.578) (xy 201.422 52.578)
+			(xy 195.58 52.07) (xy 201.93 52.07)
 		)
 		(stroke
 			(width 0)
@@ -51207,23 +51137,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 108.712) (xy 236.982 109.474)
+			(xy 236.22 109.22) (xy 237.49 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec25afd3-5d06-400c-aa4f-470a45df3450")
-	)
-	(wire
-		(pts
-			(xy 182.626 114.046) (xy 181.864 114.808)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5b55b4-f9fa-4b1e-be0b-5aed97582025")
 	)
 	(wire
 		(pts
@@ -51247,7 +51167,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.308 114.808) (xy 178.308 117.856)
+			(xy 177.8 114.3) (xy 177.8 118.11)
 		)
 		(stroke
 			(width 0)
@@ -51277,7 +51197,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 27.432) (xy 194.31 30.48)
+			(xy 194.31 27.94) (xy 194.31 30.48)
 		)
 		(stroke
 			(width 0)
@@ -54170,7 +54090,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 184.15 103.124 0)
+		(at 184.15 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54203,7 +54123,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 243.586 54.102 180)
+		(at 243.84 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54247,7 +54167,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 210.566 100.33 180)
+		(at 210.82 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54258,7 +54178,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 236.982 109.474 0)
+		(at 237.49 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54269,7 +54189,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 177.546 118.618 180)
+		(at 177.8 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54280,7 +54200,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 179.07 89.916 0)
+		(at 179.07 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54313,7 +54233,7 @@
 	)
 	(hierarchical_label "VDDA"
 		(shape input)
-		(at 259.08 54.102 0)
+		(at 259.08 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54324,7 +54244,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 210.566 95.25 180)
+		(at 210.82 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54346,7 +54266,7 @@
 	)
 	(hierarchical_label "GNDA"
 		(shape input)
-		(at 194.056 67.818 180)
+		(at 194.31 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54357,7 +54277,7 @@
 	)
 	(hierarchical_label "GNDA"
 		(shape input)
-		(at 255.778 63.5 0)
+		(at 255.27 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54401,7 +54321,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 201.676 23.368 0)
+		(at 201.93 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54423,7 +54343,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 201.168 43.942 0)
+		(at 200.66 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54456,7 +54376,7 @@
 	)
 	(hierarchical_label "VDDA"
 		(shape input)
-		(at 196.342 48.006 0)
+		(at 196.85 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54608,6 +54528,17 @@
 		)
 		(uuid "cf4d9750-3d81-4608-861f-0a7a9a60e216")
 	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 121.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4904e9a-0039-4e22-a6ec-5855c0232ab7")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 241.3 133.35 180)
@@ -54640,17 +54571,6 @@
 			(justify left)
 		)
 		(uuid "ed325b6b-c95a-4610-8736-f6645be3b87c")
-	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 121.92 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3dcfe21-4909-461a-827e-3f13d025b99d")
 	)
 	(hierarchical_label "PB12"
 		(shape bidirectional)
@@ -54709,7 +54629,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.422 58.674 0)
+		(at 201.93 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54719,8 +54639,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002eac17-a991-4772-9ebb-de85cb363c95")
-		(property "Reference" "C76"
-			(at 204.597 57.4039 0)
+		(property "Reference" "C118"
+			(at 205.105 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54731,7 +54651,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 204.597 59.9439 0)
+			(at 205.105 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54742,7 +54662,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 202.3872 62.484 0)
+			(at 202.8952 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54753,7 +54673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54764,7 +54684,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54775,7 +54695,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54786,7 +54706,7 @@
 			)
 		)
 		(property "P/N" "MLASU168SB5105KTNA01"
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54797,7 +54717,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54807,7 +54727,7 @@
 			)
 		)
 		(property "If" ""
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54817,7 +54737,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54827,7 +54747,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54837,7 +54757,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 201.422 58.674 0)
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54848,19 +54768,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a22570c-b834-4762-8725-1800fdc5e924")
+			(uuid "a0750d92-586e-4a38-805a-bdc46b684b91")
 		)
 		(pin "2"
-			(uuid "3ab6b098-7aa1-4dc0-b557-d33bfc560d5f")
+			(uuid "3aa540a1-6458-4ddd-b6fa-c0a53fb89e25")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C76")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C133")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -54877,7 +54793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e6f34d4-dbd3-4f05-a4bc-100cf41ed9c8")
-		(property "Reference" "R45"
+		(property "Reference" "R65"
 			(at 183.388 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55010,19 +54926,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ed138e0-aaad-49a9-b6d6-664a609f3908")
+			(uuid "ecafa865-f341-45ff-8522-674308f61ddd")
 		)
 		(pin "1"
-			(uuid "616cb42d-e851-4175-82fe-7306c69a6fec")
+			(uuid "cff5a03e-00bb-488c-ae13-ed8def96bf54")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R86")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -55039,7 +54951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e9f701f-a311-46f0-b1b4-f5b741dbeb93")
-		(property "Reference" "Y4"
+		(property "Reference" "Y6"
 			(at 47.498 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55115,19 +55027,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "65d37e85-9deb-416a-9f52-ece7fbc3c262")
+			(uuid "f5cd8274-df10-4300-8bfa-90c51c0b9a23")
 		)
 		(pin "1"
-			(uuid "c434b98e-d3ca-4188-9f86-1a589d626170")
+			(uuid "a8df6258-0e1b-4bd4-b428-04c8535ae330")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "Y4")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "Y7")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "Y6")
 					(unit 1)
 				)
 			)
@@ -55135,7 +55043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 178.308 97.282 180)
+		(at 177.8 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55145,8 +55053,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19e1e812-f194-42ec-935a-18332a0de50b")
-		(property "Reference" "R44"
-			(at 180.848 96.0119 0)
+		(property "Reference" "R64"
+			(at 180.34 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55157,7 +55065,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 180.848 98.5519 0)
+			(at 180.34 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55168,7 +55076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.086 97.282 90)
+			(at 179.578 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55179,7 +55087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55190,7 +55098,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55201,7 +55109,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55211,7 +55119,7 @@
 			)
 		)
 		(property "If" ""
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55221,7 +55129,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55231,7 +55139,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55241,7 +55149,7 @@
 			)
 		)
 		(property "Mouser Part Number" "CRCW060310K0FKEI "
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55252,7 +55160,7 @@
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI "
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55263,7 +55171,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 178.308 97.282 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55274,19 +55182,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c72e71f2-9dcb-4df5-b98d-1903afffc6ce")
+			(uuid "d8eec0d3-7863-4121-bb82-1f9afa0c3d20")
 		)
 		(pin "2"
-			(uuid "57858151-6e37-4793-892e-fa9dd86bc7cd")
+			(uuid "359f37a1-872c-456f-8984-78c44058e0f6")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R85")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -55304,7 +55208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d9952f-43a1-4fa6-846e-7b34b1746eac")
-		(property "Reference" "D23"
+		(property "Reference" "D30"
 			(at 238.76 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55404,19 +55308,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "636c03a3-f8f1-4b09-89c3-adbc8a873091")
+			(uuid "1b0b639b-2d6e-4c5d-853b-44361d9aff9e")
 		)
 		(pin "2"
-			(uuid "bd0dddee-b50c-46bb-b221-e65d2b79884f")
+			(uuid "c3697b84-5f4a-41a3-a1b4-626bceadcb4f")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "D43")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -55433,7 +55333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24916197-2f7a-4e03-839c-f0c49e9c9e5b")
-		(property "Reference" "U10"
+		(property "Reference" "U16"
 			(at 88.392 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -55513,157 +55413,153 @@
 			)
 		)
 		(pin "36"
-			(uuid "dcbd0aa4-dd44-4020-9a73-f5549d9b76f3")
+			(uuid "ba0f223c-2b7b-401b-9401-bb5b99e55709")
 		)
 		(pin "34"
-			(uuid "c8f6cee6-f0ce-4dad-bec9-0c36d1da4278")
+			(uuid "3f699e95-e419-411c-a65c-184625e0dfbc")
 		)
 		(pin "37"
-			(uuid "50d90178-fd49-423d-b368-383f59ced1b4")
+			(uuid "8c16c456-d62f-43ac-8446-7d2c98899676")
 		)
 		(pin "42"
-			(uuid "1352392d-f94e-4e7e-8f69-a47565271744")
+			(uuid "7c880edb-bbdb-4f35-a8f9-c5b70641820d")
 		)
 		(pin "40"
-			(uuid "6be57ca4-6803-4da5-b93f-64dd094a8f59")
+			(uuid "aab8dd1a-a9a7-4cf2-8e87-813624a7dda6")
 		)
 		(pin "32"
-			(uuid "2e6086d3-37f5-49e0-ba4a-6430486ed664")
+			(uuid "a3859c9b-bf92-43d8-81c5-4bfe15d4a09a")
 		)
 		(pin "39"
-			(uuid "31e7e4ca-3206-4e49-9201-8a0ae6c688ff")
+			(uuid "16fd75dc-f73f-4515-872d-840f91a0c242")
 		)
 		(pin "46"
-			(uuid "c243359f-2983-4920-81e1-df81c8ad4820")
+			(uuid "31d3506b-a2dc-421b-8348-ecad24b20d6e")
 		)
 		(pin "33"
-			(uuid "afafe8f2-7149-43b0-8eaa-b57ccf1bf5be")
+			(uuid "fe1be096-9c9e-4033-91e5-5b57557eb0fd")
 		)
 		(pin "31"
-			(uuid "8d2e0805-9c15-4ac0-8ecb-7b224f0cda5d")
+			(uuid "0153e890-a99d-4906-8b27-aa1446309806")
 		)
 		(pin "41"
-			(uuid "a15420e5-0fdd-44b7-aac0-380a4d3b9f11")
+			(uuid "d2bac304-9495-4baf-b6e9-8f13c433b6a3")
 		)
 		(pin "47"
-			(uuid "897c8eee-3296-4eff-923f-58d61ce0661d")
+			(uuid "ab8297a6-da98-4782-800d-541ad2d5b466")
 		)
 		(pin "45"
-			(uuid "cddb2cd2-ab1a-4d4c-86b6-1ff72f358f4d")
+			(uuid "930bce14-b45b-45a5-bad7-0b302195dfa6")
 		)
 		(pin "44"
-			(uuid "24533743-25f4-4041-ad26-00c3679eec39")
+			(uuid "c4860fb5-0aa9-4063-95d3-e2e2264665e8")
 		)
 		(pin "35"
-			(uuid "92a87bb7-e9b1-4400-8224-07d3250cac14")
+			(uuid "9223f2ba-1b99-4ceb-b601-0b55ca263d24")
 		)
 		(pin "38"
-			(uuid "5352449a-3018-401a-b5e4-a9448aec6438")
+			(uuid "d3ab0e3f-9c01-42d1-a006-ba6b4e2d977d")
 		)
 		(pin "43"
-			(uuid "1e54281d-2eeb-4461-a497-4be580cc929f")
+			(uuid "e40701a1-2844-47bc-8954-ed69772dd499")
 		)
 		(pin "48"
-			(uuid "a6e42024-3e62-4360-8a48-a7d54a4c6064")
+			(uuid "076bde44-a661-4d55-ba7a-7a18586d6055")
 		)
 		(pin "5"
-			(uuid "dc6e15be-1e8d-4a5a-a862-5e9d81a0c686")
+			(uuid "487685ba-f53b-456b-a97c-c5c5ce12f475")
 		)
 		(pin "12"
-			(uuid "a4dfa829-2eb4-4038-8de9-78e8a1909464")
+			(uuid "fb076cac-940f-4fc5-9000-831fffc42bf2")
 		)
 		(pin "16"
-			(uuid "a1f5c197-449d-49dc-b1f3-c883fc8ba403")
+			(uuid "e6a5f7b7-6312-4f36-ac01-f45063215c87")
 		)
 		(pin "18"
-			(uuid "1800a1d8-9dab-494f-968d-a692c1a75951")
+			(uuid "7e476088-3364-4088-b458-c969a3152f35")
 		)
 		(pin "21"
-			(uuid "236b54c8-2ae0-46ab-8ee3-61208abbe92d")
+			(uuid "a8c472a3-1a66-4f5b-bcd2-9764068afd43")
 		)
 		(pin "22"
-			(uuid "66e9ac96-3445-4a0c-a528-eb6da1904558")
+			(uuid "ea1138ac-3d64-4f00-b6a7-833c288f1667")
 		)
 		(pin "8"
-			(uuid "1cd81fe8-689b-4b5e-bd36-e810ff8614e9")
+			(uuid "8d19a06a-dd8f-40be-be55-2e37eb5911d3")
 		)
 		(pin "20"
-			(uuid "1020a84c-cc9e-4701-a989-1ea1a5c0a19a")
+			(uuid "67a5268e-597c-4eb7-b634-6d2d04dae4ac")
 		)
 		(pin "13"
-			(uuid "c7b65030-15a0-4289-ad95-1580cba1808e")
+			(uuid "15bbfc8f-ddac-4464-bc92-abfaaa7ed394")
 		)
 		(pin "23"
-			(uuid "93fda95c-f41b-4de3-a1ff-5a7294cf29c9")
+			(uuid "9fae000d-6f68-4c2e-9d7e-c5e672045f7f")
 		)
 		(pin "24"
-			(uuid "d0399cb4-e1ac-4f36-9e48-1007e7b91b88")
+			(uuid "e9b20e0e-9842-4533-bdb7-7ac3ef12a140")
 		)
 		(pin "9"
-			(uuid "2f11ee10-b0a8-4572-99ce-3d89777561cf")
+			(uuid "d27df6a6-6d1a-4513-bba2-b3272ed47392")
 		)
 		(pin "4"
-			(uuid "96c62928-ce18-423a-848d-b98716a3b9c9")
+			(uuid "db1be3f8-bad1-4591-b94f-720d75f16a6d")
 		)
 		(pin "1"
-			(uuid "e3541f24-c2cd-4890-8a34-983303221c3f")
+			(uuid "595ff524-4fcd-44fb-ae2a-49f3dd9e7cd4")
 		)
 		(pin "3"
-			(uuid "36a21b81-7464-4d08-8914-cbdc53f643c2")
+			(uuid "1fb15e4e-7cf6-433b-b44b-103b626aa2a6")
 		)
 		(pin "6"
-			(uuid "c558d987-afdd-4ce2-9a3d-b384332bb192")
+			(uuid "f91d3d0c-e637-4143-aa33-9543da763392")
 		)
 		(pin "11"
-			(uuid "fd6ed43d-b1f3-4779-b890-ccd563a2066c")
+			(uuid "81dc89d5-5394-4bfc-be17-aa5cb10470c6")
 		)
 		(pin "14"
-			(uuid "f96e7edc-bf9c-4038-b496-8eb8b57b2ac0")
+			(uuid "6de9759c-b75e-44c1-9a0c-252c9581eb74")
 		)
 		(pin "2"
-			(uuid "84d8914e-ec4c-4ab6-9327-ab3118d9ddc7")
+			(uuid "6b38ed0e-5141-444c-824c-81a5555c08e0")
 		)
 		(pin "7"
-			(uuid "b72ff056-e320-44ec-bf51-a3d2f1a1a569")
+			(uuid "00360c1f-013e-4af8-b7d5-dd5bffaefea9")
 		)
 		(pin "10"
-			(uuid "548bd7fa-93aa-436a-97c1-cc05959851af")
+			(uuid "79cc35d5-478d-49ec-b271-385e56a94a45")
 		)
 		(pin "15"
-			(uuid "f494932b-1baa-4688-80b9-446600c77c8e")
+			(uuid "7331a669-0542-4b9b-8aa6-96dd8d97924d")
 		)
 		(pin "17"
-			(uuid "21ee8ff6-52f9-49d4-b6a6-b192a122738d")
+			(uuid "4b26ee01-49c5-46dd-aaf5-f077dcf6fe6c")
 		)
 		(pin "19"
-			(uuid "8f6be1cb-3b37-4eae-b3a2-836c0170a8ae")
+			(uuid "44cb9b1f-6a82-48d4-83da-edd441e0743f")
 		)
 		(pin "25"
-			(uuid "79f85cb9-a38e-4395-9153-691de86b8f7b")
+			(uuid "a5528a11-5fe8-4bc4-b46c-3b7712b3bb84")
 		)
 		(pin "26"
-			(uuid "9ca3e4db-998f-42ef-ad24-55aadac09350")
+			(uuid "d8df35fa-9719-4a94-88aa-0c5525208df2")
 		)
 		(pin "27"
-			(uuid "cc96ad6e-1a51-489a-94a1-7bb11d759244")
+			(uuid "45e15ddc-0075-4e1c-9b8a-b8b69a57cbc3")
 		)
 		(pin "28"
-			(uuid "0eb2b20c-6cf6-413d-b8c8-81e58225903d")
+			(uuid "1ce2a08f-1e73-48fd-8c8f-6ec66b69d796")
 		)
 		(pin "29"
-			(uuid "5bb76bfd-69d3-401d-830a-14fa1cd5a69e")
+			(uuid "fdef70da-ae85-4735-8c2d-7289eed527f4")
 		)
 		(pin "30"
-			(uuid "39100fba-ada3-46fe-9413-6c798ab2b1c7")
+			(uuid "8326ada2-83b0-4198-ac62-c69a227b2271")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "U17")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -55680,7 +55576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2742cada-834a-48e8-9d33-2eeab8aef9af")
-		(property "Reference" "J10"
+		(property "Reference" "J17"
 			(at 259.334 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55767,25 +55663,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "cba00311-fa8f-4087-9bdd-d536ab43e5d9")
+			(uuid "4de37420-8071-413d-a012-a6793a0b8b34")
 		)
 		(pin "1"
-			(uuid "3dc4e8d2-b7bf-4ed2-9f5e-a76e48de1048")
+			(uuid "751329d8-deec-49fa-bb9e-30234e9637dd")
 		)
 		(pin "4"
-			(uuid "c903f5df-f448-4b87-9a27-bc27d5a53ece")
+			(uuid "c0c6e240-d925-4252-b7e5-1e88befb4730")
 		)
 		(pin "3"
-			(uuid "bd67ed3e-6082-4e7c-9cb3-c08caa88f98b")
+			(uuid "21509810-3a1f-4d17-b12b-460587c91f82")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "J10")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "J19")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -55793,7 +55685,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 244.348 33.528 0)
+		(at 243.84 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55802,8 +55694,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b4cc3c1-aa0f-4d60-b1f3-5597c8984d3c")
-		(property "Reference" "C81"
-			(at 247.142 32.258 0)
+		(property "Reference" "C123"
+			(at 246.634 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55814,7 +55706,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 247.142 34.798 0)
+			(at 246.634 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55825,7 +55717,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 245.3132 37.338 0)
+			(at 244.8052 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55836,7 +55728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55847,7 +55739,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55858,7 +55750,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55869,7 +55761,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55880,7 +55772,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55890,7 +55782,7 @@
 			)
 		)
 		(property "If" ""
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55900,7 +55792,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55910,7 +55802,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55920,7 +55812,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 244.348 33.528 0)
+			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55931,19 +55823,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "34439419-7454-4b66-ade1-64bb81acc8db")
+			(uuid "4f3cd571-e555-4270-8fb8-c86782abf6c7")
 		)
 		(pin "2"
-			(uuid "ce1a1623-51f9-458e-8b02-53950487b69c")
+			(uuid "51b80a67-0714-4999-9256-1434d685a975")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C81")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C138")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -55951,7 +55839,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 249.682 54.102 90)
+		(at 250.19 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55961,8 +55849,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42a965bd-dd19-4214-a5c9-ab641113c3d8")
-		(property "Reference" "FB8"
-			(at 249.6312 47.117 90)
+		(property "Reference" "FB12"
+			(at 250.1392 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55972,7 +55860,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 249.6312 49.657 90)
+			(at 250.1392 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55982,7 +55870,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 249.682 55.88 90)
+			(at 250.19 56.388 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55993,7 +55881,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://FerriteBead.pdf"
-			(at 249.682 54.102 0)
+			(at 250.19 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56004,7 +55892,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 249.682 54.102 0)
+			(at 250.19 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56015,7 +55903,7 @@
 			)
 		)
 		(property "P/N" "BLM18PG121SH1D"
-			(at 249.682 54.102 0)
+			(at 250.19 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56026,7 +55914,7 @@
 			)
 		)
 		(property "LCSC P/N" "C354394"
-			(at 249.682 54.102 90)
+			(at 250.19 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56037,19 +55925,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a066f03b-feb3-4cab-b010-a8fbfb03303e")
+			(uuid "f2317f5e-a961-4d5e-affa-a8c95a4c9505")
 		)
 		(pin "2"
-			(uuid "d8c3ebbf-34bd-47a3-8f7f-f79b9097d75e")
+			(uuid "48f46855-5b69-409d-b04d-c952cd3e7118")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "FB8")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "FB14")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "FB12")
 					(unit 1)
 				)
 			)
@@ -56057,7 +55941,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.182 58.674 0)
+		(at 186.69 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56067,8 +55951,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4d225e-4424-48ee-af92-ec4ead20e265")
-		(property "Reference" "C74"
-			(at 189.992 57.4039 0)
+		(property "Reference" "C116"
+			(at 190.5 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56079,7 +55963,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 189.992 59.9439 0)
+			(at 190.5 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56090,7 +55974,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 187.1472 62.484 0)
+			(at 187.6552 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56101,7 +55985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56112,7 +55996,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56123,7 +56007,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56134,7 +56018,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56145,7 +56029,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56155,7 +56039,7 @@
 			)
 		)
 		(property "If" ""
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56165,7 +56049,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56175,7 +56059,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56185,7 +56069,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 186.182 58.674 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56196,19 +56080,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "62d60b55-44dc-445f-b523-7ba5ec81c65e")
+			(uuid "2267ec42-4b2d-4dd5-b2b1-91b9be28a8fd")
 		)
 		(pin "2"
-			(uuid "4987bc69-7330-4b22-8d97-53912de97ebc")
+			(uuid "24ebadb2-8834-430c-bead-bb152ee8874a")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C74")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C131")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -56216,7 +56096,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.372 34.29 0)
+		(at 182.88 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56225,8 +56105,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64d97e6c-2d98-4a7b-935b-29c10d71b8c2")
-		(property "Reference" "C73"
-			(at 185.166 33.02 0)
+		(property "Reference" "C115"
+			(at 185.674 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56237,7 +56117,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 185.166 35.56 0)
+			(at 185.674 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56248,7 +56128,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 183.3372 38.1 0)
+			(at 183.8452 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56259,7 +56139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56270,7 +56150,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56281,7 +56161,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56292,7 +56172,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56303,7 +56183,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56313,7 +56193,7 @@
 			)
 		)
 		(property "If" ""
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56323,7 +56203,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56333,7 +56213,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56343,7 +56223,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 182.372 34.29 0)
+			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56354,19 +56234,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "15b7588a-9ecc-48b6-8100-4b691623c977")
+			(uuid "3ea08be4-1b7c-4b19-8a5f-98194617b3dd")
 		)
 		(pin "2"
-			(uuid "68634427-b62c-4021-b7d1-78a051d6df1e")
+			(uuid "6ae0f447-341f-4d28-9bad-2ea4ed36c50f")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C73")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C130")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -56374,7 +56250,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.942 58.674 0)
+		(at 171.45 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56384,8 +56260,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7899c3e5-f5ad-47fa-8582-95ee58a8470d")
-		(property "Reference" "C70"
-			(at 174.752 57.4039 0)
+		(property "Reference" "C112"
+			(at 175.26 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56396,7 +56272,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 174.752 59.9439 0)
+			(at 175.26 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56407,7 +56283,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 171.9072 62.484 0)
+			(at 172.4152 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56418,7 +56294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56429,7 +56305,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56440,7 +56316,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56451,7 +56327,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56462,7 +56338,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56472,7 +56348,7 @@
 			)
 		)
 		(property "If" ""
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56482,7 +56358,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56492,7 +56368,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56502,7 +56378,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 170.942 58.674 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56513,19 +56389,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f40ece9-89e8-47c3-a3ee-ed9f27ddcf0f")
+			(uuid "f77f0636-a09b-4fac-8eb8-5d348e2d9de2")
 		)
 		(pin "2"
-			(uuid "83af7788-3731-48cc-abf6-a6d1fc5f4853")
+			(uuid "592b2f78-72ed-4c25-a224-1d10ee79e660")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C70")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C127")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -56533,7 +56405,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254.762 57.912 0)
+		(at 255.27 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56543,8 +56415,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d0b5590-f433-4e1a-8abc-3ef86fe2c079")
-		(property "Reference" "C82"
-			(at 257.937 57.277 0)
+		(property "Reference" "C124"
+			(at 258.445 57.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56555,7 +56427,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 257.937 59.817 0)
+			(at 258.445 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56566,7 +56438,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 255.7272 61.722 0)
+			(at 256.2352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56577,7 +56449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254.762 57.912 0)
+			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56588,7 +56460,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254.762 57.912 0)
+			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56599,7 +56471,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 254.762 57.912 0)
+			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56610,7 +56482,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 254.762 57.912 0)
+			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56621,19 +56493,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3082681-d4df-4cfc-b4be-f6379d2989c8")
+			(uuid "07b66a84-2d9e-4752-9b5a-51365f196801")
 		)
 		(pin "2"
-			(uuid "085373d2-8ad3-49d5-97c7-bdc9b0df37f0")
+			(uuid "db50bf86-3c21-43e8-bb5f-a43e39485a80")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C82")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C139")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -56641,7 +56509,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.264 34.29 0)
+		(at 207.01 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56650,8 +56518,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e3da36b-41e4-4842-91fa-ca12ab47a35a")
-		(property "Reference" "C77"
-			(at 210.82 32.766 0)
+		(property "Reference" "C119"
+			(at 210.566 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56662,7 +56530,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 210.82 35.306 0)
+			(at 210.566 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56673,7 +56541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 208.2292 38.1 0)
+			(at 207.9752 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56684,7 +56552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56695,7 +56563,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56706,7 +56574,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56717,7 +56585,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56728,7 +56596,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56738,7 +56606,7 @@
 			)
 		)
 		(property "If" ""
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56748,7 +56616,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56758,7 +56626,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56768,7 +56636,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 207.264 34.29 0)
+			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56779,19 +56647,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aab477a-4ec6-4e29-84a7-5adb52732efb")
+			(uuid "1b787d90-d4d1-40d9-8ad5-083e10e8c8e6")
 		)
 		(pin "2"
-			(uuid "1f9625a5-6fa8-4dd6-a907-563e0659f2e4")
+			(uuid "cc86a2ea-2245-4a19-86e9-b5c446a1bddb")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C77")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C134")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -56809,7 +56673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9078176d-9ebc-4e44-bc2e-78ace3cdf802")
-		(property "Reference" "SW10"
+		(property "Reference" "SW14"
 			(at 234.442 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56929,22 +56793,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d4b1f76-52a1-40c8-86b7-a008eb57e9be")
+			(uuid "777e1e83-6f21-46d4-82bd-b8659e3553dc")
 		)
 		(pin "2"
-			(uuid "5f1884c3-68ae-464f-9295-703bafbcb748")
+			(uuid "6cc0278c-c3bd-4701-a5f1-9704bc4ef84b")
 		)
 		(pin "3"
-			(uuid "ea754c8a-3d82-4a73-b565-ae6c91005b6e")
+			(uuid "74b8c864-7091-4b81-a2aa-97cc876bcfda")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "SW10")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "SW16")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -56952,7 +56812,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.218 34.29 0)
+		(at 219.71 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56962,8 +56822,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d0a934-f6bc-4e88-9f50-f07f86280893")
-		(property "Reference" "C79"
-			(at 224.028 33.0199 0)
+		(property "Reference" "C121"
+			(at 223.52 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56974,7 +56834,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 224.028 35.5599 0)
+			(at 223.52 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56985,7 +56845,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 221.1832 38.1 0)
+			(at 220.6752 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56996,7 +56856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57007,7 +56867,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57018,7 +56878,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57029,7 +56889,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57040,7 +56900,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57050,7 +56910,7 @@
 			)
 		)
 		(property "If" ""
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57060,7 +56920,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57070,7 +56930,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57080,7 +56940,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 220.218 34.29 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57091,19 +56951,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "afc99be7-4f98-43fc-a97b-87928ecc8180")
+			(uuid "50e3960a-a84e-4cc7-866a-38d5ca152640")
 		)
 		(pin "2"
-			(uuid "dc528e8b-8d28-4489-9ad3-759f467f2ff2")
+			(uuid "41698758-73ab-4257-bdd7-370840c16066")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C79")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C136")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -57121,7 +56977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9811c885-a285-4ef0-956c-e2301fae7a18")
-		(property "Reference" "D22"
+		(property "Reference" "D29"
 			(at 194.31 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57212,31 +57068,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "14740d6b-5d70-4c93-9b3d-608789292220")
+			(uuid "d617fd7e-29ad-4448-9a08-544ad5b06dd8")
 		)
 		(pin "6"
-			(uuid "44f2d15e-2baf-4134-93fd-df2e293cf8a4")
+			(uuid "6984d854-4013-499d-a848-5797c5bbc489")
 		)
 		(pin "3"
-			(uuid "ae75b9ed-a4c9-4c9a-989b-5524b1bd7264")
+			(uuid "cd6704e7-916c-4be4-87b4-0e071353ae13")
 		)
 		(pin "4"
-			(uuid "9b0ab032-b277-4197-a2d1-3ddfb1c39fd6")
+			(uuid "37ea6e1a-b3d2-4558-8672-fe8a93ab65cd")
 		)
 		(pin "5"
-			(uuid "17859b66-6eef-4bdf-88f3-4979db425f42")
+			(uuid "7fd16a92-7674-4e3f-a890-2d4c8c35c78f")
 		)
 		(pin "2"
-			(uuid "30357c22-f4bc-496b-a4c1-e1e85a8684cb")
+			(uuid "e6a457b1-8339-4239-9c5d-54b587b707ef")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "D42")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -57253,7 +57105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ac9921d-626c-4bcb-9b59-5fabb2d5c36e")
-		(property "Reference" "R46"
+		(property "Reference" "R70"
 			(at 191.008 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57386,19 +57238,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "517d1dad-79c9-4d18-8f60-9a9a4f4594b2")
+			(uuid "f5f236d1-c2e4-423b-a4bb-0efc768fe326")
 		)
 		(pin "1"
-			(uuid "f1d56e66-b0a1-4444-9f68-2eaa09d6b583")
+			(uuid "7a3b01e3-0368-41f8-ba01-a9d093b28a74")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R87")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -57415,7 +57263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e58848a-d25a-48d8-af18-b1913e691e59")
-		(property "Reference" "R53"
+		(property "Reference" "R74"
 			(at 259.588 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57548,19 +57396,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "de80da76-6b8c-4748-93f1-b8f17dba6e41")
+			(uuid "7de0a73e-6db1-4d45-ad9b-0d046944a941")
 		)
 		(pin "1"
-			(uuid "a7b8e6a8-7feb-46ad-b517-b2d395dba8a0")
+			(uuid "78cf3867-6971-44da-9c1d-41d448e57844")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R53")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R91")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -57568,7 +57412,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.798 44.45 90)
+		(at 34.29 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57577,8 +57421,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1e645f2-79d7-47b7-ae93-5fc546dc9e22")
-		(property "Reference" "C68"
-			(at 34.544 39.624 90)
+		(property "Reference" "C110"
+			(at 34.036 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57588,7 +57432,7 @@
 			)
 		)
 		(property "Value" "26p"
-			(at 34.544 37.084 90)
+			(at 34.036 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57598,7 +57442,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 38.608 43.4848 0)
+			(at 38.1 43.4848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57609,7 +57453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.798 44.45 0)
+			(at 34.29 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57620,7 +57464,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.798 44.45 0)
+			(at 34.29 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57631,7 +57475,7 @@
 			)
 		)
 		(property "P/N" "0603N270F500CT "
-			(at 34.798 44.45 0)
+			(at 34.29 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57642,7 +57486,7 @@
 			)
 		)
 		(property "LCSC P/N" "C92670"
-			(at 34.798 44.45 90)
+			(at 34.29 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57653,19 +57497,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9088f8a8-0f87-4e5c-bb6c-634d5410f61e")
+			(uuid "8eed79d9-a6df-4ca4-8926-68863297e891")
 		)
 		(pin "2"
-			(uuid "29129a06-0485-4b48-bbce-58e046f85237")
+			(uuid "7c8e4a2e-f6bc-4e43-88b0-55290f1002ff")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C68")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C125")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -57673,7 +57513,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.196 34.29 0)
+		(at 171.45 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57682,8 +57522,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9ab7dc8-d6fd-4f66-84c8-09c0549e6db1")
-		(property "Reference" "C71"
-			(at 173.99 33.02 0)
+		(property "Reference" "C113"
+			(at 174.244 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57694,7 +57534,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 173.99 35.56 0)
+			(at 174.244 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57705,7 +57545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 172.1612 38.1 0)
+			(at 172.4152 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57716,7 +57556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57727,7 +57567,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57738,7 +57578,7 @@
 			)
 		)
 		(property "Mouser Part Number" "08055D475KAT4A"
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57749,7 +57589,7 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57760,7 +57600,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57770,7 +57610,7 @@
 			)
 		)
 		(property "If" ""
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57780,7 +57620,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57790,7 +57630,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57800,7 +57640,7 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
-			(at 171.196 34.29 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57811,19 +57651,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "844ef2f6-3ebc-4f85-9ba9-99b582cfd9df")
+			(uuid "e96768a9-2328-41ea-acc6-9aeb18ada6a4")
 		)
 		(pin "2"
-			(uuid "5c1b2b86-8376-4194-bd08-ee610e9891a9")
+			(uuid "fc58b17f-da76-4ad2-bc28-40ff0ff3e22e")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C71")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C128")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -57840,7 +57676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c38a4f07-d458-48ed-bb8f-71f9526b9271")
-		(property "Reference" "R43"
+		(property "Reference" "R63"
 			(at 175.768 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57973,19 +57809,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c26226f-0988-45de-a603-8fe7c17ee540")
+			(uuid "1b2cba65-66a1-4b1c-96fd-51af51cedbd1")
 		)
 		(pin "1"
-			(uuid "5f3faa54-8b29-439d-b7ed-2c7bbb87cde1")
+			(uuid "00bda67f-37a6-422d-8077-b9940e9fa20b")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R84")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -58003,7 +57835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a2c0ee-ff10-452f-901d-c9cb7da371a6")
-		(property "Reference" "D24"
+		(property "Reference" "D31"
 			(at 261.62 103.1874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58092,19 +57924,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9ff6bc2-67c8-4629-9066-3eae1c67b1f0")
+			(uuid "93d2b82c-d107-4c4e-bb19-2ac1e8c2e236")
 		)
 		(pin "2"
-			(uuid "16b43782-1af4-42fa-90d2-3820b20eb1dd")
+			(uuid "23a9953f-a110-4da4-b88f-0493b8c8c1ef")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "D44")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -58112,7 +57940,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 216.662 58.674 0)
+		(at 217.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58121,8 +57949,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c453bce8-6073-4e8e-ba8f-c3a0024f7686")
-		(property "Reference" "C78"
-			(at 217.17 56.642 0)
+		(property "Reference" "C120"
+			(at 217.678 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58133,7 +57961,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 217.424 61.214 0)
+			(at 217.932 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58144,7 +57972,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 217.6272 62.484 0)
+			(at 218.1352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58155,7 +57983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58166,7 +57994,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58177,7 +58005,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58188,7 +58016,7 @@
 			)
 		)
 		(property "P/N" "MLASU168SB5105KTNA01"
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58199,7 +58027,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58209,7 +58037,7 @@
 			)
 		)
 		(property "If" ""
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58219,7 +58047,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58229,7 +58057,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58239,7 +58067,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 216.662 58.674 0)
+			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58250,19 +58078,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "de11c550-eb62-44eb-b1d1-ec474edc5ae0")
+			(uuid "65170c06-7e47-4061-b94a-ae0a4408d2c1")
 		)
 		(pin "2"
-			(uuid "4a667a14-1da0-482d-bdc8-6f3b8e221dab")
+			(uuid "1b682387-26b3-40c0-9b4f-d6f15ee49e83")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C78")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C135")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -58280,7 +58104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8e67386-18b5-4c62-b820-41c571022901")
-		(property "Reference" "R48"
+		(property "Reference" "R72"
 			(at 226.06 149.225 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58367,19 +58191,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "63ca7612-bfb8-4adc-8c8f-0976c70a8206")
+			(uuid "7d61c7e7-c294-41c2-abef-85ad0be5436a")
 		)
 		(pin "2"
-			(uuid "f99ec16d-d62e-4fca-9d7c-ff925f3c76b2")
+			(uuid "238cd744-7801-426c-a3ec-edab75f67f31")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R89")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -58387,7 +58207,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 182.626 108.712 270)
+		(at 182.88 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58396,8 +58216,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d321e02d-7d8b-4458-a2a3-b143651bed0e")
-		(property "Reference" "SW9"
-			(at 186.3852 107.5436 90)
+		(property "Reference" "SW13"
+			(at 186.6392 108.0516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58408,7 +58228,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 186.3852 109.855 90)
+			(at 186.6392 110.363 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58419,7 +58239,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Special:TL3365AF180QG"
-			(at 187.706 108.712 0)
+			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58430,7 +58250,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ResetBtn.pdf"
-			(at 187.706 108.712 0)
+			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58441,7 +58261,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58452,7 +58272,7 @@
 			)
 		)
 		(property "P/N" "TL3365AF180QG"
-			(at 182.626 108.712 90)
+			(at 182.88 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58463,7 +58283,7 @@
 			)
 		)
 		(property "Mouser Part Number" "612-TL3365AF180QG"
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58474,7 +58294,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58484,7 +58304,7 @@
 			)
 		)
 		(property "If" ""
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58494,7 +58314,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58504,7 +58324,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 182.626 108.712 0)
+			(at 182.88 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58514,7 +58334,7 @@
 			)
 		)
 		(property "LCSC P/N" "C2886926"
-			(at 182.626 108.712 90)
+			(at 182.88 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58525,19 +58345,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "198f28f4-92d5-4662-ad2d-04137e751ed3")
+			(uuid "f64b96d4-fa7d-465f-b433-b305c90de441")
 		)
 		(pin "2"
-			(uuid "f86c32ef-2bb2-4308-b2f6-5fc31faeda86")
+			(uuid "43851587-a2f8-4dce-a850-1fd12ae47a50")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "SW9")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "SW15")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -58545,7 +58361,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 178.308 108.458 0)
+		(at 177.8 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58554,8 +58370,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d38d2326-8796-407e-8b4f-a25213e4435c")
-		(property "Reference" "C72"
-			(at 169.672 106.934 0)
+		(property "Reference" "C114"
+			(at 169.164 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58566,7 +58382,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 169.672 109.2454 0)
+			(at 169.164 108.7374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58577,7 +58393,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 179.2732 112.268 0)
+			(at 178.7652 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58588,7 +58404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58599,7 +58415,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58610,7 +58426,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58621,7 +58437,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58632,7 +58448,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58643,7 +58459,7 @@
 			)
 		)
 		(property "If" ""
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58654,7 +58470,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58665,7 +58481,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58676,7 +58492,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 178.308 108.458 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58687,19 +58503,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ca8f647-eb20-4747-8a7e-3fa9a82542fa")
+			(uuid "44957659-d857-489f-b2d9-67fecd0e6c19")
 		)
 		(pin "2"
-			(uuid "c55221c6-8bf5-4365-b00b-84cef0b08112")
+			(uuid "5c3ef9e1-946d-4252-bfe6-994e66f31b8c")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C72")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C129")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -58716,7 +58528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de40b8ae-1bdf-43d4-b74f-91c8c0bfa2ee")
-		(property "Reference" "FB7"
+		(property "Reference" "FB11"
 			(at 91.186 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58792,19 +58604,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "79d4249a-beac-4bbd-96eb-f3a25cc11da8")
+			(uuid "1b684b23-59e7-455a-9d24-d2409b028840")
 		)
 		(pin "2"
-			(uuid "287e42da-3f10-4925-9b25-3b24b36c0d0d")
+			(uuid "ddabb955-23a2-4ad5-9165-32979dcef097")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "FB7")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "FB13")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "FB11")
 					(unit 1)
 				)
 			)
@@ -58821,7 +58629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dec9d7f2-1eaa-4080-a4bf-354727e24a5d")
-		(property "Reference" "R52"
+		(property "Reference" "R73"
 			(at 248.285 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58950,19 +58758,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d78aee5-016f-48e7-8ad1-15e22479572c")
+			(uuid "112acdf1-8e89-4a61-8458-a386de4c1da4")
 		)
 		(pin "2"
-			(uuid "3cf803a9-699d-4f84-8e97-5b0d9d179383")
+			(uuid "29ec73c5-bed1-4229-aa56-e790cac86cd4")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R90")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -58979,7 +58783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6442878-775b-4ba9-9aa6-5710e922e20c")
-		(property "Reference" "C75"
+		(property "Reference" "C117"
 			(at 197.358 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59108,19 +58912,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "389c0585-35d4-4779-bda0-120cca9cba29")
+			(uuid "cc4eb815-95bf-442c-944d-39c375a8cd11")
 		)
 		(pin "2"
-			(uuid "ed29dd4b-2925-40fd-a2e1-d407d4cd4e72")
+			(uuid "3e9ab0a6-da67-4f1d-a106-990f2671a685")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C75")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C132")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -59137,7 +58937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee591242-5918-4102-a71e-b57c61658a4f")
-		(property "Reference" "J11"
+		(property "Reference" "J18"
 			(at 254 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59193,25 +58993,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "06e10e45-d12c-4acf-a99e-d4d60b54d07e")
+			(uuid "e72df8bf-5266-4f61-8691-e5d5095361d7")
 		)
 		(pin "2"
-			(uuid "cdb83e27-9332-4710-b6d1-ac9ffbddd871")
+			(uuid "dfee1efa-7bb2-49e2-a801-1965ec1211a6")
 		)
 		(pin "4"
-			(uuid "108564f1-54dc-4403-93fa-6a5cb9dffed4")
+			(uuid "e38ffdb6-0978-4db4-850d-7c942beab3b8")
 		)
 		(pin "1"
-			(uuid "384e2bca-1748-4619-bd2f-2c2bec5f8bb9")
+			(uuid "e74b58aa-9c3e-485f-814b-60341dca7682")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "J11")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "J20")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -59219,7 +59015,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.798 52.07 270)
+		(at 34.29 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -59229,8 +59025,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee918710-b71f-4299-90d2-bba868a89c94")
-		(property "Reference" "C69"
-			(at 34.798 58.928 90)
+		(property "Reference" "C111"
+			(at 34.29 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59240,7 +59036,7 @@
 			)
 		)
 		(property "Value" "26p"
-			(at 34.798 56.388 90)
+			(at 34.29 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59250,7 +59046,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 30.988 53.0352 0)
+			(at 30.48 53.0352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59261,7 +59057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.798 52.07 0)
+			(at 34.29 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59272,7 +59068,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.798 52.07 0)
+			(at 34.29 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59283,7 +59079,7 @@
 			)
 		)
 		(property "P/N" "0603N270F500CT "
-			(at 34.798 52.07 0)
+			(at 34.29 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59294,7 +59090,7 @@
 			)
 		)
 		(property "LCSC P/N" "C92670"
-			(at 34.798 52.07 90)
+			(at 34.29 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59305,19 +59101,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac5e2cb5-948b-4e28-bd2b-90a58dc79a29")
+			(uuid "70a4048b-056b-47f0-89f8-a331c339fd88")
 		)
 		(pin "2"
-			(uuid "ac711b04-b118-43f1-83e8-003bbfc72484")
+			(uuid "96aa4c18-654b-44b9-8f0c-30b3250391ea")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C69")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C126")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -59336,7 +59128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23ec1e4-acc3-4cf2-ad35-855fed399198")
-		(property "Reference" "R47"
+		(property "Reference" "R71"
 			(at 226.06 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59423,19 +59215,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "08c52b76-7822-4e3b-a422-deab1ad65d28")
+			(uuid "c7b9ecbd-87c0-4a82-a8ea-072378726674")
 		)
 		(pin "2"
-			(uuid "7c84c4a9-58b1-42bc-9347-b57527c7d1fe")
+			(uuid "c3d56364-19f4-4b0a-93a5-999dd71cb58f")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "R88")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -59443,7 +59231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.156 34.29 0)
+		(at 232.41 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -59452,8 +59240,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd9abcbf-9f68-4d97-af25-d5b3e883aafe")
-		(property "Reference" "C80"
-			(at 233.172 32.004 0)
+		(property "Reference" "C122"
+			(at 233.426 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59464,7 +59252,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 232.664 36.83 0)
+			(at 232.918 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59475,7 +59263,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 233.1212 38.1 0)
+			(at 233.3752 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59486,7 +59274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59497,7 +59285,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59508,7 +59296,7 @@
 			)
 		)
 		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59519,7 +59307,7 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59530,7 +59318,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59540,7 +59328,7 @@
 			)
 		)
 		(property "If" ""
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59550,7 +59338,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59560,7 +59348,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59570,7 +59358,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 232.156 34.29 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59581,19 +59369,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e73cd10-7272-430d-9041-acc569b1158e")
+			(uuid "59c5991e-dc73-4688-afa8-866590a3d4d2")
 		)
 		(pin "2"
-			(uuid "4fc2ddab-9b5c-4f37-954d-7aa3d244d3a8")
+			(uuid "5cf9c136-aaf0-4a12-b6e9-3af46a03f960")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/bc064083-e481-4e1d-b60b-4fd4b25dc556"
-					(reference "C80")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/3326d90a-9251-41a3-a334-453775420203/5aca4e5b-f4fd-43ef-affd-0718bb84f0e0"
-					(reference "C137")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/996dbbd4-1b7a-42f2-bfbe-e8032f43a29f"
+					(reference "C122")
 					(unit 1)
 				)
 			)
