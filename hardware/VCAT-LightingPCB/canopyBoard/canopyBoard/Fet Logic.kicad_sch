@@ -3,12 +3,154 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "fadeb219-a04c-4dff-80d0-0a0f1e18d2f4")
-	(paper "A5")
+	(paper "A4")
 	(lib_symbols
-		(symbol "Transistor_FET:IRLML0030"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16,7 +158,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -26,8 +168,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRLML0030"
-				(at 5.08 0 0)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -37,21 +179,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -59,10 +188,20 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -73,7 +212,40 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -84,18 +256,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IRLML0030_0_1"
+			(symbol "NMOS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -239,7 +400,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -262,7 +423,25 @@
 					)
 				)
 			)
-			(symbol "IRLML0030_1_1"
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -273,7 +452,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,6 +470,382 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lhrs_power:PSMN012-100YS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PSMN012-100YS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "kicad-embed://PSMN012-100YS.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "P/N" "PSMN012-100YSFX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC P/N" "C20443035"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PSMN012-100YS_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PSMN012-100YS_1_1"
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "2"
 						(effects
 							(font
@@ -300,9 +855,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 5.08 -6.35 90)
 					(length 2.54)
-					(name "D"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,12 +872,90 @@
 						)
 					)
 				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 135.89 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd8a24f-5255-4bbd-9e29-5c7a632f422d")
+	)
+	(junction
+		(at 144.78 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45134a25-5d4a-4c2f-80bd-b6a19f6978fa")
+	)
+	(junction
+		(at 135.89 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65551e33-2fb8-497a-9af8-b8600915d9f2")
+	)
+	(junction
+		(at 144.78 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93847f95-636a-4d3e-9597-22c4818eeb20")
+	)
+	(junction
+		(at 121.92 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b05908-332b-4f64-8208-a849304e64ea")
+	)
+	(junction
+		(at 144.78 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d247549f-f613-4904-815c-0fb4ba3d475b")
+	)
+	(junction
+		(at 121.92 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0677dc1-1c8a-49aa-8933-d2456839c2d8")
+	)
 	(bus_entry
-		(at 139.7 22.86)
+		(at 160.02 53.34)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -331,7 +964,7 @@
 		(uuid "5e04a039-1562-4b22-a09b-d6920e5ce56e")
 	)
 	(bus_entry
-		(at 100.33 59.69)
+		(at 86.36 87.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -340,7 +973,7 @@
 		(uuid "60f84ccd-f983-46b7-9616-e044ff86e2a0")
 	)
 	(bus_entry
-		(at 100.33 29.21)
+		(at 86.36 64.77)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -349,7 +982,7 @@
 		(uuid "b8f52515-c43c-4184-aaf2-0d927b0212f1")
 	)
 	(bus_entry
-		(at 100.33 91.44)
+		(at 86.36 111.76)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -358,7 +991,7 @@
 		(uuid "d86f528f-333a-46ea-b062-2ea1c7917295")
 	)
 	(bus_entry
-		(at 139.7 53.34)
+		(at 160.02 74.93)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -367,7 +1000,7 @@
 		(uuid "eeb89382-2715-42b1-89cb-198d90207ac1")
 	)
 	(bus_entry
-		(at 139.7 85.09)
+		(at 160.02 99.06)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -377,7 +1010,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 124.46 57.15)
+			(xy 88.9 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010e10a7-8e65-45dd-813e-09968abf6692")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -387,17 +1030,47 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 62.23) (xy 116.84 62.23)
+			(xy 144.78 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "298ddce1-0401-4087-a5ad-022c3471c023")
+		(uuid "11ee90b6-6e55-4518-9579-4e88b7804656")
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 137.16 55.88)
+			(xy 142.24 115.57) (xy 144.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13be65c6-d290-48a1-8135-61ba76b50c68")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea8eb85-f12d-4812-9cf2-bd6bf10969e8")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8d1dd4-75f4-4e52-adf6-2ae4f14339f7")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
@@ -405,59 +1078,99 @@
 		)
 		(uuid "304be2f8-09c8-48bb-b83e-e686898a0163")
 	)
-	(wire
-		(pts
-			(xy 102.87 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3954c2a4-4f4c-4cac-8eca-80c3dfc4accb")
-	)
-	(wire
-		(pts
-			(xy 102.87 31.75) (xy 116.84 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f76094-c937-4a90-b8f9-2f88d1d936f0")
-	)
 	(bus
 		(pts
-			(xy 97.79 26.67) (xy 100.33 29.21)
+			(xy 86.36 64.77) (xy 85.09 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a4f3953-a546-48c2-b2cc-b6853ede61fe")
-	)
-	(bus
-		(pts
-			(xy 100.33 29.21) (xy 100.33 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff844ad-47fa-427f-a99d-214f5bfa3437")
+		(uuid "38ba0565-8a30-4fad-b535-82493be4ddee")
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 67.31)
+			(xy 147.32 68.58) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b016527-460a-4615-9beb-61b92effdbaf")
+		(uuid "3f87c093-76c6-47e4-900f-9dd5f3a86274")
 	)
 	(wire
 		(pts
-			(xy 124.46 25.4) (xy 137.16 25.4)
+			(xy 118.11 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459c2ef2-abff-47c7-9ddb-3b0b5c995c82")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4832dd77-d7eb-464f-9748-cc9e85208ab1")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558ef32b-1d23-4a08-a1f9-7009d198f618")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcd321e-b2eb-4013-8781-dc25cbb4b875")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ec831c-0f94-4495-bc32-5f46a7af182c")
+	)
+	(wire
+		(pts
+			(xy 135.89 115.57) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a01346-d060-4ff0-96d8-95c22561328b")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7999c9d7-f7a6-4374-b57f-8780b6619709")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -467,17 +1180,67 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 124.46 99.06)
+			(xy 144.78 91.44) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "878d642c-63fd-4c98-a437-7ba8d6204ff3")
+		(uuid "8845e1fb-265a-4fc9-acb9-07e615043cc4")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bea499-8799-4322-b226-570b7c35bb73")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee1e32d-9c31-451c-9861-c0489792cc92")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fedb738-54f1-425d-9aab-a074e5950e31")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932c9aed-c6c2-4fa8-95cf-3251711a1a8b")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 121.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953700ca-3329-499b-bf57-ff8eb7207abc")
 	)
 	(bus
 		(pts
-			(xy 142.24 20.32) (xy 139.7 22.86)
+			(xy 162.56 50.8) (xy 160.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -487,7 +1250,47 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 137.16 87.63)
+			(xy 144.78 68.58) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9807bd33-cd0a-430a-9d35-933f90600920")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98423219-9d6d-4599-85b7-ddb88335c274")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de25fbd-f1d0-4c71-8bf5-ffaac13b6c5f")
+	)
+	(bus
+		(pts
+			(xy 86.36 64.77) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b759f-0036-4e6f-abac-6f1239bb2ed6")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 124.46 88.9)
+			(xy 144.78 101.6) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
@@ -507,27 +1310,157 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 124.46 36.83)
+			(xy 144.78 90.17) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d37bc7fe-9919-4c9e-bced-fc5795af2d5c")
+		(uuid "b615ea93-e4cc-49b6-a604-bd0722f03ddb")
 	)
 	(wire
 		(pts
-			(xy 124.46 25.4) (xy 124.46 26.67)
+			(xy 144.78 115.57) (xy 144.78 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3756538-31fe-4b9f-89e8-1dfcda23b54e")
+		(uuid "ba158737-5dcd-4748-9cd8-5b0fb07d5258")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd35bb8-f977-491d-84b9-4295bc7dff68")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc722331-fb2e-4fe8-a8f0-14238aa6f13b")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9de4853-1392-46e0-853c-3cde080d29f0")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5f97d4-9103-4990-ba03-897ea0f12fd2")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bdc96a-0b34-4730-b599-8f2ae1f20113")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2007232-5fba-4a30-ab9b-5fd68ca0b9ab")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2892c42-a773-4ab4-bdb1-00cff70a6d61")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee2d022-dc59-4378-89b4-cc17a15d0836")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef043f30-301d-40dd-85d8-3d039ae65b6c")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b9baf6-9a41-45bc-9be8-5337eddadab8")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53c1b63-b5f5-46f1-a8f6-e68e3cd6da0f")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f875837c-ff47-413f-9754-6b0e8f37ea1f")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac0631b-a010-481a-b89a-d547c1e56d04")
 	)
 	(bus
 		(pts
-			(xy 139.7 22.86) (xy 139.7 85.09)
+			(xy 160.02 53.34) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -536,7 +1469,7 @@
 		(uuid "fef0f74c-ce85-4e0d-bd85-0f0488e5d188")
 	)
 	(label "L_BRK"
-		(at 137.16 25.4 180)
+		(at 157.48 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -546,7 +1479,7 @@
 		(uuid "08a195fa-3e62-41e4-b543-8bf918bc79ab")
 	)
 	(label "R_PWRFET"
-		(at 102.87 62.23 0)
+		(at 88.9 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -556,7 +1489,7 @@
 		(uuid "16fc21ec-cb51-45bc-80d3-1d9245a72b71")
 	)
 	(label "R_BRK"
-		(at 137.1132 55.88 180)
+		(at 157.4332 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -565,8 +1498,18 @@
 		)
 		(uuid "1e4ddc13-fb69-4c3c-9bfa-1b63d32f1083")
 	)
+	(label "L_PWRFET"
+		(at 88.9 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fb70484-f34e-4cc8-822b-d40938b2f2f3")
+	)
 	(label "CPY_BRK"
-		(at 137.16 87.63 180)
+		(at 157.48 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -575,18 +1518,8 @@
 		)
 		(uuid "491bc02f-2e31-4dfb-a747-c22e82305693")
 	)
-	(label "L_PWRFET"
-		(at 102.87 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73d1c14e-8b94-4d9b-911c-25f1943b1faa")
-	)
 	(label "CPY_PWRFET"
-		(at 102.87 93.98 0)
+		(at 88.9 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -595,20 +1528,86 @@
 		)
 		(uuid "8d319b49-63d2-4741-a0ec-555130bdd189")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 118.11 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "065c9204-4616-4039-b6aa-a3b71d86b248")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 120.65 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0aa4f31f-7d98-49a9-b9e6-a2bcb11088da")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 124.46 38.1 0)
+		(at 121.92 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "010f2172-9946-4ceb-ae44-c9efbe1e11fb")
+		(uuid "3a5976fc-18f7-4bad-b4c5-98e836c3f889")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 144.78 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d363375-474c-4a52-b660-060679f9add8")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 135.89 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5feb91d4-a126-41d0-9157-94ef0124606d")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 135.89 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b1b1651-eb40-4de3-afb6-62921e9fd87d")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 121.92 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6dbd6e85-3071-4c1f-8814-8cc640d07c7b")
 	)
 	(hierarchical_label "{BRK}"
 		(shape input)
-		(at 142.24 20.32 0)
+		(at 162.56 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -619,29 +1618,51 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 124.46 100.33 0)
+		(at 121.92 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "af1ab0b2-986f-491a-b420-92b973ffd1dd")
+		(uuid "9029e0fb-4817-48cf-af63-0c2fd20d6f40")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 124.46 68.58 0)
+		(at 144.78 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bb959160-0e1f-4271-ad2e-941754eb9951")
+		(uuid "9ed8f391-478e-46da-bc8a-5e4e56e2c4ef")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 144.78 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1a08ed6-771b-48ba-860f-245e806d671b")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 118.11 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca0c34db-a34e-4b74-b7a0-7085787d3333")
 	)
 	(hierarchical_label "{FET}"
 		(shape input)
-		(at 97.79 26.67 180)
+		(at 85.09 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -651,8 +1672,8 @@
 		(uuid "f74c1d7b-e8c4-4ee1-b56b-0531317f62e2")
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML0030")
-		(at 121.92 31.75 0)
+		(lib_id "lhrs_power:PSMN012-100YS")
+		(at 142.24 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -660,58 +1681,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22c38255-cabc-4710-b360-2cad45eacc26")
-		(property "Reference" "IRLML0030TRPBF5"
-			(at 119.634 29.464 90)
-			(hide yes)
+		(uuid "28cf03d8-f29e-4ddc-b59d-f6a66dca8f7d")
+		(property "Reference" "Q2"
+			(at 150.368 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRLML0030"
-			(at 128.27 33.0199 0)
-			(hide yes)
+		(property "Value" "PSMN012-100YS"
+			(at 172.466 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P237X112-3N"
-			(at 127 33.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 127 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 121.92 31.75 0)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -721,27 +1713,110 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "ad10ffbd-0e53-4de4-932b-b6f107c0171d")
+		(property "Datasheet" "kicad-embed://PSMN012-100YS.pdf"
+			(at 142.24 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "b1d08138-b7f7-4875-b4a1-8e99e7a1f769")
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 142.24 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 142.24 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "PSMN012-100YSFX"
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 142.24 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "410b21c7-07e6-4582-b22a-07dd57b20166")
 		)
 		(pin "3"
-			(uuid "fccce322-6f1a-41d8-8873-39da9bbb7419")
+			(uuid "33eec146-7478-4300-baa2-51493f3061eb")
+		)
+		(pin "4"
+			(uuid "5d85feff-3f20-45b8-b7a8-021d1f0ef5c3")
+		)
+		(pin "2"
+			(uuid "34d269a8-4a5b-466c-8daa-ebbd0f42eee0")
+		)
+		(pin "1"
+			(uuid "b5fdeb14-0f4a-4aff-9b05-dc7de49cd7c4")
 		)
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
-					(reference "IRLML0030TRPBF5")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML0030")
-		(at 121.92 62.23 0)
+		(lib_id "lhrs_power:PSMN012-100YS")
+		(at 142.24 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -749,58 +1824,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d440b21e-33f7-484d-b857-119b4f3e0c9f")
-		(property "Reference" "IRLML0030TRPBF6"
-			(at 119.634 59.944 90)
-			(hide yes)
+		(uuid "2d8ed9fa-cfb3-4d0d-967e-6bdebe69cd90")
+		(property "Reference" "Q3"
+			(at 150.368 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRLML0030"
-			(at 128.27 63.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X112-3N"
-			(at 127 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 127 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 121.92 62.23 0)
+		(property "Value" "PSMN012-100YS"
+			(at 131.826 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,27 +1846,121 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "ee8e3a7b-29be-43b4-a5a5-da5d6a0b1c44")
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "b5ee5a25-0d08-420a-af35-5ad8a478b233")
+		(property "Datasheet" "kicad-embed://PSMN012-100YS.pdf"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 142.24 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 142.24 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 142.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "PSMN012-100YSFX"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "41e6e2c8-8c5e-40ec-8e51-1de3f5c5b484")
 		)
 		(pin "3"
-			(uuid "1d346bfa-cffd-4989-8ce4-b863c654c4c6")
+			(uuid "f016a1cb-2dab-495a-9c74-4050f67de505")
+		)
+		(pin "4"
+			(uuid "dd4d3c38-61c8-4d8a-beea-99773bbd87dc")
+		)
+		(pin "2"
+			(uuid "404afb3b-4b6c-48fa-92d5-893a821de1d9")
+		)
+		(pin "1"
+			(uuid "5f2a9cc2-7741-413a-8e52-8ba7fda34093")
 		)
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
-					(reference "IRLML0030TRPBF6")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML0030")
-		(at 121.92 93.98 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 119.38 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -838,10 +1968,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ea312edf-4448-499d-8d9c-9b666225613e")
-		(property "Reference" "IRLML0030TRPBF7"
-			(at 119.634 91.694 90)
-			(hide yes)
+		(uuid "46c6a4c8-b19a-411e-807a-a2bfcca5ccb2")
+		(property "Reference" "Q7"
+			(at 124.968 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -851,9 +1980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML0030"
-			(at 128.27 95.2499 0)
-			(hide yes)
+		(property "Value" "NMOS"
+			(at 124.968 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -863,21 +1991,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P237X112-3N"
-			(at 127 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
-			(at 127 97.79 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -885,11 +2000,399 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 119.38 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 119.38 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 119.38 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 119.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "064842ff-62c1-4b03-9f99-69dc65de913d")
+		)
+		(pin "2"
+			(uuid "4609eff6-0899-4851-a996-facf3010749c")
+		)
+		(pin "3"
+			(uuid "05bd9bfa-a4f2-4b0b-9a18-641e3849790d")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_power:PSMN012-100YS")
+		(at 142.24 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "788b51fe-1260-4ce2-80f0-3ab592ac79d6")
+		(property "Reference" "Q1"
+			(at 150.368 57.658 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN012-100YS"
+			(at 131.826 50.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://PSMN012-100YS.pdf"
+			(at 142.24 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 142.24 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "PSMN012-100YSFX"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "153ab662-bf92-489b-8c06-ac762c0906b3")
+		)
+		(pin "3"
+			(uuid "8171ad48-684a-49e9-ae06-83ad2f122b09")
+		)
+		(pin "4"
+			(uuid "7bda62ae-7c99-415d-900c-52f04e95f622")
+		)
+		(pin "2"
+			(uuid "4259be3f-241a-48b3-beb7-dab521ed4f86")
+		)
+		(pin "1"
+			(uuid "24e07dff-e15c-420f-b558-b813c6394221")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 119.38 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83962ec4-1efa-49e4-a9ce-995a2f3ba108")
+		(property "Reference" "Q9"
+			(at 123.952 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
 			)
 		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-			(at 121.92 93.98 0)
+		(property "Value" "NMOS"
+			(at 123.952 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 119.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 119.38 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 119.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17e333b0-bd77-4fe1-a167-ddf268554a38")
+		)
+		(pin "2"
+			(uuid "51d941bc-6834-4bfa-be2b-d422fab9cf43")
+		)
+		(pin "3"
+			(uuid "371a59eb-67a3-4c38-9a3c-547864db06e8")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb05589d-eb35-47db-87e7-6e25a73e7e44")
+		(property "Reference" "R35"
+			(at 130.556 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 130.556 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.668 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,18 +2403,294 @@
 			)
 		)
 		(pin "2"
-			(uuid "39c72b97-52d3-443c-94cf-6f56e0d6bd14")
+			(uuid "a467c10f-530a-4260-95fb-f985337953e6")
 		)
 		(pin "1"
-			(uuid "e0c8b87d-ada3-4116-8d46-bfe054f33c83")
-		)
-		(pin "3"
-			(uuid "73a0eae5-f64d-40cf-acfb-8cf7810396c3")
+			(uuid "8263ac59-31d4-44ae-8a47-9ffded30f3e7")
 		)
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
-					(reference "IRLML0030TRPBF7")
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfaf53c9-790b-4d6d-afa4-e7cccc1e9c24")
+		(property "Reference" "R34"
+			(at 116.586 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 116.586 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 123.698 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7693bed-f3cb-4e64-918a-6529f43b0490")
+		)
+		(pin "1"
+			(uuid "bcd9d49c-3ce6-4287-8283-a5251f85e894")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb37c456-2d70-462d-b5a9-932304a4c803")
+		(property "Reference" "R36"
+			(at 130.556 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 130.556 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.668 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f548ae3-fee1-4ce2-8dce-0c747b70c04a")
+		)
+		(pin "1"
+			(uuid "f646fdc4-ea0a-461c-a1b5-daf792faa42b")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 119.38 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3d11eda-9e95-44e6-9221-782bfa7c1ab1")
+		(property "Reference" "Q8"
+			(at 124.206 90.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 124.206 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 119.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 119.38 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 119.38 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 119.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82e7a873-d4c4-445e-961f-0e05533b1605")
+		)
+		(pin "2"
+			(uuid "f959d71c-6a79-4721-a82b-bfc31bb5424c")
+		)
+		(pin "3"
+			(uuid "6936a97b-0c24-440e-891e-6cfa727a285b")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "Q8")
 					(unit 1)
 				)
 			)

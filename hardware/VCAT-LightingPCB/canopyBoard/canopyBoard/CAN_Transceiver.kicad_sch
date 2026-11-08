@@ -33675,7 +33675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C33"
+		(property "Reference" "C9"
 			(at 76.2 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33761,7 +33761,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "C33")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -33778,7 +33778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C35"
+		(property "Reference" "C11"
 			(at 194.564 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33862,7 +33862,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "C35")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -33880,7 +33880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418918ed-79a5-4844-a068-77984ff1998e")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 215.9 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33942,7 +33942,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -33959,7 +33959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C34"
+		(property "Reference" "C10"
 			(at 88.138 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34045,7 +34045,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "C34")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -34062,7 +34062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C32"
+		(property "Reference" "C8"
 			(at 65.278 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34148,7 +34148,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "C32")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -34165,7 +34165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R23"
+		(property "Reference" "R10"
 			(at 201.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34249,7 +34249,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "R23")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -34267,7 +34267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D12"
+		(property "Reference" "D6"
 			(at 196.85 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34405,7 +34405,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "D12")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -34423,7 +34423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f525b581-e914-48f3-856d-b707a04117a7")
-		(property "Reference" "IC2"
+		(property "Reference" "IC1"
 			(at 128.27 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34576,7 +34576,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "IC2")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -34593,7 +34593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34677,7 +34677,7 @@
 		(instances
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/ccb6287e-6bce-49c3-bd3b-b4bd5142473b"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)

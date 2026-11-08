@@ -2250,7 +2250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2340,7 +2340,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,7 +2447,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2465,7 +2465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1c8b0-f199-43b5-8a72-395cd877a32e")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 82.55 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2573,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 35.56 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_ICs:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "LHRS_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2735,7 +2735,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2753,7 +2753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb253572-93fa-4369-bbf7-5f45d193f6ff")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG09"
 			(at 71.755 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2820,7 +2820,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "#FLG01")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -2837,7 +2837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 59.69 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,7 +2927,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C14"
+		(property "Reference" "C1"
 			(at 64.3128 37.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,7 +3036,7 @@
 			)
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9e6894d2-35ee-4054-bbed-0d8e56a2fbc9/0918be4c-e2d5-4270-aeba-c3f5005ec6ec"
-					(reference "C14")
+					(reference "C1")
 					(unit 1)
 				)
 			)
