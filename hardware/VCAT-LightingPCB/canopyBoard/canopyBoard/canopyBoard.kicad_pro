@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -214,7 +214,9 @@
         0.2,
         0.3,
         0.5,
-        1.0
+        1.0,
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
