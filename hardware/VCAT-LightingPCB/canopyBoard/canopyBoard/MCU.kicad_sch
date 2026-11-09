@@ -389,7 +389,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 104.902 36.83 0)
+		(at 104.902 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -439,7 +439,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 104.648 34.544 0)
+		(at 104.648 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -652,6 +652,10 @@
 		(uuid "5f3ed6c2-f59e-476b-a5f4-a4f286f9c891")
 	)
 	(no_connect
+		(at 137.16 30.48)
+		(uuid "8394cbb8-2faa-4329-805c-767ee2e2479b")
+	)
+	(no_connect
 		(at 96.52 73.66)
 		(uuid "8396543c-c901-4c6e-8eea-9f9a30117d25")
 	)
@@ -668,6 +672,10 @@
 		(uuid "a6e92963-fc78-40eb-ad2d-9cbf27901498")
 	)
 	(no_connect
+		(at 137.16 27.94)
+		(uuid "b8a3e6dc-d441-44ae-835b-8dace834c992")
+	)
+	(no_connect
 		(at 137.16 69.85)
 		(uuid "bd4e809a-fa69-4d6a-987d-75be37ae18f6")
 	)
@@ -678,6 +686,10 @@
 	(no_connect
 		(at 137.16 48.26)
 		(uuid "cc7117fc-4d08-4b23-a4f0-a965277e77f5")
+	)
+	(no_connect
+		(at 137.16 33.02)
+		(uuid "d9e549ec-78d5-488d-8b14-e49f22f542fe")
 	)
 	(no_connect
 		(at 137.16 50.8)
@@ -830,6 +842,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e61e8a5-54b9-4f0e-96c6-bceabf704d2d")
+	)
+	(wire
+		(pts
 			(xy 161.29 40.64) (xy 177.8 40.64)
 		)
 		(stroke
@@ -837,16 +859,6 @@
 			(type default)
 		)
 		(uuid "53d535f6-2a2e-46d4-9ea0-545c655f69d0")
-	)
-	(wire
-		(pts
-			(xy 82.55 36.83) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f87b5d-73ed-4bac-9a41-d630707ed082")
 	)
 	(wire
 		(pts
@@ -917,16 +929,6 @@
 			(type default)
 		)
 		(uuid "87670c52-c63d-4e27-ac95-33915e061635")
-	)
-	(wire
-		(pts
-			(xy 82.55 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0a0189-0235-4041-bdaa-7c2e22481fba")
 	)
 	(wire
 		(pts
@@ -1037,6 +1039,16 @@
 			(type default)
 		)
 		(uuid "dd82302a-b7ae-4aad-8988-d9c454059798")
+	)
+	(wire
+		(pts
+			(xy 82.55 36.83) (xy 96.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3565ac-79eb-49d8-8313-cf1a0eb87a10")
 	)
 	(wire
 		(pts
@@ -3005,7 +3017,7 @@
 			)
 		)
 		(pin "PA5" bidirectional
-			(at 96.52 36.83 180)
+			(at 96.52 34.29 180)
 			(uuid "63363efc-81ed-4d29-b8a1-e1265665cd06")
 			(effects
 				(font
@@ -3015,7 +3027,7 @@
 			)
 		)
 		(pin "PA6" bidirectional
-			(at 96.52 34.29 180)
+			(at 96.52 36.83 180)
 			(uuid "4f619a5f-2a69-4e75-b082-71a8866c6fa1")
 			(effects
 				(font
