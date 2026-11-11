@@ -389,7 +389,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 104.902 34.29 0)
+		(at 128.27 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -439,7 +439,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 104.648 37.084 0)
+		(at 104.648 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -549,7 +549,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 105.156 32.258 0)
+		(at 105.156 37.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -609,7 +609,7 @@
 	)
 	(text "Timer\n"
 		(exclude_from_sim no)
-		(at 128.016 38.1 0)
+		(at 105.156 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -782,16 +782,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 38.1) (xy 153.67 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16951915-02b2-4d86-ba33-9620b43158c5")
-	)
-	(wire
-		(pts
 			(xy 54.61 44.45) (xy 58.42 44.45)
 		)
 		(stroke
@@ -832,6 +822,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0713f2-22fa-4e5b-996b-bdd5845be1b1")
+	)
+	(wire
+		(pts
 			(xy 161.29 38.1) (xy 177.8 38.1)
 		)
 		(stroke
@@ -839,16 +839,6 @@
 			(type default)
 		)
 		(uuid "4c3804d0-fb33-4d58-a3d7-0d4378046a7a")
-	)
-	(wire
-		(pts
-			(xy 82.55 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e61e8a5-54b9-4f0e-96c6-bceabf704d2d")
 	)
 	(wire
 		(pts
@@ -932,6 +922,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bba18a-b40a-4e87-81ae-cc785b8c0842")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 177.8 45.72)
 		)
 		(stroke
@@ -942,13 +942,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 31.75) (xy 96.52 31.75)
+			(xy 82.55 36.83) (xy 96.52 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a04d58e5-c838-4345-8ac0-26262b4f558c")
+		(uuid "9f853ea8-b6ee-47af-81eb-f9936e9d1b7f")
 	)
 	(bus
 		(pts
@@ -979,6 +979,16 @@
 			(type default)
 		)
 		(uuid "bdb69866-e3a5-44c5-84e7-73cb6ad91c5b")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2b626e-e8d9-4fc0-90b7-1885306e97bf")
 	)
 	(wire
 		(pts
@@ -1039,16 +1049,6 @@
 			(type default)
 		)
 		(uuid "dd82302a-b7ae-4aad-8988-d9c454059798")
-	)
-	(wire
-		(pts
-			(xy 82.55 36.83) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3565ac-79eb-49d8-8313-cf1a0eb87a10")
 	)
 	(wire
 		(pts
@@ -1607,26 +1607,6 @@
 			"2BIREbkYw5aIiMjFGLZEREQuxrAlIiJyMYYtERGRi/0fQ6eahzBgEhcAAAAASUVORK5CYII="
 		)
 	)
-	(label "R_PWRFET"
-		(at 82.55 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "041de65d-2bb1-4c93-a2bf-edcfa4dea669")
-	)
-	(label "L_PWRFET"
-		(at 82.55 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04b712dd-e532-472a-aafc-accbbb9bbe3e")
-	)
 	(label "STRB_PWM"
 		(at 177.8 45.72 180)
 		(effects
@@ -1707,6 +1687,16 @@
 		)
 		(uuid "7ede17a6-e2de-44cd-9d8a-f59a8081c446")
 	)
+	(label "R_PWRFET"
+		(at 96.52 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "845c1919-4570-4c3b-8e80-04f3c12f689c")
+	)
 	(label "R_PWM"
 		(at 177.8 40.64 180)
 		(effects
@@ -1716,6 +1706,16 @@
 			(justify right bottom)
 		)
 		(uuid "c02a3e93-4551-4126-a12d-e8e6ca152d65")
+	)
+	(label "L_PWRFET"
+		(at 96.52 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d136c465-bcea-447e-b651-5969868fb9d0")
 	)
 	(label "PWMR"
 		(at 137.16 40.64 0)
@@ -3017,17 +3017,17 @@
 			)
 		)
 		(pin "PA5" bidirectional
-			(at 96.52 34.29 180)
+			(at 137.16 38.1 0)
 			(uuid "63363efc-81ed-4d29-b8a1-e1265665cd06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PA6" bidirectional
-			(at 96.52 36.83 180)
+			(at 96.52 31.75 180)
 			(uuid "4f619a5f-2a69-4e75-b082-71a8866c6fa1")
 			(effects
 				(font
@@ -3037,13 +3037,13 @@
 			)
 		)
 		(pin "PA7" bidirectional
-			(at 137.16 38.1 0)
+			(at 96.52 34.29 180)
 			(uuid "3fa2f095-e547-4f0e-b170-ea3ab888b82b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PA8" bidirectional
@@ -3067,7 +3067,7 @@
 			)
 		)
 		(pin "PB0" bidirectional
-			(at 96.52 31.75 180)
+			(at 96.52 36.83 180)
 			(uuid "e32683d6-6921-42cf-985c-561b0b8c024a")
 			(effects
 				(font

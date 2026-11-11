@@ -687,6 +687,12 @@
         "CPY_PWM",
         "STRB_PWM"
       ],
+      "PWM_OUT": [
+        "L_PWM_OUT",
+        "R_PWM_OUT",
+        "CPY_PWM_OUT",
+        "STRB_PWM_OUT"
+      ],
       "SIG": [
         "BRK_SIG",
         "LEFT_SIG",
@@ -742,7 +748,7 @@
         "uuid": "df5034a6-89e6-4596-8ae4-d16cb76dc299"
       }
     ],
-    "used_designators": "C1-139,D1-47,FB1-14,#FLG1-20,R1-91,J1-20,SW1-2,SW5-16,U1-18,Y1-7,#PWR1-41,Q1-10,F1,F3-8,F10-13,TP_3.3V1-6,IC1-3,JP1-8,TP1-29,IRLML0030TRPBF1-8,L1-2,H1-4",
+    "used_designators": "C1-139,D1-47,FB1-14,#FLG1-20,R1-91,J1-20,SW1-2,SW5-16,U1-18,Y1-7,#PWR1-41,Q1-13,F1,F3-8,F10-13,TP_3.3V1-6,IC1-3,JP1-8,TP1-29,IRLML0030TRPBF1-8,L1-2,H1-4",
     "variants": []
   },
   "sheets": [
