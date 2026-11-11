@@ -1054,10 +1054,22 @@
 		(uuid "0b698604-3e42-4cec-91a1-4b5c2ba8a098")
 	)
 	(junction
+		(at 95.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2e6901-b22b-43c7-ab44-83dde13e641d")
+	)
+	(junction
 		(at 218.44 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e6914e6-69cd-449e-92b8-775cbf77a28a")
+	)
+	(junction
+		(at 96.52 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21dda2e9-6a61-4769-9a6f-a6c4c7cdc599")
 	)
 	(junction
 		(at 219.71 97.79)
@@ -1096,6 +1108,12 @@
 		(uuid "48fbbc8c-3057-4c09-bea4-36c2f2a2bec6")
 	)
 	(junction
+		(at 93.98 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ca320c-4cf6-4384-a99c-829e19ff7d86")
+	)
+	(junction
 		(at 88.9 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1130,6 +1148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b336244d-660a-4243-8128-c605da366861")
+	)
+	(junction
+		(at 96.52 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b613ba8e-07d6-4489-b33b-4ffe5c12e4b0")
 	)
 	(junction
 		(at 220.98 34.29)
@@ -1311,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 88.9 82.55)
+			(xy 115.57 82.55) (xy 96.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1461,13 +1485,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 114.3) (xy 115.57 114.3)
+			(xy 95.25 114.3) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31aed010-576e-4da7-bf8c-63fe78ba4863")
+		(uuid "3649fe57-e9c6-40b5-80de-6cd0915e9f51")
 	)
 	(bus
 		(pts
@@ -1621,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 54.61) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675d8b3f-f02b-4e7b-9277-d0e38b3bc29a")
+	)
+	(wire
+		(pts
 			(xy 88.9 53.34) (xy 88.9 54.61)
 		)
 		(stroke
@@ -1738,6 +1772,16 @@
 			(type default)
 		)
 		(uuid "8cb5697a-d3ef-42c4-8469-7759807127eb")
+	)
+	(wire
+		(pts
+			(xy 96.52 82.55) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d44a3f5-589a-4428-9282-787564acd757")
 	)
 	(wire
 		(pts
@@ -1941,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 115.57 54.61)
+			(xy 88.9 54.61) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2048,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "d5f5536d-d6d4-45fc-ae65-7e92861f5615")
+	)
+	(wire
+		(pts
+			(xy 93.98 143.51) (xy 115.57 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab0c063-2450-498c-aea4-5b97c901af30")
 	)
 	(wire
 		(pts
@@ -2211,7 +2265,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 115.57 143.51)
+			(xy 115.57 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc2aa40-c36c-463f-af28-5823a383d70a")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2330,12 +2394,12 @@
 		(uuid "ada74963-a1c6-470d-a448-c3fca4c8847a")
 	)
 	(label "CPY_PWM_OUT"
-		(at 90.17 114.3 0)
+		(at 115.57 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bcb0f5c4-f6a5-421d-9811-dc913989efe2")
 	)
@@ -2822,6 +2886,84 @@
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b7c4fe6-dd17-440a-bad5-2012d21a5ec7")
+		(property "Reference" "TP14"
+			(at 96.52 138.9379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S_PWM"
+			(at 96.52 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 99.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a9db529-f18b-473a-ac02-049812998534")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -4332,6 +4474,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c645eab-5820-4771-a188-a5dd06caf68b")
+		(property "Reference" "TP13"
+			(at 97.79 109.7279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_PWM"
+			(at 97.79 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e33304cc-0aee-465b-9ab4-efedae3510a9")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 49.53 180)
 		(unit 1)
@@ -4569,6 +4789,162 @@
 			(project "canopyBoard"
 				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f3a5465-0737-4b83-b8e3-b3eb9f5af664")
+		(property "Reference" "TP11"
+			(at 99.06 50.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L_PWM"
+			(at 99.06 51.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 101.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e9223c5-1b81-4f4f-99bb-88bdb2824ea3")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5835dad-6f04-437a-8c00-3a128e32c203")
+		(property "Reference" "TP12"
+			(at 99.06 77.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_PWM"
+			(at 99.06 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2ec9e61-2345-480f-b2fd-795cb4608ace")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/45d7110a-45d7-4ac6-a29f-e84ce60a44ce"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
