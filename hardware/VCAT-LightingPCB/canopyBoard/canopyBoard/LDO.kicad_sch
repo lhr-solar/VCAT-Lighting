@@ -5,129 +5,6 @@
 	(uuid "8ff43370-8d10-4d2c-b1a3-81d1c2934a98")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -608,10 +485,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lhrs_misc:Multimeter_TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "[net name]"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_0_1"
+				(circle
+					(center 0 -1.778)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "5V Nominal"
 		(exclude_from_sim no)
-		(at 127 66.675 0)
+		(at 127 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,7 +599,7 @@
 	)
 	(text "Input Nominal: 5V\nDiode Forward Voltage: 500-600 mV\nLDO Dropout Voltage Max: 400 mV\n-> ~0.7V headroom on input"
 		(exclude_from_sim no)
-		(at 172.72 116.205 0)
+		(at 172.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,7 +610,7 @@
 	)
 	(text "VR=regulated output voltage=3.3V"
 		(exclude_from_sim no)
-		(at 261.62 102.235 0)
+		(at 261.62 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,7 +620,7 @@
 	)
 	(text "3.3V Nominal"
 		(exclude_from_sim no)
-		(at 173.355 60.96 0)
+		(at 173.99 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1934,7 +1912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C105"
+		(property "Reference" "C28"
 			(at 168.275 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,139 +1990,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f7786aa-ac89-46fa-920a-96c590ee9461")
+			(uuid "f97096e1-8f1c-4f4c-9547-a65957b56357")
 		)
 		(pin "2"
-			(uuid "695a450c-789e-48c8-b646-4f8af991f7da")
+			(uuid "50026bb6-3f3e-41e0-8cc9-f3eda431ba75")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "C84")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
-					(reference "C105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP_3.3V5"
-			(at 166.624 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 164.084 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e58d0c04-071c-4acf-8754-90618206e79f")
-		)
-		(instances
-			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "TP_3.3V4")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
-					(reference "TP_3.3V5")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/7db202f6-fb03-457b-ad76-8c8721f07f5e"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d371a-42b5-499b-b058-ab8f85cbe506")
-		(property "Reference" "U14"
+		(property "Reference" "U3"
 			(at 152.4 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,22 +2114,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc462026-5644-4e7b-bfe9-2c4c2565060e")
+			(uuid "979daffe-a2f0-4675-9eaa-2c2f5510a9f7")
 		)
 		(pin "1"
-			(uuid "f1ffe69c-4569-40e6-bfa8-2363fe62c6da")
+			(uuid "dec4121b-0e28-421c-9a9a-4cb0045ed28d")
 		)
 		(pin "3"
-			(uuid "27d4068c-6429-4828-b687-f7033cfe7089")
+			(uuid "cb58f2bb-51ac-4bd4-9a1e-6732f5b0927e")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
-					(reference "U14")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/7db202f6-fb03-457b-ad76-8c8721f07f5e"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2293,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D32"
+		(property "Reference" "D10"
 			(at 133.604 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,19 +2241,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "75d792c7-acfd-465d-ae24-adb18afdf9ab")
+			(uuid "c4cd72f9-28d3-478b-9c94-689f418cefe2")
 		)
 		(pin "2"
-			(uuid "32b11a4a-a1c5-4ae5-929d-fc261384254e")
+			(uuid "532c9207-2fc3-482c-a8f7-2e58edf11ba9")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "D25")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/7db202f6-fb03-457b-ad76-8c8721f07f5e"
+					(reference "D10")
 					(unit 1)
 				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
-					(reference "D32")
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 165.1 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bce49323-8749-4186-8f0a-c681a3ace25b")
+		(property "Reference" "TP10"
+			(at 167.894 58.928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_3.3V1"
+			(at 170.434 58.928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 165.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5afccaf5-2989-40da-b1cd-f4fd24a13de5")
+		)
+		(instances
+			(project "canopyBoard"
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/7db202f6-fb03-457b-ad76-8c8721f07f5e"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C104"
+		(property "Reference" "C27"
 			(at 142.875 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,19 +2423,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b58ca8a4-4312-4f77-ae7a-d0110c6aaed5")
+			(uuid "4fb869d2-60c9-482b-a327-67875c3813a1")
 		)
 		(pin "2"
-			(uuid "1561203b-b189-4c86-afd7-ff3430ac43e3")
+			(uuid "b93d2471-a9fe-4129-ab82-afe7fa6a82dd")
 		)
 		(instances
 			(project "canopyBoard"
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/0b8b2be4-596a-4c78-abff-29c09bf0061a"
-					(reference "C83")
-					(unit 1)
-				)
-				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/9ffeb37d-6ae4-4995-919e-8c4714edda92/b1f7c2d8-2dfc-4135-a712-20c854453dcd"
-					(reference "C104")
+				(path "/df5034a6-89e6-4596-8ae4-d16cb76dc299/fcf9955b-a7fb-4350-979f-6264d320e5dd/7db202f6-fb03-457b-ad76-8c8721f07f5e"
+					(reference "C27")
 					(unit 1)
 				)
 			)
