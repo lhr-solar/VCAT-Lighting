@@ -7913,7 +7913,18 @@
 				)
 			)
 		)
-		(property "P/N" "08055D475KAT4A"
+		(property "P/N" "TPSD475K050R0700"
+			(at 93.98 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-TPSD475K050R0700"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8015,6 +8026,17 @@
 			)
 		)
 		(property "P/N" "74439369082"
+			(at 161.29 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "710-74439369082"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8284,6 +8306,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "963-GMK325BJ226MM-P"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cf76d5d2-e39f-4574-8d5c-9edad6e15397")
 		)
@@ -8387,6 +8420,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "810-C2012X5R1H335K"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0521e697-bb26-4188-8500-4c942cebddc2")
 		)
@@ -8424,7 +8468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ".1u"
 			(at 156.718 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8512,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8480,6 +8524,17 @@
 			)
 		)
 		(property "LCSC P/N" "C6666325"
+			(at 153.67 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8650,7 +8705,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE"
+		(property "P/N" "0603WAF1003T5E"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8662,6 +8717,17 @@
 			)
 		)
 		(property "LCSC P/N" "C25803"
+			(at 224.79 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1003T5E"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8710,7 +8776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ".1u"
 			(at 105.41 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8765,7 +8831,18 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
+			(at 102.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8880,6 +8957,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW060319K1FKEAH"
+			(at 224.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4f1cdd9-ff76-416a-9810-d2d3f14975e2")
 		)
@@ -8983,6 +9071,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "963-GMK325BJ226MM-P"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c9590496-622a-43ce-9c11-dc6e0b230db5")
 		)
@@ -9055,6 +9154,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-LMR51635XDDCR"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "LMR51635XDDCR"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)

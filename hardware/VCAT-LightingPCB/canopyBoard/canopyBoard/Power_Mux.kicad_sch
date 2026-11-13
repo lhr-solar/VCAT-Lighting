@@ -1806,7 +1806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 91.8972 59.563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1850,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1862,6 +1862,17 @@
 			)
 		)
 		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1951,8 +1962,19 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 76.2 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 76.2 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1999,7 +2021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 24.5872 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2065,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2055,6 +2077,17 @@
 			)
 		)
 		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 21.59 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2204,6 +2237,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "595-TPS2117DRLR"
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "99e8438a-4228-4a16-bfe8-29913ac988e3")
 		)
@@ -2259,7 +2303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 42.3672 69.723 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2347,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2315,6 +2359,17 @@
 			)
 		)
 		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 39.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2362,7 +2417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 38.5572 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2461,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2418,6 +2473,17 @@
 			)
 		)
 		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 35.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)

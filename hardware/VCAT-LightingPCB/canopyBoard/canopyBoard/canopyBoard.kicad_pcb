@@ -40866,6 +40866,15 @@
 		(uuid "1c39f6aa-4afd-4753-8291-c6d8f454c746")
 	)
 	(via
+		(at 263.55 139.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "1c8255bd-5088-4bdf-81c6-f59d455be840")
+	)
+	(via
 		(at 272.5 138.25)
 		(size 0.6)
 		(drill 0.3)
@@ -42224,6 +42233,15 @@
 		(uuid "9d05b7ee-f0cb-4f9b-856f-834e7f107e86")
 	)
 	(via
+		(at 263.55 140.35)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "9eb714e9-e7a9-4789-bc6d-18a167d91d6f")
+	)
+	(via
 		(at 273.300001 137.65)
 		(size 0.6)
 		(drill 0.3)
@@ -42438,6 +42456,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "b1854453-cbc7-4a91-8bcd-2fe65ea9da02")
+	)
+	(via
+		(at 263.55 141.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "b3393bb0-ca3d-4eed-b9c1-ff6e1b946072")
 	)
 	(via
 		(at 218.8 87.2)
@@ -42942,6 +42969,15 @@
 		(uuid "e768fe2e-ff7c-4a69-8526-ee7895c15f48")
 	)
 	(via
+		(at 264.6 139.85)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "e8a78119-8917-4bb0-ba48-637acc736895")
+	)
+	(via
 		(at 260 115.5)
 		(size 0.6)
 		(drill 0.3)
@@ -43137,6 +43173,102 @@
 		(layer "F.Cu")
 		(net "Net-(D3-A)")
 		(uuid "d1c22c09-dd4c-4a11-8cbb-102bcf0cefda")
+	)
+	(segment
+		(start 244.82 138.077499)
+		(end 244.82 143.36)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "03627d17-f9ef-4aa0-83da-95f8634dcff6")
+	)
+	(segment
+		(start 241.220001 134.9175)
+		(end 241.660001 134.9175)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "081e918e-0cf3-4efb-89db-e7933b77b879")
+	)
+	(segment
+		(start 217.4 131.7)
+		(end 217.4 133.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "10aeaa26-ad0f-4ff7-8122-9ae38c653090")
+	)
+	(segment
+		(start 221.5 137.8)
+		(end 224.6 137.8)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "45e0d4d0-e9f4-40ed-bd42-63170422419b")
+	)
+	(segment
+		(start 217.4 133.7)
+		(end 221.5 137.8)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "4d5b469b-2afa-470c-bfb0-27ed35a07a66")
+	)
+	(segment
+		(start 241.660001 134.9175)
+		(end 242.940001 136.1975)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "54d058b1-44e1-463e-9f8a-74c834968552")
+	)
+	(segment
+		(start 240.370001 139.189999)
+		(end 240.370001 135.7675)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "701ecf0d-f64e-4293-a5af-8035883fcb66")
+	)
+	(segment
+		(start 242.940001 136.1975)
+		(end 244.82 138.077499)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "7eb027b7-c573-404d-8993-ba11f3b4c488")
+	)
+	(segment
+		(start 240.370001 135.7675)
+		(end 241.220001 134.9175)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "88cdcf75-844a-454b-a26c-6840654b106b")
+	)
+	(segment
+		(start 224.6 137.8)
+		(end 227.55 140.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "b13ccd89-c8d6-46ab-8a64-dbf1837cc80a")
+	)
+	(segment
+		(start 238.81 140.75)
+		(end 240.370001 139.189999)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "d2a47634-7a97-4d64-b91c-a52a63f77b88")
+	)
+	(segment
+		(start 227.55 140.75)
+		(end 238.81 140.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/STRB_PWM_OUT")
+		(uuid "d85d23be-387e-48b2-9df0-c8f9e494adb6")
 	)
 	(segment
 		(start 236.765 90.6525)
@@ -44273,102 +44405,6 @@
 		(layer "F.Cu")
 		(net "/Fet Logic/CPY_PWRFET")
 		(uuid "e2da71f3-6400-4990-9f51-6fc0c602dfa8")
-	)
-	(segment
-		(start 244.82 138.077499)
-		(end 244.82 143.36)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "03627d17-f9ef-4aa0-83da-95f8634dcff6")
-	)
-	(segment
-		(start 241.220001 134.9175)
-		(end 241.660001 134.9175)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "081e918e-0cf3-4efb-89db-e7933b77b879")
-	)
-	(segment
-		(start 217.4 131.7)
-		(end 217.4 133.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "10aeaa26-ad0f-4ff7-8122-9ae38c653090")
-	)
-	(segment
-		(start 221.5 137.8)
-		(end 224.6 137.8)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "45e0d4d0-e9f4-40ed-bd42-63170422419b")
-	)
-	(segment
-		(start 217.4 133.7)
-		(end 221.5 137.8)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "4d5b469b-2afa-470c-bfb0-27ed35a07a66")
-	)
-	(segment
-		(start 241.660001 134.9175)
-		(end 242.940001 136.1975)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "54d058b1-44e1-463e-9f8a-74c834968552")
-	)
-	(segment
-		(start 240.370001 139.189999)
-		(end 240.370001 135.7675)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "701ecf0d-f64e-4293-a5af-8035883fcb66")
-	)
-	(segment
-		(start 242.940001 136.1975)
-		(end 244.82 138.077499)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "7eb027b7-c573-404d-8993-ba11f3b4c488")
-	)
-	(segment
-		(start 240.370001 135.7675)
-		(end 241.220001 134.9175)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "88cdcf75-844a-454b-a26c-6840654b106b")
-	)
-	(segment
-		(start 224.6 137.8)
-		(end 227.55 140.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "b13ccd89-c8d6-46ab-8a64-dbf1837cc80a")
-	)
-	(segment
-		(start 238.81 140.75)
-		(end 240.370001 139.189999)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "d2a47634-7a97-4d64-b91c-a52a63f77b88")
-	)
-	(segment
-		(start 227.55 140.75)
-		(end 238.81 140.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/STRB_PWM_OUT")
-		(uuid "d85d23be-387e-48b2-9df0-c8f9e494adb6")
 	)
 	(segment
 		(start 271.5 118.24)
@@ -56093,11 +56129,27 @@
 		(target_skew_max 0.1)
 		(target_skew_min -0.1)
 		(tuning_mode "diff_pair_skew")
-		(members "22d7a946-60f1-46ff-992a-535cfedb6b8f" "896d9d12-a094-4c5a-be20-f67ccb91ab51"
-			"8c593992-e6d9-434b-a36b-bbd70b8f0a4c" "adc41c21-d269-4980-8092-503589b7070d"
-			"b261a55f-d5bd-46d0-92e7-21fb66f64927" "c4397dff-83d6-4143-82bd-2a13aab30cf4"
-			"c4e917b8-7349-4ac7-a2d1-acc16968d015" "e25662fe-a3fa-45b9-9d0f-9bfefadc101b"
-			"e88817e7-6926-47d7-92ce-5c279e374804"
+		(members "0c998140-fe80-41f6-b8fb-c8675d4cf749" "134d8695-129b-4aff-b28d-8ffff3859929"
+			"14779639-3036-4ed3-8a06-971d7637aa47" "1fa9aa0d-8bf9-4339-a0c5-9e851de5af94"
+			"22d7a946-60f1-46ff-992a-535cfedb6b8f" "46e31606-e5ed-4c7a-909b-94dadf39e7a3"
+			"4fe9d158-0116-45da-9fc7-7c3db83adc70" "5ac3a0f6-8efe-4b5d-930c-4c552c87f318"
+			"5bdc130f-497e-434f-a271-670a29d22b1b" "5e01cedb-d0dc-4846-abbb-d1a216eb88c2"
+			"64931190-bebc-4f99-b88e-18759a6b3b6a" "6a6c0c23-6213-40a3-b675-3d058dadf228"
+			"7a23dd1e-0a01-487c-a050-89be8ebf7cfa" "7eba3479-2d1f-47c8-8a21-16f6b53958ad"
+			"7f7ba7c8-67e7-4cae-b957-6268409c36c5" "88ea0a82-da89-4f7c-8c3b-ec9c2216017b"
+			"896d9d12-a094-4c5a-be20-f67ccb91ab51" "8c593992-e6d9-434b-a36b-bbd70b8f0a4c"
+			"90ca910e-44a5-4cef-bc05-06e72a0f72b8" "92f03d5d-f4d1-48e5-a963-190c6bb96593"
+			"9d54d414-e506-4948-a67a-290d56663cc3" "a2f29b0e-e951-408a-aa6b-b10d899d9410"
+			"adc41c21-d269-4980-8092-503589b7070d" "b261a55f-d5bd-46d0-92e7-21fb66f64927"
+			"b3480354-119b-45d7-a41f-127722fbdef7" "ba0e498f-9d5d-4f4b-8497-acb00b97bc68"
+			"c11e271f-d2d4-406a-a606-fa019a2a72a9" "c33a2c16-7983-4800-bfc1-2caf59f25f19"
+			"c4397dff-83d6-4143-82bd-2a13aab30cf4" "c4e917b8-7349-4ac7-a2d1-acc16968d015"
+			"cdfd3a18-fdac-46b9-b6a0-9d57b22cfdb9" "d4375016-a62d-47f0-964d-ee83c971bcb7"
+			"e0e368e7-4305-4249-bd60-f796c655e869" "e2034cf8-7186-4e77-b19a-c87143922c29"
+			"e25662fe-a3fa-45b9-9d0f-9bfefadc101b" "e46d13ca-62b8-445a-8c63-01414354f93d"
+			"e88817e7-6926-47d7-92ce-5c279e374804" "edf490f5-d386-4089-96eb-78f98880f1c1"
+			"f22cb7d1-f3d8-4f75-a164-148c3dd1a015" "f9549e33-1001-4689-b38f-ae5925badcd7"
+			"fa431805-46e6-471c-9ff5-cb1b5ce7ead9" "fd825f79-3b17-4f7f-bc5b-8e6a95a59d37"
 		)
 	)
 	(embedded_fonts no)

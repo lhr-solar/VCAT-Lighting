@@ -54690,7 +54690,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 181.61 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -54746,6 +54746,17 @@
 			)
 		)
 		(property "LSCS P/N" ""
+			(at 181.61 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1001T5E"
 			(at 181.61 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -54847,6 +54858,17 @@
 			)
 		)
 		(property "LCSC P/N" "C144380"
+			(at 43.18 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "815-ABM3-8-D2Y-T"
 			(at 43.18 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -54990,7 +55012,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -55002,6 +55024,17 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
 			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -55233,6 +55266,17 @@
 			)
 		)
 		(property "LCSC P/N" "C730113"
+			(at 88.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "511-STM32G473CET6"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55493,6 +55537,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "538-87832-0406"
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4de37420-8071-413d-a012-a6793a0b8b34")
 		)
@@ -55591,7 +55646,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -55653,6 +55708,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
+			(at 243.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f3cd571-e555-4270-8fb8-c86782abf6c7")
 		)
@@ -55691,7 +55757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 177.8 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55746,7 +55812,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -55798,6 +55864,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 173.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -55910,6 +55987,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "81-BLM18PG121SH1D"
+			(at 252.73 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22aebb88-61db-4ceb-aa60-e3d5fce087ea")
 		)
@@ -55948,7 +56036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 193.04 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56003,7 +56091,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 189.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -56065,6 +56153,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
+			(at 189.23 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81720f34-e6e7-454c-bf79-7ea5cbf3d792")
 		)
@@ -56102,7 +56201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 185.674 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56157,7 +56256,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -56219,6 +56318,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
+			(at 182.88 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ea08be4-1b7c-4b19-8a5f-98194617b3dd")
 		)
@@ -56256,7 +56366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 220.472 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56311,7 +56421,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -56373,6 +56483,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 219.71 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95da2728-cef9-49ca-bb68-e5ab34f9f0b1")
 		)
@@ -56410,7 +56531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 210.566 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56465,7 +56586,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -56517,6 +56638,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 207.01 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -56673,6 +56805,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "710-450406020024"
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "777e1e83-6f21-46d4-82bd-b8659e3553dc")
 		)
@@ -56714,7 +56857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 223.52 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56769,7 +56912,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -56821,6 +56964,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 219.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -56948,6 +57102,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "638-19337R6GHBHCA01T"
+			(at 181.61 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d617fd7e-29ad-4448-9a08-544ad5b06dd8")
 		)
@@ -57052,7 +57217,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 189.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -57108,6 +57273,17 @@
 			)
 		)
 		(property "LSCS P/N" ""
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1001T5E"
 			(at 189.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -57210,7 +57386,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 257.81 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -57276,6 +57452,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF1001T5E"
+			(at 257.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7de0a73e-6db1-4d45-ad9b-0d046944a941")
 		)
@@ -57314,7 +57501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 260.985 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57358,7 +57545,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -57370,6 +57557,17 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
+			(at 257.81 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -57481,6 +57679,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-0603N270F500CT"
+			(at 34.29 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8eed79d9-a6df-4ca4-8926-68863297e891")
 		)
@@ -57509,7 +57718,7 @@
 		(fields_autoplaced yes)
 		(uuid "b70bb5a2-d845-4bed-98ec-5a93d4924b32")
 		(property "Reference" "C40"
-			(at 207.645 58.4199 0)
+			(at 208.28 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57519,8 +57728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 207.645 60.9599 0)
+		(property "Value" "1u"
+			(at 208.28 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57574,7 +57783,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -57636,6 +57845,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 204.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1c4ab35-ac66-47b6-a9c0-c19ecc3bdf0b")
 		)
@@ -57673,7 +57893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 174.244 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57790,6 +58010,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "81-GRM21BR61H106KE3K"
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e96768a9-2328-41ea-acc6-9aeb18ada6a4")
 		)
@@ -57882,7 +58113,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "0603WAF1001T5E"
 			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -57938,6 +58169,17 @@
 			)
 		)
 		(property "LSCS P/N" ""
+			(at 173.99 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1001T5E"
 			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -58176,6 +58418,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "279-CRG0603F22R"
+			(at 226.06 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d61c7e7-c294-41c2-abef-85ad0be5436a")
 		)
@@ -58330,6 +58583,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "612-TL3365AF180QG"
+			(at 182.88 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f64b96d4-fa7d-465f-b433-b305c90de441")
 		)
@@ -58422,7 +58686,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -58478,6 +58742,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -58580,6 +58855,17 @@
 		)
 		(property "LCSC P/N" "C354394"
 			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "81-BLM18PG121SH1D"
+			(at 91.44 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58721,7 +59007,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 246.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -58733,6 +59019,17 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
+			(at 246.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
 			(at 246.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -58780,7 +59077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 197.358 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58835,7 +59132,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -58887,6 +59184,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 194.31 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -59086,6 +59394,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-0603N270F500CT"
+			(at 34.29 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70a4048b-056b-47f0-89f8-a331c339fd88")
 		)
@@ -59200,6 +59519,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "279-CRG0603F22R"
+			(at 226.06 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7b9ecbd-87c0-4a82-a8ea-072378726674")
 		)
@@ -59237,7 +59567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 232.918 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59292,7 +59622,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "KGM15AR71C101KT"
 			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -59344,6 +59674,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 232.41 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "581-KGM15AR71C101KT"
 			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
